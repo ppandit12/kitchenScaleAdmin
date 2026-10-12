@@ -426,10 +426,12 @@ export function ProfileMenu() {
   const admin = useAuthStore((s) => s.admin);
   const signOutAdmin = useAuthStore((s) => s.signOutAdmin);
   const [open, setOpen] = useState(false);
+  const [failedAvatar, setFailedAvatar] = useState<string | null>(null);
   const ref = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
   useDismiss(ref, () => setOpen(false), open);
   if (!admin) return null;
+  const showAvatar = admin.avatarUrl && failedAvatar !== admin.avatarUrl;
 
   const item = 'flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-left text-sm text-ink transition hover:bg-sand focus:bg-sand focus:outline-none';
   return (
@@ -443,7 +445,7 @@ export function ProfileMenu() {
         className="flex h-10 items-center gap-2 rounded-xl pr-2 pl-1 transition hover:bg-sand"
       >
         <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-primary text-xs font-semibold text-cream">
-          {admin.avatarUrl ? <img src={mediaUrl(admin.avatarUrl)} alt="" className="h-full w-full object-cover" /> : admin.name.trim().split(/\s+/).map(part => part[0]).slice(0, 2).join('').toUpperCase()}
+          {showAvatar ? <img src={mediaUrl(admin.avatarUrl!)} alt="" className="h-full w-full object-cover" onError={() => setFailedAvatar(admin.avatarUrl!)} /> : admin.name.trim().split(/\s+/).map(part => part[0]).slice(0, 2).join('').toUpperCase()}
         </span>
         <span className="hidden text-left leading-tight md:block">
           <span className="block text-sm font-medium text-ink">{admin.name}</span>
@@ -461,7 +463,7 @@ export function ProfileMenu() {
             className="absolute top-full right-0 z-50 mt-2 w-64 rounded-2xl border border-line bg-surface p-1.5 shadow-lift"
           >
             <div className="flex items-center gap-3 px-3 pt-2 pb-3">
-              {admin.avatarUrl ? <img src={mediaUrl(admin.avatarUrl)} alt="" className="h-9 w-9 shrink-0 rounded-full object-cover" /> : <CircleUser className="h-9 w-9 text-primary" strokeWidth={1.4} aria-hidden />}
+              {showAvatar ? <img src={mediaUrl(admin.avatarUrl!)} alt="" className="h-9 w-9 shrink-0 rounded-full object-cover" onError={() => setFailedAvatar(admin.avatarUrl!)} /> : <CircleUser className="h-9 w-9 text-primary" strokeWidth={1.4} aria-hidden />}
               <div className="min-w-0">
                 <p className="truncate text-sm font-semibold">{admin.name}</p>
                 <p className="truncate text-xs text-muted">{admin.email}</p>
