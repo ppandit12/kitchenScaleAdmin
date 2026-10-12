@@ -31,7 +31,8 @@ export const blogService = {
     }));
     const map = new Map(base.map(a => [a.id, a]));
     for (const post of overrides) map.set(post.id, { ...map.get(post.id), ...post });
-    return [...map.values()].filter(a => admin ? a.status !== 'archived' : a.status === 'published');
+    const visible = [...map.values()].filter(a => admin ? a.status !== 'archived' : a.status === 'published');
+    return [...visible.filter(a => !a.id.startsWith('legacy-')), ...visible.filter(a => a.id.startsWith('legacy-'))];
   },
   save: (post: Omit<BlogPost, 'id'>, id?: string) => id ? http.put<BlogPost>(`/articles/${id}`, post) : http.post<BlogPost>('/articles', post),
   remove: (id: string) => http.delete(`/articles/${id}`),

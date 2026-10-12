@@ -89,7 +89,13 @@ export default function AdminBlogPage() {
       {loading ? <LoadingState /> : error ? <div role="alert" className="my-6"><p>{error}</p><Button onClick={() => void load()}>Retry</Button></div> : <div className="mt-6 space-y-3">
         {!posts.length && <p>No articles yet. Add your first story.</p>}
         {posts.map(post => <div key={post.id} className="flex flex-wrap items-center gap-4 rounded-xl border border-line bg-surface p-5">
-          <div className="flex-1"><h2 className="text-xl">{post.title}</h2><p className="text-sm text-muted">{post.category} · {post.status}</p></div>
+          <div className="flex-1"><h2 className="text-xl">{post.title}</h2><p className="text-sm text-muted">{post.category} · {post.status}</p>{post.status === 'draft' && <p className="mt-1 text-xs text-muted">Draft — publish this article to show it on the storefront.</p>}</div>
+          {post.status === 'draft' && <Button disabled={busy} onClick={async () => {
+            setBusy(true);
+            try { const { id, ...data } = post; await blogService.save({ ...data, status: 'published' }, id); toast.success('Article published.'); await load(); }
+            catch (error) { toast.error(error instanceof Error ? error.message : 'Could not publish article.'); }
+            finally { setBusy(false); }
+          }}>Publish</Button>}
           {post.status === 'published' && <Link to={storefrontUrl(`/blog/${post.slug}`)} target="_blank" rel="noopener noreferrer">View</Link>}
           <Button variant="outline" onClick={() => setDraft({ ...post })}>Edit</Button><Button variant="outline" onClick={() => setRemove(post)}>Delete</Button>
         </div>)}

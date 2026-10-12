@@ -46,9 +46,10 @@ test('CMS publishes articles, saves page content, and renders changes after relo
   await expect(page.locator('.journal-card')).toHaveCount(6);
   await expect(page.locator('.journal-grid')).not.toContainText('A story from the CMS');
   await page.goto('/admin/blog');
-  await page.locator('div.rounded-xl').filter({ has: page.getByRole('heading', { name: 'A story from the CMS' }) }).getByRole('button', { name: 'Edit', exact: true }).click();
-  await page.getByLabel('Visibility').selectOption('published');
-  await page.getByRole('button', { name: 'Save article', exact: true }).click();
+  await page.locator('div.rounded-xl').filter({ has: page.getByRole('heading', { name: 'A story from the CMS' }) }).getByRole('button', { name: 'Publish', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Publish', exact: true })).toHaveCount(0);
+  await page.goto('http://127.0.0.1:5173/blog');
+  await expect(page.locator('.journal-card').first()).toContainText('A story from the CMS');
   await page.goto('http://127.0.0.1:5173/blog/a-story-from-the-cms');
   await expect(page.locator('h1')).toHaveText('A story from the CMS');
   await expect(page.locator('.journal-article-body p').filter({ hasText: /paragraph\./ })).toHaveCount(2);

@@ -57,6 +57,10 @@ test('HTML formatting, colours and safe rendering persist into the published art
   expect(await preview.locator('span').filter({ hasText: 'Red text' }).evaluate(e => (e as HTMLElement).style.position)).toBe('');
   await page.getByRole('button', { name: 'Visual editor', exact: true }).click();
   await expect(page.getByRole('textbox', { name: 'Article content', exact: true }).locator('h2')).toHaveText('A heading');
+  const editorTypography = await page.getByRole('textbox', { name: 'Article content', exact: true }).evaluate(element => {
+    const style = getComputedStyle(element);
+    return { fontFamily: style.fontFamily, fontSize: style.fontSize, lineHeight: style.lineHeight, color: style.color };
+  });
   await page.getByRole('textbox', { name: 'Cover image URL' }).fill('/images/blog/coffee-ritual.webp');
   await page.getByLabel('Visibility').selectOption('published');
   await page.getByRole('button', { name: 'Save article', exact: true }).click();
@@ -67,5 +71,10 @@ test('HTML formatting, colours and safe rendering persist into the published art
   await expect(page.locator('.article-rich-content strong')).toHaveText('Bold words');
   await expect(page.locator('.article-rich-content span').filter({ hasText: 'Red text' })).toHaveCSS('color', 'rgb(255, 0, 0)');
   await expect(page.locator('.article-rich-content ul li')).toHaveText('A list item');
+  for (const [property, value] of Object.entries(editorTypography)) {
+    const cssProperty = property.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+    await expect(page.locator('.article-rich-content')).toHaveCSS(cssProperty, value);
+  }
+  await expect(page.locator('.journal-article-card')).toHaveCount(0);
   expect(await page.evaluate(() => (window as any).articleAttack)).toBeUndefined();
 });
