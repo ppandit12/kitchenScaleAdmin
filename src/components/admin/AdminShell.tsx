@@ -51,9 +51,9 @@ export const ADMIN_NAV = [
 export function AdminSidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <div className="flex h-full flex-col">
-      <Link to="/admin" onClick={onNavigate} aria-label="KitchenScale Co. admin dashboard" className="mx-5 mt-5 mb-5 flex shrink-0 flex-col items-center gap-2 rounded-xl bg-cream px-3 py-3 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
-        <img src="/images/client/kitchenscaleco-logo.png" alt="KitchenScale Co." width={626} height={417} className="h-auto w-[176px] object-contain" />
-        <span className="text-[10px] font-medium tracking-[0.2em] text-primary uppercase">Admin</span>
+      <Link to="/admin" onClick={onNavigate} aria-label="KitchenScale Co. admin dashboard" className="mx-5 mt-5 mb-5 flex shrink-0 flex-col items-center gap-2 rounded-xl px-3 py-3 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+        <img src="/images/client/kitchenscaleco-logo.png" alt="KitchenScale Co." width={626} height={417} className="h-auto w-[176px] object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
+        <span className="text-[10px] font-medium tracking-[0.2em] text-cream/70 uppercase">Admin</span>
       </Link>
       <nav aria-label="Admin" className="flex-1 overflow-y-auto px-3">
         <ul className="space-y-0.5">

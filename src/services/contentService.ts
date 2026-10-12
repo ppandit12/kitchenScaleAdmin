@@ -3,6 +3,7 @@ import i18n from '@/i18n';
 import { articles } from '@/data/articles';
 
 export interface BlogPost {
+  bodyFormat?: 'plain' | 'html';
   id: string; slug: string; title: string; intro: string; body: string;
   image: string; imageAlt: string; category: string; time: number;
   status: 'published' | 'draft' | 'archived';

@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
+    "@tiptap/extension-text-style": "^3.31.4",
+    "@tiptap/react": "^3.31.4",
+    "@tiptap/starter-kit": "^3.31.4",
+    "dompurify": "^3.4.16",
     "framer-motion": "^14.0.0",
     "i18next": "^26.4.2",
     "lucide-react": "^1.53.0",

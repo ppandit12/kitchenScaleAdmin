@@ -51,7 +51,7 @@ test('CMS publishes articles, saves page content, and renders changes after relo
   await page.getByRole('button', { name: 'Save article', exact: true }).click();
   await page.goto('http://127.0.0.1:5173/blog/a-story-from-the-cms');
   await expect(page.locator('h1')).toHaveText('A story from the CMS');
-  await expect(page.locator('.journal-article-body p')).toHaveCount(2);
+  await expect(page.locator('.journal-article-body p').filter({ hasText: /paragraph\./ })).toHaveCount(2);
   await page.reload();
   await expect(page.locator('h1')).toHaveText('A story from the CMS');
   await page.goto('/admin/content');
