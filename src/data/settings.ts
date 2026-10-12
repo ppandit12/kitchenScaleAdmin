@@ -27,8 +27,8 @@ export const DEFAULT_EXCHANGE_RATES: Record<CurrencyCode, number> = {
 
 export const DEFAULT_SETTINGS: StoreSettings = {
   storeName: 'KitchenScaleCo',
-  supportEmail: 'hello@kitchenscaleco.example',
-  supportPhone: '+1 (555) 010-0000',
+  supportEmail: 'frankieyiadom1@gmail.com',
+  supportPhone: '+1 (780) 802-8973',
   businessAddress: 'Business address to be confirmed',
   announcement: { enabled: true, text: 'Precision in Every Scoop' },
   brandColors: {

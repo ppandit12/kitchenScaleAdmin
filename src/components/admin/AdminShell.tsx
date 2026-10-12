@@ -22,13 +22,14 @@ import {
   Users,
   X,
 } from 'lucide-react';
-import { Badge, LogoMark, Spinner } from '@/components/common';
+import { Badge, Spinner } from '@/components/common';
 import { useDismiss } from '@/hooks';
 import { customerService, notificationService, orderService, productService } from '@/services';
 import { useAuthStore } from '@/store';
 import type { AdminNotification, Customer, Order, Product } from '@/types';
 import { cn, formatDateTime } from '@/utils';
 import { storefrontUrl } from '@/config/storefront';
+import { mediaUrl } from '@/services/mediaService';
 
 /* ------------------------------- Navigation ------------------------------ */
 
@@ -50,14 +51,9 @@ export const ADMIN_NAV = [
 export function AdminSidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <div className="flex h-full flex-col">
-      <Link to="/admin" onClick={onNavigate} className="flex items-center gap-3 px-5 pt-6 pb-7">
-        <LogoMark tone="light" className="h-9 w-9" />
-        <span className="leading-tight">
-          <span className="block font-display text-lg font-semibold text-cream">
-            KitchenScale<span className="text-accent italic">Co</span>
-          </span>
-          <span className="block text-[11px] font-medium tracking-[0.16em] text-cream/55 uppercase">Admin</span>
-        </span>
+      <Link to="/admin" onClick={onNavigate} aria-label="KitchenScale Co. admin dashboard" className="mx-5 mt-5 mb-5 flex shrink-0 flex-col items-center gap-2 rounded-xl bg-cream px-3 py-3 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+        <img src="/images/client/kitchenscaleco-logo.png" alt="KitchenScale Co." width={626} height={417} className="h-auto w-[176px] object-contain" />
+        <span className="text-[10px] font-medium tracking-[0.2em] text-primary uppercase">Admin</span>
       </Link>
       <nav aria-label="Admin" className="flex-1 overflow-y-auto px-3">
         <ul className="space-y-0.5">
@@ -446,10 +442,12 @@ export function ProfileMenu() {
         onClick={() => setOpen((o) => !o)}
         className="flex h-10 items-center gap-2 rounded-xl pr-2 pl-1 transition hover:bg-sand"
       >
-        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-semibold text-cream">DA</span>
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-primary text-xs font-semibold text-cream">
+          {admin.avatarUrl ? <img src={mediaUrl(admin.avatarUrl)} alt="" className="h-full w-full object-cover" /> : admin.name.trim().split(/\s+/).map(part => part[0]).slice(0, 2).join('').toUpperCase()}
+        </span>
         <span className="hidden text-left leading-tight md:block">
           <span className="block text-sm font-medium text-ink">{admin.name}</span>
-          <span className="block text-[11px] text-muted">Demo admin</span>
+          <span className="block text-[11px] text-muted">Administrator</span>
         </span>
       </button>
       <AnimatePresence>
@@ -463,16 +461,19 @@ export function ProfileMenu() {
             className="absolute top-full right-0 z-50 mt-2 w-64 rounded-2xl border border-line bg-surface p-1.5 shadow-lift"
           >
             <div className="flex items-center gap-3 px-3 pt-2 pb-3">
-              <CircleUser className="h-9 w-9 text-primary" strokeWidth={1.4} aria-hidden />
+              {admin.avatarUrl ? <img src={mediaUrl(admin.avatarUrl)} alt="" className="h-9 w-9 shrink-0 rounded-full object-cover" /> : <CircleUser className="h-9 w-9 text-primary" strokeWidth={1.4} aria-hidden />}
               <div className="min-w-0">
                 <p className="truncate text-sm font-semibold">{admin.name}</p>
                 <p className="truncate text-xs text-muted">{admin.email}</p>
                 <Badge tone="accent" className="mt-1 text-[10px] tracking-wider uppercase">
-                  Demo admin
+                  Administrator
                 </Badge>
               </div>
             </div>
             <div className="border-t border-line/70 pt-1.5">
+              <button type="button" role="menuitem" className={item} onClick={() => { setOpen(false); navigate('/admin/profile'); }}>
+                <CircleUser className="h-4 w-4 text-muted" /> Profile
+              </button>
               <button type="button" role="menuitem" className={item} onClick={() => { setOpen(false); navigate('/admin/settings'); }}>
                 <Settings className="h-4 w-4 text-muted" /> Settings
               </button>

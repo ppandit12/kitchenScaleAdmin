@@ -7,12 +7,10 @@ import { ArrowDown, ArrowUp, ExternalLink, ImagePlus, Plus, Save, Trash2, WandSp
 import {
   Button,
   ConfirmDialog,
-  DemoNotice,
   EmptyState,
   ErrorState,
   Input,
   LoadingState,
-  ProductImageView,
   Select,
   Textarea,
 } from '@/components/common';
@@ -23,6 +21,8 @@ import { toast } from '@/store';
 import type { Product, ProductView } from '@/types';
 import { cn, round2, uid } from '@/utils';
 import { storefrontUrl } from '@/config/storefront';
+import { uploadProductImage, mediaUrl } from '@/services/mediaService';
+import { imageColor } from '@/utils/productImages';
 
 /* --------------------------------- Schema -------------------------------- */
 
@@ -46,6 +46,7 @@ const variantSchema = z.object({
 
 const imageSchema = z.object({
   id: z.string(),
+  color: z.string().trim().max(60).optional(),
   view: z.enum(['hero', 'front', 'angle', 'display', 'detail', 'pack', 'lifestyle']),
   alt: z.string().trim().min(1, 'Alt text is required for accessibility').max(200),
   src: z
@@ -114,11 +115,11 @@ function toFormValues(p?: Product): FormValues {
       shortDescription: '',
       description: '',
       status: 'draft',
-      features: [{ value: '' }],
+      features: [],
       specifications: [],
       specsNote: '',
       variants: [newVariant()],
-      images: [{ id: uid('img'), view: 'hero', alt: '', src: '' }],
+      images: [],
     };
   }
   return {
@@ -145,7 +146,7 @@ function toFormValues(p?: Product): FormValues {
       colorHex: v.colorHex,
       units: v.units,
     })),
-    images: p.images.map((i) => ({ id: i.id, view: i.view, alt: i.alt, src: i.src ?? '' })),
+    images: p.images.map((i) => ({ id: i.id, view: i.view, alt: i.alt, src: i.src ?? '', color: imageColor(i) ?? '' })),
   };
 }
 
@@ -189,6 +190,8 @@ function ProductForm({ initial }: { initial?: Product }) {
   const [slugEdited, setSlugEdited] = useState(!!initial);
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState('');
 
   const {
     register,
@@ -207,8 +210,29 @@ function ProductForm({ initial }: { initial?: Product }) {
 
   const status = useWatch({ control, name: 'status' });
   const slug = useWatch({ control, name: 'slug' });
+  const watchedVariants = useWatch({ control, name: 'variants' }) ?? [];
+  const photoColors = [...new Set(watchedVariants.map(v => v.color.trim()).filter(Boolean))];
+  const upload = async (files: FileList | null) => {
+    if (!files?.length) return;
+    setUploading(true); setUploadError('');
+    try {
+      if (getValues('images').filter(image => image.src?.trim()).length + files.length > 30) throw new Error('You can add up to 30 photos.');
+      for (const file of Array.from(files)) {
+        if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) throw new Error('Choose JPG, PNG, or WebP images.');
+        if (file.size > 8 * 1024 * 1024) throw new Error(`${file.name} is too large. Choose images under 8 MB.`);
+        const { src } = await uploadProductImage(file);
+        const current = getValues('images');
+        const empty = current.findIndex(image => !image.src?.trim());
+        const photo = { id: uid('img'), view: (current.length ? 'front' : 'hero') as ProductView, alt: getValues('name') || file.name.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' '), src };
+        if (empty >= 0) images.update(empty, photo); else images.append(photo);
+      }
+      toast.success('Photos uploaded. Save the product to apply your changes.');
+    } catch (e) { setUploadError(e instanceof Error ? e.message : 'Could not upload the photos.'); }
+    finally { setUploading(false); }
+  };
 
   const onSubmit = async (v: FormValues) => {
+    if (uploading) return;
     const clash = productService.snapshot().find((p) => p.slug === v.slug && p.id !== initial?.id);
     if (clash) {
       setError('slug', { message: `“${clash.name}” already uses this slug` });
@@ -248,7 +272,7 @@ function ProductForm({ initial }: { initial?: Product }) {
         colorHex: x.colorHex,
         units: x.units,
       })),
-      images: v.images.map((i) => ({ id: i.id, view: i.view, alt: i.alt, src: i.src || undefined })),
+      images: v.images.map((i) => ({ id: i.id, view: i.view, alt: i.alt, src: i.src || undefined, color: i.color?.trim() ?? '' })),
       status: v.status,
       createdAt: initial?.createdAt ?? now,
       updatedAt: now,
@@ -256,11 +280,11 @@ function ProductForm({ initial }: { initial?: Product }) {
     try {
       if (initial) {
         await productService.update(initial.id, product);
-        toast.success('Product saved.');
+        toast.success(v.status === 'active' ? 'Product saved and visible in the shop.' : 'Draft saved. Publish this product to show it in the shop.');
         navigate('/admin/products');
       } else {
         await productService.create(product);
-        toast.success('Product created.');
+        toast.success(v.status === 'active' ? 'Product created and visible in the shop.' : 'Draft created. Publish this product to show it in the shop.');
         navigate(`/admin/products/${product.id}`, { replace: true });
       }
     } catch {
@@ -315,7 +339,7 @@ function ProductForm({ initial }: { initial?: Product }) {
                 Delete
               </Button>
             )}
-            <Button type="submit" size="sm" loading={isSubmitting} leftIcon={<Save className="h-4 w-4" />}>
+            <Button type="submit" size="sm" disabled={uploading} loading={isSubmitting} leftIcon={<Save className="h-4 w-4" />}>
               {initial ? 'Save changes' : 'Create product'}
             </Button>
           </>
@@ -324,6 +348,82 @@ function ProductForm({ initial }: { initial?: Product }) {
 
       <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_340px]">
         <div className="min-w-0 space-y-5">
+          {/* Images */}
+          <AdminCard
+            title="Product photos"
+            description="Upload photos from your computer or add an image link. The first photo is the main product image."
+            actions={
+              <Button
+                size="sm"
+                variant="secondary"
+                disabled={uploading || images.fields.length >= 30}
+                onClick={() => images.append({ id: uid('img'), view: 'front', alt: '', src: '' })}
+                leftIcon={<ImagePlus className="h-4 w-4" />}
+              >
+                Add image link
+              </Button>
+            }
+          >
+            <label className={cn('relative mb-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-primary/30 bg-primary/5 px-5 py-8 text-center transition hover:border-primary hover:bg-primary/10', uploading && 'pointer-events-none opacity-60')}>
+              <ImagePlus className="h-8 w-8 text-primary" aria-hidden />
+              <span className="font-semibold text-primary">{uploading ? 'Uploading photos…' : 'Click to upload product photos'}</span>
+              <span className="text-sm text-muted">JPG, PNG or WebP · up to 8 MB each · select multiple photos</span>
+              <input type="file" aria-label="Upload product photos" accept="image/jpeg,image/png,image/webp" multiple disabled={uploading} className="absolute inset-0 h-full w-full cursor-pointer opacity-0" onChange={e => { void upload(e.target.files); e.target.value = ''; }} />
+            </label>
+            {uploading && <p role="status" className="mb-4 text-sm text-primary">Uploading photos. Please wait before saving.</p>}
+            {uploadError && <p role="alert" className="mb-4 rounded-xl bg-danger/10 p-3 text-sm text-danger">{uploadError}</p>}
+            {images.fields.length === 0 ? (
+              <p className="text-sm text-muted">Your uploaded photos will appear here. Add your main photo first.</p>
+            ) : (
+              <ul className="space-y-3">
+                {images.fields.map((f, i) => {
+                  const e = errors.images?.[i];
+                  return (
+                    <li key={f.key} className="flex flex-col gap-4 rounded-2xl border border-line/80 bg-cream/40 p-4 sm:flex-row">
+                      <ImagePreview control={control} index={i} />
+                      <div className="grid min-w-0 flex-1 gap-3 sm:grid-cols-2">
+                        <Select
+                          label="Image type"
+                          className={compact}
+                          options={VIEWS.map((v) => ({ value: v, label: v[0].toUpperCase() + v.slice(1) }))}
+                          {...register(`images.${i}.view`)}
+                        />
+                        <Input label="Alt text" required className={compact} error={e?.alt?.message} {...register(`images.${i}.alt`)} />
+                        <Select
+                          label="Photo colour"
+                          className={compact}
+                          options={[{ value: '', label: 'All colours (shared photo)' }, ...[...new Set([...photoColors, f.color].filter((value): value is string => !!value))].map(value => ({ value, label: value }))]}
+                          hint="Select the colour shown in this photo."
+                          {...register(`images.${i}.color`)}
+                        />
+                        <Input
+                          label="Image URL"
+                          placeholder="https://… (optional)"
+                          containerClassName="sm:col-span-2"
+                          className={compact}
+                          hint="Paste a photo URL, or use the upload area above."
+                          error={e?.src?.message}
+                          {...register(`images.${i}.src`)}
+                        />
+                      </div>
+                      <div className="flex shrink-0 gap-1 sm:flex-col">
+                        <IconAction label="Move image up" disabled={uploading || i === 0} onClick={() => images.move(i, i - 1)}>
+                          <ArrowUp className="h-4 w-4" />
+                        </IconAction>
+                        <IconAction label="Move image down" disabled={uploading || i === images.fields.length - 1} onClick={() => images.move(i, i + 1)}>
+                          <ArrowDown className="h-4 w-4" />
+                        </IconAction>
+                        <IconAction label="Remove image" disabled={uploading} tone="danger" onClick={() => images.remove(i)}>
+                          <Trash2 className="h-4 w-4" />
+                        </IconAction>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+          </AdminCard>
+
           {/* Details */}
           <AdminCard title="Details">
             <div className="grid gap-4 sm:grid-cols-2">
@@ -443,7 +543,7 @@ function ProductForm({ initial }: { initial?: Product }) {
           {/* Variants */}
           <AdminCard
             title="Options & variants"
-            description="Each variant combines a Color and a Pack option. Prices are USD demo values."
+            description="Set the price, stock, and shipping weight for each colour and pack option. Prices are in USD."
             actions={
               <Button
                 size="sm"
@@ -567,68 +667,7 @@ function ProductForm({ initial }: { initial?: Product }) {
             </ul>
           </AdminCard>
 
-          {/* Images */}
-          <AdminCard
-            title="Images"
-            description="Choose an illustration view, or paste an image URL to show a real photo."
-            actions={
-              <Button
-                size="sm"
-                variant="secondary"
-                onClick={() => images.append({ id: uid('img'), view: 'front', alt: '', src: '' })}
-                leftIcon={<ImagePlus className="h-4 w-4" />}
-              >
-                Add image
-              </Button>
-            }
-          >
-            <DemoNotice tone="info" className="mb-4">
-              Images are illustrations or URLs; uploads require backend storage.
-            </DemoNotice>
-            {images.fields.length === 0 ? (
-              <p className="text-sm text-muted">No images. The storefront will fall back to the default illustration.</p>
-            ) : (
-              <ul className="space-y-3">
-                {images.fields.map((f, i) => {
-                  const e = errors.images?.[i];
-                  return (
-                    <li key={f.key} className="flex flex-col gap-4 rounded-2xl border border-line/80 bg-cream/40 p-4 sm:flex-row">
-                      <ImagePreview control={control} index={i} />
-                      <div className="grid min-w-0 flex-1 gap-3 sm:grid-cols-2">
-                        <Select
-                          label="View"
-                          className={compact}
-                          options={VIEWS.map((v) => ({ value: v, label: v[0].toUpperCase() + v.slice(1) }))}
-                          {...register(`images.${i}.view`)}
-                        />
-                        <Input label="Alt text" required className={compact} error={e?.alt?.message} {...register(`images.${i}.alt`)} />
-                        <Input
-                          label="Image URL"
-                          placeholder="https://… (optional)"
-                          containerClassName="sm:col-span-2"
-                          className={compact}
-                          hint="Leave empty to use the illustration."
-                          error={e?.src?.message}
-                          {...register(`images.${i}.src`)}
-                        />
-                      </div>
-                      <div className="flex shrink-0 gap-1 sm:flex-col">
-                        <IconAction label="Move image up" disabled={i === 0} onClick={() => images.move(i, i - 1)}>
-                          <ArrowUp className="h-4 w-4" />
-                        </IconAction>
-                        <IconAction label="Move image down" disabled={i === images.fields.length - 1} onClick={() => images.move(i, i + 1)}>
-                          <ArrowDown className="h-4 w-4" />
-                        </IconAction>
-                        <IconAction label="Remove image" tone="danger" onClick={() => images.remove(i)}>
-                          <Trash2 className="h-4 w-4" />
-                        </IconAction>
-                      </div>
-                    </li>
-                  );
-                })}
-              </ul>
-            )}
-          </AdminCard>
+
         </div>
 
         {/* Sidebar */}
@@ -636,6 +675,7 @@ function ProductForm({ initial }: { initial?: Product }) {
           <AdminCard title="Status">
             <Select
               label="Visibility"
+              hint={status === 'draft' ? 'This product will not appear in the shop until you choose Active and save.' : 'This product appears in the shop after you save.'}
               className={compact}
               options={[
                 { value: 'active', label: 'Active — visible in the store' },
@@ -650,7 +690,7 @@ function ProductForm({ initial }: { initial?: Product }) {
           <div className="rounded-2xl border border-line/80 bg-surface p-5 text-sm text-muted">
             <p>Changes are saved to the database and appear on the storefront immediately.</p>
             {isDirty && <p className="mt-2 font-medium text-warning">You have unsaved changes.</p>}
-            <Button type="submit" fullWidth className="mt-4" loading={isSubmitting} leftIcon={<Save className="h-4 w-4" />}>
+            <Button type="submit" fullWidth className="mt-4" disabled={uploading} loading={isSubmitting} leftIcon={<Save className="h-4 w-4" />}>
               {initial ? 'Save changes' : 'Create product'}
             </Button>
           </div>
@@ -718,16 +758,15 @@ function OptionsSummary({ control }: { control: Control<FormValues> }) {
 
 function ImagePreview({ control, index }: { control: Control<FormValues>; index: number }) {
   const img = useWatch({ control, name: `images.${index}` });
-  const color = useWatch({ control, name: 'variants.0.colorHex' }) ?? '#2b2f2c';
   const [broken, setBroken] = useState<string | null>(null);
   const src = img?.src?.trim();
   const validSrc = src && /^(https?:\/\/|\/)/.test(src) ? src : undefined;
   return (
     <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-xl border border-line/70 bg-surface">
       {validSrc && broken !== validSrc ? (
-        <img src={validSrc} alt={img?.alt ?? ''} className="h-full w-full object-cover" onError={() => setBroken(validSrc)} />
+        <img src={mediaUrl(validSrc)} alt={img?.alt ?? ''} className="h-full w-full object-contain" onError={() => setBroken(validSrc)} />
       ) : (
-        <ProductImageView image={{ id: img?.id ?? '', view: img?.view ?? 'front', alt: img?.alt ?? '' }} color={color} />
+        <div className="flex h-full items-center justify-center text-muted"><ImagePlus className="h-8 w-8" aria-label="No photo selected" /></div>
       )}
       {index === 0 && (
         <span className="absolute top-1.5 left-1.5 rounded-full bg-primary px-2 py-0.5 text-[10px] font-semibold text-cream">Main</span>
@@ -743,7 +782,6 @@ function StorefrontPreview({ control }: { control: Control<FormValues> }) {
   const name = useWatch({ control, name: 'name' });
   const tagline = useWatch({ control, name: 'tagline' });
   const first = useWatch({ control, name: 'images.0' });
-  const v0 = useWatch({ control, name: 'variants.0' });
   const vs = useWatch({ control, name: 'variants' }) ?? [];
   const prices = vs.map((v) => Number(v?.price)).filter((n) => Number.isFinite(n) && n > 0);
   const from = prices.length ? Math.min(...prices) : undefined;
@@ -751,20 +789,12 @@ function StorefrontPreview({ control }: { control: Control<FormValues> }) {
   return (
     <div>
       <div className="aspect-square overflow-hidden rounded-xl border border-line/60">
-        <ProductImageView
-          image={{
-            id: first?.id ?? 'preview',
-            view: first?.view ?? 'hero',
-            alt: first?.alt ?? '',
-            src: src && /^(https?:\/\/|\/)/.test(src) ? src : undefined,
-          }}
-          color={v0?.colorHex ?? '#2b2f2c'}
-        />
+        {src && /^(https?:\/\/|\/)/.test(src) ? <img src={mediaUrl(src)} alt={first?.alt || name || 'Product photo'} className="h-full w-full object-contain" /> : <div className="flex h-full flex-col items-center justify-center gap-3 bg-sand/40 px-5 text-center text-muted"><ImagePlus className="h-10 w-10" aria-hidden /><p className="text-sm">Upload a photo to preview your product</p></div>}
       </div>
       <p className="mt-3 font-display text-lg font-semibold">{name || 'Product name'}</p>
       {tagline && <p className="text-sm text-muted">{tagline}</p>}
       <p className={cn('mt-1 text-sm font-semibold', !from && 'text-muted')}>
-        {from ? `From $${from.toFixed(2)} USD` : 'No price yet'} <span className="text-xs font-normal text-muted">(demo)</span>
+        {from ? `From $${from.toFixed(2)} USD` : 'No price yet'}
       </p>
       <div className="mt-2 flex gap-1.5">
         {uniq(vs.map((v) => v?.colorHex).filter(Boolean) as string[]).map((hex) => (

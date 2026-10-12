@@ -20,6 +20,7 @@ export const productService = {
   update: (id: string, patch: Partial<Product>) => http.put<Product>(`/products/${enc(id)}`, patch),
 
   remove: (id: string) => http.delete(`/products/${enc(id)}`),
+  setStatus: (id: string, status: Product['status']) => http.patch<Product>(`/products/${enc(id)}/status`, { status }),
 
   /** Synchronous view of the most recently fetched list. */
   snapshot(): Product[] {

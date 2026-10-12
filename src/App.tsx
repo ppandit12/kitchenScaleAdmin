@@ -21,6 +21,7 @@ const AdminMessagesPage = lazy(() => import('@/pages/admin/AdminMessagesPage'));
 const AdminMarketingPage = lazy(() => import('@/pages/admin/AdminMarketingPage'));
 const AdminAnalyticsPage = lazy(() => import('@/pages/admin/AdminAnalyticsPage'));
 const AdminSettingsPage = lazy(() => import('@/pages/admin/AdminSettingsPage'));
+const AdminProfilePage = lazy(() => import('@/pages/admin/AdminProfilePage'));
 const AdminBlogPage = lazy(() => import('@/pages/admin/AdminBlogPage'));
 const AdminContentPage = lazy(() => import('@/pages/admin/AdminContentPage'));
 
@@ -59,6 +60,7 @@ export default function App() {
         <Route path="marketing" element={<AdminMarketingPage />} />
         <Route path="analytics" element={<AdminAnalyticsPage />} />
         <Route path="settings" element={<AdminSettingsPage />} />
+        <Route path="profile" element={<AdminProfilePage />} />
         <Route path="*" element={<div><h1>Page not found</h1><a href="/admin">Return to dashboard</a></div>} />
       </Route>
       <Route path="*" element={<Navigate to="/admin" replace />} />

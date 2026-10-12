@@ -47,6 +47,9 @@ export const authService = {
 
   logout: () => http.post<void>('/auth/logout'),
 
+  updateAdminProfile: async (name: string, avatarUrl: string): Promise<AdminSession> =>
+    (await http.patch<{ admin: AdminSession }>('/auth/admin/profile', { name, avatarUrl })).admin,
+
   changePassword: (currentPassword: string, newPassword: string) =>
     http.post<void>('/auth/change-password', { currentPassword, newPassword }),
 

@@ -55,23 +55,21 @@ export default function AdminLoginPage() {
     <div className="grid min-h-screen bg-cream lg:grid-cols-[1.05fr_1fr]">
       {/* Brand panel */}
       <div className="relative hidden overflow-hidden bg-primary lg:flex lg:flex-col lg:justify-between lg:p-12">
-        <div aria-hidden className="pointer-events-none absolute -top-32 -right-24 h-96 w-96 rounded-full bg-secondary/25 blur-3xl" />
-        <div aria-hidden className="pointer-events-none absolute -bottom-40 -left-20 h-96 w-96 rounded-full bg-accent/25 blur-3xl" />
         <div className="relative flex items-center gap-3">
-          <LogoMark tone="light" className="h-10 w-10" />
+          <img src="/images/client/kitchenscaleco-logo.png" alt="" className="h-12 w-[72px] object-contain" width={626} height={417} />
           <span className="font-display text-2xl font-semibold text-cream">
             KitchenScale<span className="text-accent italic">Co</span>
           </span>
         </div>
         <div className="relative">
-          <div className="mb-10 aspect-video w-full overflow-hidden rounded-xl3 shadow-lift">
+          <div className="mb-10 aspect-video w-full p-6">
             <img
-              src="/images/client/shopify-coffee-hero.png"
-              alt="KitchenScaleCo digital spoon scale measuring coffee into a cup"
-              className="h-full w-full object-cover"
+              src="/images/client/kitchenscaleco-logo.png"
+              alt="KitchenScaleCo — Measure better. Cook better."
+              className="h-full w-full object-contain"
               fetchPriority="high"
-              width={1024}
-              height={1024}
+              width={626}
+              height={417}
             />
           </div>
           <p className="eyebrow mb-3">Store admin</p>

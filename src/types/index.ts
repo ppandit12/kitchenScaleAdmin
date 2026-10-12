@@ -13,6 +13,7 @@ export type LanguageCode = 'en' | 'fr' | 'de' | 'es';
 export type ProductView = 'hero' | 'front' | 'angle' | 'display' | 'detail' | 'pack' | 'lifestyle';
 
 export interface ProductImage {
+  color?: string;
   id: string;
   view: ProductView;
   alt: string;
@@ -395,6 +396,7 @@ export interface AnalyticsEventParams {
 /* -------------------------------- Admin ------------------------------ */
 
 export interface AdminSession {
+  avatarUrl?: string;
   name: string;
   email: string;
   role: 'admin';

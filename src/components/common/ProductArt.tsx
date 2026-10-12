@@ -1,6 +1,7 @@
 import { useId } from 'react';
 import type { ProductImage, ProductView } from '@/types';
 import { cn } from '@/utils';
+import { mediaUrl } from '@/services/mediaService';
 
 /**
  * Original vector illustration of the Mini Spoon Scale.
@@ -267,7 +268,7 @@ export function ProductArt({ view = 'hero', color = '#2b2f2c', className, alt, b
  */
 export function ProductImageView({ image, color, className }: { image: ProductImage; color: string; className?: string }) {
   if (image.src) {
-    return <img src={image.src} alt={image.alt} loading="lazy" className={cn('h-full w-full object-cover', className)} />;
+    return <img src={mediaUrl(image.src)} alt={image.alt} loading="lazy" className={cn('h-full w-full object-cover', className)} />;
   }
   return <ProductArt view={image.view} color={color} alt={image.alt} className={className} />;
 }

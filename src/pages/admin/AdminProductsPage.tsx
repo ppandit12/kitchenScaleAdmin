@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Pencil, Plus, Trash2 } from 'lucide-react';
-import { Badge, ButtonLink, ConfirmDialog, DemoNotice, ErrorState, ProductArt } from '@/components/common';
+import { Badge, Button, ButtonLink, ConfirmDialog, ErrorState, ProductImageView } from '@/components/common';
 import { AdminCard, DataTable, FilterBar, FilterSelect, IconAction, PageTitle, SearchInput, useUsd, type Column } from '@/components/admin';
 import { useAsync, useDocumentTitle } from '@/hooks';
 import { productService } from '@/services';
@@ -21,6 +21,16 @@ export default function AdminProductsPage() {
   const [status, setStatus] = useState<StatusFilter>('all');
   const [toDelete, setToDelete] = useState<Product | null>(null);
   const [deleting, setDeleting] = useState(false);
+  const [publishing, setPublishing] = useState<string | null>(null);
+  const publish = async (product: Product) => {
+    setPublishing(product.id);
+    try {
+      const updated = await productService.setStatus(product.id, 'active');
+      setData(prev => (prev ?? []).map(p => p.id === updated.id ? updated : p));
+      toast.success(`${product.name} is now visible in the shop.${totalStock(product) === 0 ? ' It is currently sold out.' : ''}`);
+    } catch (e) { toast.error(e instanceof Error ? e.message : 'Could not publish this product.'); }
+    finally { setPublishing(null); }
+  };
 
   const rows = useMemo(() => {
     const term = q.trim().toLowerCase();
@@ -58,7 +68,7 @@ export default function AdminProductsPage() {
       cell: (p) => (
         <div className="flex items-center gap-3">
           <span className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-line/60">
-            <ProductArt view={p.images[0]?.view ?? 'front'} color={p.variants[0]?.colorHex} />
+            <ProductImageView image={p.images[0] ?? { id: 'empty', view: 'front', alt: p.name }} color={p.variants[0]?.colorHex ?? '#2b2f2c'} />
           </span>
           <span className="min-w-0">
             <Link
@@ -76,7 +86,7 @@ export default function AdminProductsPage() {
     {
       key: 'status',
       header: 'Status',
-      cell: (p) => <Badge tone={p.status === 'active' ? 'success' : 'neutral'}>{p.status === 'active' ? 'Active' : 'Draft'}</Badge>,
+      cell: (p) => <div><Badge tone={p.status === 'active' ? 'success' : 'neutral'}>{p.status === 'active' ? 'Published' : 'Draft'}</Badge>{p.status === 'draft' && <p className="mt-1 text-xs text-muted">Hidden from shop</p>}</div>,
     },
     { key: 'variants', header: 'Variants', hideBelow: 'md', align: 'right', cell: (p) => <span className="tabular-nums">{p.variants.length}</span> },
     {
@@ -117,6 +127,7 @@ export default function AdminProductsPage() {
       stopClick: true,
       cell: (p) => (
         <div className="flex justify-end gap-1">
+          {p.status === 'draft' && <Button size="sm" disabled={publishing !== null} loading={publishing === p.id} onClick={() => void publish(p)} aria-label={`Publish ${p.name}`}>Publish</Button>}
           <IconAction label={`Edit ${p.name}`} onClick={() => navigate(`/admin/products/${p.id}`)}>
             <Pencil className="h-4 w-4" />
           </IconAction>
@@ -132,14 +143,14 @@ export default function AdminProductsPage() {
     <>
       <PageTitle
         title="Products"
-        description="Manage the catalogue, variants, demo prices and stock."
+        description="Manage products, photos, prices, stock, and shop visibility."
         actions={
           <ButtonLink to="/admin/products/new" size="sm" leftIcon={<Plus className="h-4 w-4" />}>
             Add product
           </ButtonLink>
         }
       />
-      <DemoNotice className="mb-5">Prices are provisional until confirmed. Changes are saved to the database.</DemoNotice>
+      <p className="mb-5 rounded-xl border border-line bg-surface p-4 text-sm text-muted">Draft products are hidden from the shop. Click Publish to make them visible. Products with zero stock appear as sold out.</p>
       {error ? (
         <AdminCard>
           <ErrorState onRetry={reload} />

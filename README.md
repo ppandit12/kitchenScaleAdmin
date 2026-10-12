@@ -17,13 +17,17 @@ Both apps use the same backend and MongoDB data. Admin changes appear on the sto
 ## Manage content
 
 - **Products:** add and edit descriptions, images, variants, prices, SKUs, stock, and active/draft status.
+
+New products start as drafts, which are hidden from the customer shop. Click **Publish** in the Products list, or select **Active** in the editor and save. Published products with zero stock still appear in the shop as sold out. Enter your actual available quantity in the variant's Stock field to enable purchasing. The shop refreshes its catalog when you return to its tab.
 - **Blog:** write articles, edit existing stories, save drafts, publish, and delete. Separate paragraphs with a blank line.
 - **Page content:** choose Home, About, FAQ, Policies, Contact, or Header/footer/journal, then choose a language. Edit text and save. Keep placeholders such as `{{count}}` intact.
 - **Policies:** enter a custom policy title and body to replace the existing draft policy. An empty custom body uses the original page.
 - **Settings:** edit social links, contact details, announcement, brand colours, currencies, languages, and shipping settings.
 - **Orders, Customers, Coupons, Reviews, Messages, Marketing, Analytics:** use the existing management screens.
 
-Images use hosted URLs or existing `/images/` paths. Page layout and image uploads are not managed by the text editor. Blog articles appear in the language in which they are written.
+Products support direct JPG, PNG, and WebP uploads (up to 8 MB each), hosted URLs, and existing `/images/` paths. The Product photos section is at the top of the editor. The first photo becomes the main product image; use the arrows to reorder photos. Save the product after uploading. Blog images still use URLs or existing paths. Blog articles appear in the language in which they are written.
+
+Uploaded files are served by the shared backend at `/api/media/`. For deployment, use a persistent backend upload directory (`UPLOAD_DIR`); its default is `kitchenScaleBackend/uploads`. Include that directory in file backups.
 
 ## Configuration and deployment
 

@@ -32,8 +32,8 @@ async function request<T>(method: Method, path: string, body?: unknown): Promise
     res = await fetch(BASE + path, {
       method,
       credentials: 'include',
-      headers: body !== undefined ? { 'Content-Type': 'application/json' } : undefined,
-      body: body !== undefined ? JSON.stringify(body) : undefined,
+      headers: body !== undefined ? { 'Content-Type': body instanceof Blob ? body.type : 'application/json' } : undefined,
+      body: body !== undefined ? body instanceof Blob ? body : JSON.stringify(body) : undefined,
     });
   } catch {
     throw new ApiError(0, 'network_error', 'Cannot reach the server. Please check your connection and try again.');
