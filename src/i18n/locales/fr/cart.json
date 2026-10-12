@@ -1,0 +1,63 @@
+{
+  "title": "Votre panier",
+  "drawerTitle": "Votre panier",
+  "itemCount": "{{count}} articles",
+  "checkout": "Passer à la commande de démonstration",
+  "continueShopping": "Continuer les achats",
+  "subtotal": "Sous-total",
+  "shipping": "Livraison estimée",
+  "total": "Total de démonstration",
+  "discountCode": "Remise ({{code}})",
+  "taxNote": "Les taxes et les frais définitifs ne sont pas encore calculés.",
+  "page": {
+    "text": "Vos indispensables sélectionnés, prêts pour l'étape suivante.",
+    "summary": "Résumé de la commande"
+  },
+  "summary": {
+    "demoTotals": "Tous les prix et totaux sont des valeurs de démonstration."
+  },
+  "drawer": {
+    "note": "Panier de démo. Aucun paiement n'est encaissé.",
+    "viewCart": "Voir le panier"
+  },
+  "empty": {
+    "title": "Votre panier attend.",
+    "text": "Découvrez un petit indispensable pour votre routine de cuisine au quotidien.",
+    "cta": "Découvrir la boutique"
+  },
+  "line": {
+    "each": "{{price}} l'unité",
+    "lineTotal": "Total de la ligne",
+    "maxReached": "Stock de démonstration maximal disponible atteint.",
+    "remove": "Retirer {{name}}"
+  },
+  "toast": {
+    "removed": "{{name}} retiré de votre panier"
+  },
+  "coupon": {
+    "label": "Code de réduction de démonstration",
+    "placeholder": "Saisissez un code d'exemple",
+    "apply": "Appliquer",
+    "applied": "{{code}} appliqué",
+    "remove": "Retirer le code",
+    "removed": "Code promo de démo retiré",
+    "valid": "Code promo de démo appliqué",
+    "hintTitle": "Essayez un code d'exemple",
+    "hintText": "Ces codes promo sont uniquement destinés à la démonstration.",
+    "tapToApply": "Appliquer {{code}}",
+    "errors": {
+      "required": "Saisissez un code.",
+      "notFound": "Code introuvable.",
+      "inactive": "Ce code est dísactiv?.",
+      "expired": "Ce code a expiré.",
+      "minSubtotal": "Sous-total minimum : {{amount}}"
+    }
+  },
+  "shippingEstimate": {
+    "title": "Estimation de livraison",
+    "country": "Pays de destination",
+    "demo": "Tarif de démo",
+    "method": "{{name}} — {{min}}–{{max}} jours ouvrés (démo)",
+    "unavailable": "Aucun tarif de livraison de démonstration n'est disponible pour cette destination."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Your shopping bag",
+  "drawerTitle": "Your bag",
+  "itemCount": "{{count}} items",
+  "checkout": "Continue to demo checkout",
+  "continueShopping": "Continue shopping",
+  "subtotal": "Subtotal",
+  "shipping": "Estimated shipping",
+  "total": "Demo total",
+  "discountCode": "Discount ({{code}})",
+  "taxNote": "Taxes and final charges aren't calculated yet.",
+  "page": {
+    "text": "Your selected essentials, ready for the next step.",
+    "summary": "Order summary"
+  },
+  "summary": {
+    "demoTotals": "All prices and totals are demonstration values."
+  },
+  "drawer": {
+    "note": "Demo cart. No payment is collected.",
+    "viewCart": "View shopping bag"
+  },
+  "empty": {
+    "title": "Your bag is waiting.",
+    "text": "Explore a small essential for your everyday kitchen routine.",
+    "cta": "Explore the shop"
+  },
+  "line": {
+    "each": "{{price}} each",
+    "lineTotal": "Line total",
+    "maxReached": "Maximum available demo stock reached.",
+    "remove": "Remove {{name}}"
+  },
+  "toast": {
+    "removed": "{{name}} removed from your bag"
+  },
+  "coupon": {
+    "label": "Demo discount code",
+    "placeholder": "Enter a sample code",
+    "apply": "Apply",
+    "applied": "{{code}} applied",
+    "remove": "Remove coupon",
+    "removed": "Demo coupon removed",
+    "valid": "Demo coupon applied",
+    "hintTitle": "Try a sample code",
+    "hintText": "These coupons are for demonstration only.",
+    "tapToApply": "Apply {{code}}",
+    "errors": {
+      "required": "Enter a coupon code.",
+      "notFound": "This sample code was not found.",
+      "inactive": "This coupon is disabled.",
+      "expired": "This coupon has expired.",
+      "minSubtotal": "Minimum subtotal: {{amount}}"
+    }
+  },
+  "shippingEstimate": {
+    "title": "Estimate demo shipping",
+    "country": "Destination country",
+    "demo": "Demo rate",
+    "method": "{{name}} · {{min}}–{{max}} business days (demo)",
+    "unavailable": "No demonstration shipping rate is available for this destination."
+  }
+}

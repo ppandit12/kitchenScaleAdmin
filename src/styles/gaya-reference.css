@@ -1,0 +1,188 @@
+/* Gaya Bakery's photographic, pastel editorial style, adapted to KitchenScale. */
+.client-store {
+  --color-primary: #94671f;
+  --color-primary-700: #745017;
+  --color-primary-50: #f8edda;
+  --color-secondary: #c29447;
+  --color-secondary-100: #f6ead8;
+  --color-cream: #fffaf1;
+  --color-sand: #f5eddc;
+  --color-accent: #def1ed;
+  --color-accent-100: #def1ed;
+  --color-ink: #563909;
+  --color-muted: #76664e;
+  --color-line: #e7dbc3;
+  --font-sans: 'Open Sans', sans-serif;
+  background: #fffaf1;
+  color: #563909;
+  font-family: 'Open Sans', sans-serif;
+}
+.client-store h1, .client-store h2 { font-family: 'Cormorant', Georgia, serif; font-weight: 400; color: #94671f; letter-spacing: -.025em; }
+.client-store .client-eyebrow { color: #94671f; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; }
+.client-store .client-button { border-radius: 999px; background: #94671f; color: #fffaf1; min-width: 180px; min-height: 46px; padding: 0 30px; font-size: 10px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; box-shadow: none; }
+.client-store .client-button:hover { background: #745017; }
+.client-store .client-announcement { background: #f5eddf; color: #72562d; }
+.client-store .client-announcement > .container-page { min-height: 36px; font-size: 11px; }
+.client-store .client-header { background: #fffaf1; border-color: #e7dbc3; backdrop-filter: none; }
+.client-store .client-header > .container-page { gap: 32px; }
+.client-store .client-header nav ul { gap: clamp(20px, 2.8vw, 40px); }
+.client-store .client-header nav a { font-family: 'Open Sans', sans-serif; font-size: 12px; letter-spacing: .13em; text-transform: uppercase; color: #563909; }
+.client-store .client-header nav a.active, .client-store .client-header nav a:hover { color: #94671f; }
+.client-store .client-header-actions { color: #563909; }
+.client-store .client-logo.client-logo-image { padding: 8px 0 10px; }
+.client-store .client-header .client-brand-image { width: 164px; }
+.client-store .client-logo .client-brand-motto { color: #563909; }
+.client-store .client-cart-icon span { background: #94671f; color: #fffaf1; }
+
+/* The mobile drawer is portalled outside the storefront, so it carries its own theme. */
+.client-mobile-drawer { background: #fffaf1; color: #563909; font-family: 'Open Sans', sans-serif; }
+.client-mobile-drawer > div:first-child { border-color: #e7dbc3; padding: 16px 24px; }
+.client-mobile-drawer h2 { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.client-mobile-drawer > div:last-child { background: #f5eddf; border-color: #e7dbc3; padding-bottom: max(20px, env(safe-area-inset-bottom)); }
+.client-mobile-brand { display: flex; justify-content: center; padding: 14px 24px 10px; }
+.client-mobile-brand .client-brand-image { width: 144px; }
+.client-mobile-brand .client-brand-motto { max-width: 144px; white-space: normal; text-wrap: balance; text-align: center; font-size: 10px; line-height: 1.45; letter-spacing: .4px; color: #4c3825; }
+.client-mobile-drawer .client-mobile-nav { gap: 0; padding: 0 24px 20px; }
+.client-mobile-drawer .client-mobile-nav > a { display: flex; align-items: center; justify-content: space-between; min-height: 48px; padding: 10px 12px; border-bottom: 1px solid #e7dbc3; font-size: 15px; }
+.client-mobile-drawer .client-mobile-nav > a.active { background: #f5eddf; color: #745017; font-weight: 600; border-radius: 8px; }
+.client-mobile-drawer .client-mobile-nav > a:hover { background: #f5eddf; }
+.client-mobile-preferences { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+/* Full-width imagery echoes the reference's opening film without adding unrelated bakery media. */
+.client-store .client-home .client-hero { --hero-height: clamp(480px, calc(100svh - 164px), 680px); position: relative; display: block; min-height: var(--hero-height); border: 0; overflow: hidden; background: #352e23; }
+.client-store .client-home .client-hero-photo { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; border-radius: 0; aspect-ratio: auto; }
+.client-store .client-home .client-hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 53%; }
+.client-store .client-home .client-hero-photo::after { display: block; content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgb(26 24 19 / .78), rgb(26 24 19 / .38) 44%, transparent 75%); }
+.client-store .client-home .client-hero-inner { position: relative; min-height: var(--hero-height); display: flex; align-items: center; }
+.client-store .client-home .client-hero-copy { width: 55%; max-width: 630px; padding: 50px 0 78px; }
+.client-store .client-home .client-hero .client-eyebrow { color: #f2dab0; }
+.client-store .client-home .client-hero h1 { margin-top: 18px; font-family: 'Cormorant', Georgia, serif; font-size: clamp(52px, 5.6vw, 80px); line-height: 1.04; font-weight: 400; color: #fffaf1; }
+.client-store .client-home .client-hero h1 span { color: #f2dab0; }
+.client-store .client-home .client-hero-description { color: #fffaf1; max-width: 450px; font-size: 15px; line-height: 1.8; margin-top: 24px; }
+.client-store .client-home .client-hero-actions { margin-top: 32px; gap: 22px; }
+.client-store .client-home .client-hero .client-button { background: #f2dab0; color: #513509; }
+.client-store .client-home .client-hero .client-button:hover { background: #fffaf1; }
+.client-store .client-home .client-watch { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 46px; padding: 0 20px; border: 1px solid rgb(255 250 241 / .75); border-radius: 999px; background: rgb(26 24 19 / .28); color: #fffaf1; font-family: 'Open Sans', sans-serif; font-size: 11px; }
+.client-store .client-home .client-watch svg { width: 22px; height: 22px; flex-shrink: 0; }
+.client-store .client-home .client-watch:hover { background: #fffaf1; color: #513509; }
+.client-store .client-home .client-watch:focus-visible { outline: 2px solid #f2dab0; outline-offset: 4px; }
+.client-hero-carousel { touch-action: pan-y; }
+.client-store .client-home .client-hero-photo .client-carousel-photo { position: absolute; inset: 0; opacity: 0; transition: opacity .8s ease; }
+.client-store .client-home .client-hero-photo .client-carousel-photo.is-active { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .client-store .client-home .client-hero-photo .client-carousel-photo { transition: none; }
+}
+
+.bakery-split { display: grid; grid-template-columns: 1fr 1fr; }
+.bakery-split-mint { background: #def1ed; }
+.bakery-split-copy { padding: clamp(40px, 7vw, 100px); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.client-store .bakery-split h2 { font-size: clamp(44px, 5.3vw, 74px); line-height: 1.1; margin: 20px 0 24px; }
+.bakery-split-copy > p:not(.client-eyebrow) { max-width: 410px; font-size: 14px; line-height: 1.85; color: #71572c; }
+.bakery-split-copy .client-button { margin-top: 30px; }
+.bakery-split > img { width: 100%; height: 100%; min-height: 560px; max-height: 700px; object-fit: cover; }
+.bakery-collection { padding-top: 80px; padding-bottom: 80px; text-align: center; }
+.bakery-section-heading { max-width: 700px; margin: 0 auto 38px; }
+.client-store .bakery-section-heading h2 { font-size: clamp(36px, 4vw, 54px); margin: 10px 0 14px; }
+.bakery-section-heading > p:last-child { color: #76664e; font-size: 14px; }
+.client-store .shop-product-grid > article { border: 0; border-radius: 0; padding: 0; background: transparent; text-align: left; }
+.client-store .shop-product-grid > article > div:first-child, .client-store .shop-product-grid article > div:first-child > a { border-radius: 0; }
+.client-store .shop-product-grid h3 { font-family: 'Cormorant', Georgia, serif; font-size: 26px; font-weight: 500; color: #71501f; }
+.client-store .shop-product-grid button.absolute { border-radius: 999px; background: #94671f; font-size: 12px; }
+.client-store .shop-product-grid button.absolute:disabled { background: #b4a795; }
+.client-store .bakery-product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.bakery-view-all { margin-top: 40px; font-size: 11px; text-transform: uppercase; letter-spacing: .13em; }
+.client-store .atelier-story { background: #fbe9ed; }
+.client-store .atelier-story-reverse { background: #e6eee1; }
+.client-store .atelier-story h2 { color: #94671f; font-size: clamp(40px, 4.6vw, 64px); font-weight: 400; }
+.client-store .atelier-story > img { border-radius: 0; }
+.client-store .atelier-story-copy > p:not(.client-eyebrow) { color: #71572c; }
+.client-store .atelier-story-copy a { color: #94671f; border-color: #94671f; text-transform: uppercase; font-size: 10px; letter-spacing: .12em; }
+.client-store .client-everyday-panel { background: #fffaf1; padding-top: 70px; padding-bottom: 0; }
+.client-store .client-home .client-everyday h2, .client-store .client-possibilities > h2 { font-size: clamp(38px, 4vw, 56px); color: #94671f; font-weight: 400; }
+.client-store .client-use-benefits { display: none; }
+.client-store .client-home .client-possibilities { padding-top: 75px; padding-bottom: 75px; }
+.client-store .client-use-cards img { border-radius: 0; }
+.client-store .client-use-cards h3 { font-family: 'Cormorant', Georgia, serif; color: #94671f; font-size: 28px; font-weight: 400; }
+.client-store .client-use-cards article > div { padding-left: 0; padding-right: 0; }
+.client-store .client-use-cards article p { color: #76664e; }
+.bakery-how { background: #f7ede0; padding: 75px 0; }
+.client-store .bakery-how h2 { font-size: clamp(38px, 4vw, 58px); text-align: center; }
+.bakery-how-tabs { display: flex; justify-content: center; gap: 40px; border-bottom: 1px solid #dfcfb3; margin: 26px 0 38px; }
+.bakery-how-tabs button { display: flex; align-items: center; gap: 10px; padding: 16px 4px; font-size: 12px; color: #71572c; border-bottom: 2px solid transparent; }
+.bakery-how-tabs button[aria-selected='true'] { border-color: #94671f; color: #745017; }
+.bakery-how-tabs button span { font-family: 'Cormorant', Georgia, serif; font-size: 24px; }
+.bakery-how-panel { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 65px; }
+.bakery-how-panel > img { width: 100%; aspect-ratio: 1.5; object-fit: cover; }
+.bakery-how-panel > div { max-width: 450px; }
+.bakery-how-panel h3 { font-family: 'Cormorant', Georgia, serif; color: #94671f; font-size: 42px; font-weight: 400; line-height: 1.15; margin: 12px 0 20px; }
+.bakery-how-panel > div > p:not(.client-eyebrow) { font-size: 14px; line-height: 1.8; color: #71572c; }
+.bakery-how-panel .client-button { margin-top: 25px; }
+.client-store .client-product-info h2 { color: #94671f; font-weight: 400; }
+.client-store .client-trust-strip { background: #def1ed; border: 0; color: #71572c; padding: 30px 0; }
+.client-store .client-trust-strip strong { color: #71501f; }
+.client-store .client-reviews h2 { color: #94671f; font-size: clamp(38px, 4vw, 54px); font-weight: 400; }
+.client-store .client-review-cards article { background: transparent; border: 1px solid #e7dbc3; border-radius: 0; box-shadow: none; }
+.client-store .client-review-author > span { background: #f5eddf; color: #94671f; }
+.client-store .client-cta { background: #def1ed; }
+.client-store .client-cta h2 { color: #94671f; font-weight: 400; }
+.client-store .client-cta-copy > p { color: #71572c; }
+.client-store .client-cta-image::after { background: linear-gradient(90deg, #def1ed, transparent 35%); }
+.client-store .client-footer { background: #f2e8d6; color: #563909; border-top: 1px solid #e0cfac; }
+.client-store .client-footer h3 { color: #71501f; font-family: 'Open Sans', sans-serif; font-size: 11px; letter-spacing: .15em; text-transform: uppercase; }
+.client-store .client-footer p, .client-store .client-footer li a { color: #71572c; }
+.client-store .client-footer .client-brand-image { width: 200px; }
+.client-store .client-footer .client-brand-motto { font-size: 7px; }
+.client-store .client-footer-bottom { border-color: #dfcfb3; }
+.client-store .client-footer-payment-methods { border-color: #dfcfb3; }
+.client-store .page-banner, .client-store .editorial-banner { background: #def1ed; }
+.client-store .editorial-banner-photo, .client-store .client-product-photo { border-radius: 0; }
+.client-store .page-banner h1, .client-store .journal-cover h1, .client-store .account-entry-form h1 { color: #94671f; font-weight: 400; }
+.client-store .about-page .page-banner { background: #def1ed; }
+.client-store .reviews-page .page-banner { background: #fbe9ed; }
+.client-store .journal-cover { background: #e6eee1; }
+.client-store .journal-shop-note { background: #def1ed; }
+.client-store .client-chat-button { background: #94671f; }
+
+@media (max-width: 1023px) {
+  .client-store .client-header > .container-page { gap: 14px; }
+  .client-store .bakery-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+  .bakery-split-copy { padding: 45px 32px; }
+  .bakery-split > img { min-height: 460px; }
+  .bakery-how-panel { gap: 32px; }
+}
+@media (max-width: 767px) {
+  .client-store .client-header .client-brand-image { width: 144px; }
+  .client-store .client-header .client-brand-motto { max-width: 144px; margin-top: 5px; color: #4c3825; font-size: 10px; font-weight: 600; line-height: 1.45; letter-spacing: .4px; white-space: normal; text-wrap: balance; text-align: center; }
+  .client-store .client-header nav { display: none; }
+  .client-store .client-header > .container-page { justify-content: space-between; gap: 10px; }
+  .client-store .client-home .client-hero { --hero-height: clamp(490px, calc(100svh - 142px), 640px); }
+  .client-store .client-home .client-hero-copy { width: 100%; max-width: 500px; padding: 65px 16px 96px; }
+  .client-store .client-home .client-hero-photo img { object-position: 57% center; }
+  .client-store .client-home .client-hero-photo::after { background: linear-gradient(90deg, rgb(26 24 19 / .82), rgb(26 24 19 / .43)); }
+  .client-store .client-home .client-hero h1 { font-size: clamp(46px, 12vw, 64px); }
+  .client-store .client-home .client-hero-description { font-size: 13px; max-width: 340px; }
+  .client-store .client-home .client-hero-actions { gap: 18px; }
+  .bakery-split { grid-template-columns: 1fr; }
+  .bakery-split-copy { padding: 45px 24px; }
+  .client-store .bakery-split h2 { font-size: 48px; }
+  .bakery-split > img { min-height: 0; max-height: none; height: auto; aspect-ratio: 1.1; }
+  .bakery-collection { padding-top: 48px; padding-bottom: 48px; }
+  .client-store .bakery-product-grid { gap: 22px 12px; }
+  .client-store .bakery-product-grid h3 { font-size: 22px; }
+  .client-store .bakery-product-grid > article { max-width: none; }
+  .client-store .bakery-product-grid article > div:last-child > div:last-child { gap: 4px; }
+  .client-store .bakery-product-grid article .italic { font-size: 11px; }
+  .client-store .bakery-product-grid article button.absolute { padding: 0 8px; font-size: 11px; }
+  .client-store .client-everyday-panel { padding-top: 45px; }
+  .client-store .client-home .client-possibilities { padding-bottom: 45px; }
+  .bakery-how { padding: 45px 0; }
+  .bakery-how-tabs { gap: 12px; margin-bottom: 26px; }
+  .bakery-how-tabs button { flex-direction: column; align-items: flex-start; justify-content: flex-start; width: 33.333%; font-size: 11px; }
+  .bakery-how-panel { grid-template-columns: 1fr; gap: 24px; }
+  .bakery-how-panel h3 { font-size: 36px; }
+  .client-store .client-trust-strip { padding: 20px 0; }
+  .client-store .client-cta-image::after { background: linear-gradient(0deg, transparent 65%, #def1ed); }
+}
+@media (max-width: 360px) {
+  .client-store .bakery-product-grid { grid-template-columns: 1fr; gap: 28px; }
+}

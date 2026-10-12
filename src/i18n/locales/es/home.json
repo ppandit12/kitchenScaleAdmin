@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "eyebrow": "Utensilios para tu cocina diaria",
+    "titleLead": "Precisión en",
+    "titleAccent": "Cada Cucharada.",
+    "subtitle": "Descubre una nueva forma de medir ingredientes con la Mini Spoon Scale de KitchenScaleCo.",
+    "shopNow": "Comprar ahora",
+    "explore": "Explorar funciones",
+    "colorsLabel": "Elegir color",
+    "colorPreview": "Vista previa {{color}}",
+    "imageAlt": "Mini cuchara báscula en {{color}}",
+    "illustrationNote": "Ilustración del producto",
+    "chipSpoon": "Recoger y medir",
+    "chipDisplay": "Pantalla en el mango",
+    "chipDrawer": "Diseño compacto"
+  },
+  "benefits": {
+    "eyebrow": "Herramienta pequeña. Posibilidades cotidianas.",
+    "titleLead": "Hecha para tus",
+    "titleAccent": "rituales de cocina.",
+    "text": "Desde el primer café del día hasta una receta favorita, haz que medir sea parte del placer.",
+    "imageAlt": "Ilustración de detalle de la cuchara báscula",
+    "imageCaption": "Una ilustración original del producto. La fotografía final llegará más adelante.",
+    "items": {
+      "convenient": {
+        "title": "Medición cómoda de ingredientes",
+        "text": "Sirve tu ingrediente y consulta la pantalla del mango en una sola rutina sencilla."
+      },
+      "compact": {
+        "title": "Básico de cocina compacto",
+        "text": "Un pequeño compañero para el cajón de tu cocina y tus recetas de cada día."
+      },
+      "simple": {
+        "title": "Uso diario sencillo",
+        "text": "Prepara, mide y añade tu ingrediente a la receta."
+      },
+      "modern": {
+        "title": "Diseñada para cocinas modernas",
+        "text": "Una adición cuidada a tu colección de utensilios de cocina."
+      }
+    }
+  },
+  "featured": {
+    "badge": "Tu compañero de cocina",
+    "viewDetails": "Ver detalles del producto",
+    "unavailable": "Nuestro producto se está tomando un momento",
+    "unavailableText": "Inténtalo de nuevo para cargar el catálogo actual."
+  },
+  "how": {
+    "eyebrow": "Tu receta, una cucharada a la vez",
+    "title": "Tres pasos sencillos.",
+    "text": "Un poco de preparación. Una cucharada medida. Algo delicioso.",
+    "step": "Paso {{n}}",
+    "steps": {
+      "prepare": {
+        "title": "Prepara tu ingrediente.",
+        "text": "Reúne los ingredientes de tu receta y sigue las instrucciones del producto."
+      },
+      "measure": {
+        "title": "Mide con la cuchara báscula.",
+        "text": "Sirve tu ingrediente y lee la pantalla del mango."
+      },
+      "add": {
+        "title": "Añade a tu receta.",
+        "text": "Pasa el ingrediente medido y sigue creando."
+      }
+    }
+  },
+  "showcase": {
+    "eyebrow": "Inspiración cotidiana",
+    "titleLead": "Un pequeño detalle.",
+    "titleAccent": "Una bonita diferencia.",
+    "text": "Lleva una rutina de medición cuidada a tu repostería, tu café y tus experimentos en la cocina.",
+    "cta": "Conoce la Mini cuchara báscula",
+    "note": "Ilustraciones originales mostradas a modo de demostración. Los materiales finales del producto están pendientes de aprobación.",
+    "alts": {
+      "lifestyle": "Ilustración de ingredientes de cocina",
+      "angle": "Cuchara báscula en ángulo",
+      "detail": "Primer plano de la cuchara báscula",
+      "display": "Pantalla del mango de la cuchara báscula",
+      "pack": "Ilustración del pack doble de cuchara báscula"
+    },
+    "captions": {
+      "lifestyle": "Para tus recetas de cada día",
+      "angle": "Una compañera de cocina cuidada",
+      "detail": "Los pequeños detalles",
+      "display": "Léela de un vistazo",
+      "pack": "Un par para tu cocina"
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes.",
+    "text": "Respuestas útiles antes de tu primera cucharada.",
+    "all": "Ver todas las preguntas"
+  },
+  "newsletter": {
+    "title": "Inspiración para tu cocina.",
+    "text": "Recetas, consejos de medición y novedades del lanzamiento: correos ocasionales, puedes darte de baja cuando quieras."
+  }
+}

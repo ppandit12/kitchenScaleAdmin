@@ -1,0 +1,160 @@
+{
+  "brand": {
+    "name": "KitchenScaleCo",
+    "tagline": "Präzision in jedem Löffel"
+  },
+  "nav": {
+    "home": "Startseite",
+    "shop": "Shop",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "faq": "FAQ",
+    "trackOrder": "Bestellung verfolgen",
+    "account": "Konto",
+    "cart": "Warenkorb",
+    "menu": "Menü",
+    "closeMenu": "Menü schließen",
+    "openMenu": "Menü öffnen",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "header": {
+    "language": "Sprache",
+    "currency": "Währung",
+    "cartWithCount_one": "Warenkorb, {{count}} Artikel",
+    "cartWithCount_other": "Warenkorb, {{count}} Artikel",
+    "signIn": "Anmelden",
+    "myAccount": "Mein Konto"
+  },
+  "actions": {
+    "addToCart": "In den Warenkorb",
+    "buyNow": "Jetzt kaufen",
+    "shopNow": "Jetzt entdecken",
+    "viewDetails": "Details ansehen",
+    "learnMore": "Mehr erfahren",
+    "continueShopping": "Weiter einkaufen",
+    "checkout": "Zur Kasse",
+    "save": "Speichern",
+    "saving": "Wird gespeichert…",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "remove": "Entfernen",
+    "apply": "Anwenden",
+    "submit": "Absenden",
+    "submitting": "Wird gesendet…",
+    "back": "Zurück",
+    "next": "Weiter",
+    "retry": "Erneut versuchen",
+    "subscribe": "Abonnieren",
+    "share": "Teilen",
+    "copyLink": "Link kopieren",
+    "linkCopied": "Link kopiert",
+    "signOut": "Abmelden",
+    "goHome": "Zur Startseite",
+    "increase": "Menge erhöhen",
+    "decrease": "Menge verringern",
+    "quantity": "Menge",
+    "search": "Suchen"
+  },
+  "demo": {
+    "badge": "Demo",
+    "pricing": "Demo-Preise — endgültige Preise werden noch bestätigt.",
+    "currencyEstimate": "Preise in {{currency}} sind Schätzungen auf Basis von Demo-Wechselkursen, keine Live-Kurse.",
+    "mode": "Demo-Modus",
+    "noBackend": "Zahlungen sind noch nicht angebunden — Bestellungen werden ohne Zahlung gespeichert.",
+    "review": "Demo-Bewertung"
+  },
+  "stock": {
+    "in_stock": "Auf Lager",
+    "low_stock": "Nur noch {{count}} verfügbar",
+    "out_of_stock": "Ausverkauft",
+    "demoNote": "Lagerbestände sind Demo-Werte."
+  },
+  "orderStatus": {
+    "placed": "Bestellung aufgegeben",
+    "confirmed": "Bestätigt",
+    "processing": "In Bearbeitung",
+    "shipped": "Versandt",
+    "out_for_delivery": "In Zustellung",
+    "delivered": "Zugestellt",
+    "cancelled": "Storniert"
+  },
+  "payment": {
+    "visa": "Visa",
+    "mastercard": "Mastercard",
+    "upi": "UPI",
+    "netbanking": "Online-Banking"
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "email": "Bitte gib eine gültige E-Mail-Adresse ein",
+    "minLength": "Mindestens {{count}} Zeichen",
+    "maxLength": "Höchstens {{count}} Zeichen",
+    "phone": "Bitte gib eine gültige Telefonnummer ein",
+    "consent": "Bitte bestätige, um fortzufahren",
+    "passwordMatch": "Die Passwörter stimmen nicht überein",
+    "rating": "Bitte wähle eine Bewertung"
+  },
+  "footer": {
+    "about": "Durchdachte Küchenhelfer für alle, die gerne kochen, backen und Kaffee zubereiten.",
+    "shop": "Shop",
+    "company": "Unternehmen",
+    "help": "Hilfe",
+    "legal": "Rechtliches",
+    "allProducts": "Alle Produkte",
+    "miniSpoonScale": "Mini-Löffelwaage",
+    "shipping": "Versandrichtlinie",
+    "refunds": "Rückerstattungsrichtlinie",
+    "privacy": "Datenschutzerklärung",
+    "terms": "AGB",
+    "followUs": "Folge uns",
+    "newsletterTitle": "Rezepte, Tipps und Neuigkeiten",
+    "newsletterText": "Gelegentliche E-Mails. Jederzeit abbestellbar.",
+    "rights": "© {{year}} KitchenScaleCo. Alle Rechte vorbehalten.",
+    "demoNotice": "Shop vor dem Start — Preise, Spezifikationen und Richtlinien stehen unter dem Vorbehalt der endgültigen Bestätigung. Es werden keine Zahlungen eingezogen."
+  },
+  "newsletter": {
+    "placeholder": "Deine E-Mail-Adresse",
+    "consent": "Ich möchte Marketing-E-Mails von KitchenScaleCo erhalten.",
+    "success": "Du stehst auf der Liste! Danke für deine Anmeldung.",
+    "already": "Diese E-Mail-Adresse ist bereits angemeldet.",
+    "demoNote": "Deine Anmeldung wird sicher gespeichert und nur mit deiner Einwilligung verwendet. Du kannst dich jederzeit abmelden."
+  },
+  "share": {
+    "title": "Teilen",
+    "facebook": "Auf Facebook teilen",
+    "x": "Auf X teilen",
+    "pinterest": "Auf Pinterest merken",
+    "email": "Per E-Mail teilen"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "pinterest": "Pinterest",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "states": {
+    "loading": "Wird geladen…",
+    "error": "Etwas ist schiefgelaufen.",
+    "errorText": "Dieser Inhalt konnte nicht geladen werden. Bitte versuche es erneut.",
+    "empty": "Noch nichts vorhanden."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zur Startseite"
+  },
+  "reviews": {
+    "count_one": "{{count}} Bewertung",
+    "count_other": "{{count}} Bewertungen",
+    "outOf": "{{rating}} von 5"
+  },
+  "currencyNames": {
+    "USD": "US-Dollar",
+    "CAD": "Kanadischer Dollar",
+    "EUR": "Euro",
+    "GBP": "Britisches Pfund"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "panelEyebrow": "Tu compañera de cocina",
+    "panelTitle": "Un pequeño espacio solo tuyo.",
+    "panelText": "Mantén tus pedidos, tu perfil y tus direcciones en un solo lugar.",
+    "perks": {
+      "addresses": "Gestiona tus direcciones",
+      "orders": "Consulta tu historial de pedidos",
+      "profile": "Actualiza tu perfil"
+    },
+    "simulated": "Tu cuenta se guarda de forma segura. Las contraseñas solo se almacenan como un hash de un solo sentido."
+  },
+  "dashboard": {
+    "eyebrow": "Tu cuenta",
+    "greeting": "Hola, {{name}}.",
+    "memberSince": "Miembro desde {{date}}",
+    "metaTitle": "Tu cuenta",
+    "missingText": "No pudimos cargar tu perfil. Inicia sesión de nuevo.",
+    "missingTitle": "Perfil no disponible",
+    "nav": {
+      "addresses": "Direcciones",
+      "label": "Navegación de la cuenta",
+      "orders": "Pedidos",
+      "overview": "Resumen",
+      "profile": "Perfil",
+      "signOut": "Cerrar sesión",
+      "track": "Seguir pedido"
+    },
+    "signedOut": "Has cerrado sesión",
+    "simulated": "Los datos de tu cuenta se guardan de forma segura."
+  },
+  "errors": {
+    "generic": "Algo salió mal. Inténtalo de nuevo.",
+    "noAccount": "El correo electrónico o la contraseña son incorrectos.",
+    "exists": "Ya existe una cuenta con este correo electrónico. Prueba a iniciar sesión.",
+    "invalidCredentials": "El correo electrónico o la contraseña son incorrectos.",
+    "tooManyAttempts": "Demasiados intentos. Espera unos minutos e inténtalo de nuevo.",
+    "network": "No podemos conectar con el servidor en este momento. Inténtalo de nuevo en breve."
+  },
+  "forgot": {
+    "back": "Volver al inicio de sesión",
+    "demoNote": "Los correos para restablecer la contraseña aún no están activados, así que no se enviará ningún correo. Si no puedes acceder, contáctanos.",
+    "email": "Correo electrónico",
+    "metaTitle": "Restablecer tu contraseña",
+    "sentText": "Hemos registrado tu solicitud. Los correos de restablecimiento aún no están activados: contáctanos y te ayudaremos a recuperar el acceso.",
+    "sentTitle": "Solicitud recibida",
+    "submit": "Solicitar restablecimiento",
+    "text": "Introduce el correo electrónico de tu cuenta.",
+    "title": "¿Olvidaste tu contraseña?",
+    "tryAgain": "Probar con otro correo"
+  },
+  "login": {
+    "backendNote": "Mantienes la sesión iniciada mediante una cookie segura HTTP-only.",
+    "create": "Crear una cuenta",
+    "demoText": "Para probar, inicia sesión como demo@kitchenscaleco.test con la contraseña demo1234.",
+    "demoTitle": "Cuenta de ejemplo",
+    "email": "Correo electrónico",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "metaTitle": "Iniciar sesión",
+    "noAccount": "¿Eres nuevo/a aquí?",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "text": "Te damos la bienvenida de nuevo a tu compañera de cocina.",
+    "title": "Bienvenido de nuevo.",
+    "useDemo": "Rellenar con la cuenta de ejemplo",
+    "welcome": "¡Te damos la bienvenida, {{name}}!"
+  },
+  "orders": {
+    "date": "Fecha",
+    "emptyText": "Cuando hagas un pedido, aparecerá aquí.",
+    "emptyTitle": "Aún no hay pedidos",
+    "itemCount": "{{count}} artículos",
+    "items": "Artículos",
+    "metaTitle": "Tus pedidos",
+    "order": "Pedido",
+    "shop": "Explorar la tienda",
+    "status": "Estado",
+    "text": "Todos tus pedidos, en un solo lugar.",
+    "title": "Historial de pedidos",
+    "total": "Total",
+    "view": "Ver detalles",
+    "viewOrder": "Ver pedido {{number}}"
+  },
+  "overview": {
+    "addAddress": "Añadir dirección",
+    "addresses": "Direcciones guardadas",
+    "defaultAddress": "Dirección predeterminada",
+    "latestStatus": "Estado del último pedido",
+    "links": {
+      "faq": "Preguntas frecuentes",
+      "profile": "Editar tu perfil",
+      "shop": "Explorar la tienda",
+      "track": "Seguir un pedido"
+    },
+    "manage": "Gestionar direcciones",
+    "noAddress": "Todavía no has guardado ninguna dirección.",
+    "noOrders": "Aún no hay pedidos",
+    "ordersCount": "Pedidos",
+    "quickLinks": "Enlaces útiles",
+    "recent": "Pedidos recientes",
+    "viewAll": "Ver todos los pedidos"
+  },
+  "password": {
+    "hide": "Ocultar contraseña",
+    "show": "Mostrar contraseña"
+  },
+  "register": {
+    "confirm": "Confirmar contraseña de demostración",
+    "country": "País",
+    "email": "Correo electrónico",
+    "fullName": "Nombre completo",
+    "haveAccount": "¿Ya tienes una cuenta de demostración?",
+    "marketing": "Envíame por correo recetas, consejos y novedades de productos. Puedo darme de baja en cualquier momento.",
+    "metaTitle": "Crear cuenta de demostración",
+    "note": "Tu contraseña se almacena solo como un hash seguro de un solo sentido. La verificación del correo electrónico aún no está activada.",
+    "password": "Contraseña",
+    "passwordHint": "Al menos 8 caracteres.",
+    "signIn": "Iniciar sesión",
+    "submit": "Crear cuenta de demostración",
+    "success": "Tu cuenta de demostración está lista",
+    "text": "Haz un pequeño hueco para tus básicos de cocina.",
+    "title": "Crea tu cuenta de demostración."
+  },
+  "timeline": {
+    "cancelled": "Este pedido ha sido cancelado.",
+    "current": "Etapa actual",
+    "pending": "Pendiente",
+    "title": "Cronología del pedido"
+  },
+  "profile": {
+    "title": "Tu perfil",
+    "phone": "Teléfono (opcional)",
+    "save": "Guardar cambios",
+    "saved": "Perfil guardado",
+    "emailUsed": "Otra cuenta ya usa este correo electrónico."
+  },
+  "details": {
+    "notFound": "Pedido no encontrado",
+    "back": "Volver a pedidos",
+    "demo": "No se ha cobrado ningún pago por este pedido. Las actualizaciones de estado provienen de nuestro equipo, no de un servicio de mensajería.",
+    "address": "Dirección de envío"
+  },
+  "addresses": {
+    "title": "Direcciones",
+    "add": "Añadir dirección",
+    "edit": "Editar dirección",
+    "remove": "Eliminar",
+    "default": "Predeterminada",
+    "makeDefault": "Establecer como predeterminada",
+    "empty": "Aún no hay direcciones guardadas",
+    "saved": "Dirección guardada",
+    "fields": {
+      "label": "Etiqueta de dirección",
+      "fullName": "Nombre completo",
+      "line1": "Dirección línea 1",
+      "line2": "Dirección línea 2 (opcional)",
+      "city": "Ciudad",
+      "state": "Estado o provincia",
+      "postalCode": "Código postal"
+    }
+  }
+}

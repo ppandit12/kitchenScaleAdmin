@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "eyebrow": "Des outils pour cuisiner au quotidien",
+    "titleLead": "Précision à",
+    "titleAccent": "Chaque Cuillerée.",
+    "subtitle": "Découvrez une nouvelle façon de mesurer vos ingrédients avec la Mini Spoon Scale KitchenScaleCo.",
+    "shopNow": "Acheter",
+    "explore": "Découvrir les fonctionnalités",
+    "colorsLabel": "Choisir une couleur",
+    "colorPreview": "Aperçu {{color}}",
+    "imageAlt": "Mini cuillère balance en {{color}}",
+    "illustrationNote": "Illustration du produit",
+    "chipSpoon": "Prélever et mesurer",
+    "chipDisplay": "Écran sur le manche",
+    "chipDrawer": "Un format compact"
+  },
+  "benefits": {
+    "eyebrow": "Petit outil. Mille usages au quotidien.",
+    "titleLead": "Pensée pour vos",
+    "titleAccent": "rituels de cuisine.",
+    "text": "Du premier café de la journée à une recette préférée, faites de la mesure une part du plaisir.",
+    "imageAlt": "Illustration détaillée de la cuillère balance",
+    "imageCaption": "Illustration originale du produit. Photographies définitives à venir.",
+    "items": {
+      "convenient": {
+        "title": "Mesure pratique des ingrédients",
+        "text": "Prélevez votre ingrédient et consultez l'écran du manche en un seul geste simple."
+      },
+      "compact": {
+        "title": "Un indispensable de cuisine compact",
+        "text": "Un petit compagnon pour votre tiroir de cuisine et vos recettes de tous les jours."
+      },
+      "simple": {
+        "title": "Simple au quotidien",
+        "text": "Préparez, mesurez et ajoutez votre ingrédient à votre recette."
+      },
+      "modern": {
+        "title": "Conçue pour les cuisines modernes",
+        "text": "Un ajout soigné à votre collection d'ustensiles de cuisine."
+      }
+    }
+  },
+  "featured": {
+    "badge": "Votre compagnon de cuisine",
+    "viewDetails": "Voir les détails du produit",
+    "unavailable": "Notre produit prend un instant",
+    "unavailableText": "Veuillez réessayer pour charger le catalogue actuel."
+  },
+  "how": {
+    "eyebrow": "Votre recette, une cuillerée à la fois",
+    "title": "Trois étapes simples.",
+    "text": "Un peu de préparation. Une cuillerée mesurée. Un résultat délicieux.",
+    "step": "Étape {{n}}",
+    "steps": {
+      "prepare": {
+        "title": "Préparez votre ingrédient.",
+        "text": "Rassemblez les ingrédients de votre recette et suivez les instructions du produit."
+      },
+      "measure": {
+        "title": "Mesurez avec la cuillère balance.",
+        "text": "Prélevez votre ingrédient et lisez l'écran du manche."
+      },
+      "add": {
+        "title": "Ajoutez à votre recette.",
+        "text": "Versez l'ingrédient mesuré et continuez à créer."
+      }
+    }
+  },
+  "showcase": {
+    "eyebrow": "L'inspiration du quotidien",
+    "titleLead": "Un petit détail.",
+    "titleAccent": "Une belle différence.",
+    "text": "Apportez une routine de mesure soignée à votre pâtisserie, à votre café et à vos expériences en cuisine.",
+    "cta": "Découvrir la Mini cuillère balance",
+    "note": "Illustrations originales présentées à titre de démonstration. Les visuels définitifs du produit sont en attente d'approbation.",
+    "alts": {
+      "lifestyle": "Illustration d'ingrédients de cuisine",
+      "angle": "Cuillère balance vue en biais",
+      "detail": "Gros plan de la cuillère balance",
+      "display": "Écran du manche de la cuillère balance",
+      "pack": "Illustration du lot de deux cuillères balance"
+    },
+    "captions": {
+      "lifestyle": "Pour vos recettes de tous les jours",
+      "angle": "Un compagnon de cuisine soigné",
+      "detail": "Les petits détails",
+      "display": "Lisible d'un coup d'œil",
+      "pack": "Un duo pour votre cuisine"
+    }
+  },
+  "faq": {
+    "title": "Quelques questions fréquentes.",
+    "text": "Des réponses utiles avant votre première cuillerée.",
+    "all": "Voir toutes les questions"
+  },
+  "newsletter": {
+    "title": "Un peu d’inspiration culinaire.",
+    "text": "Recettes, conseils de pesée et actualités du lancement — quelques e-mails occasionnels, désabonnement à tout moment."
+  }
+}

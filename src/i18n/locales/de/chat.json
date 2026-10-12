@@ -1,0 +1,60 @@
+{
+  "launcher": {
+    "open": "KitchenScaleCo-Assistent öffnen",
+    "close": "KitchenScaleCo-Assistent schließen",
+    "label": "Fragen?"
+  },
+  "header": {
+    "title": "KitchenScaleCo-Assistent",
+    "subtitle": "Demo-Assistent — automatische Antworten, kein Live-Support",
+    "clear": "Unterhaltung löschen",
+    "close": "Chat schließen"
+  },
+  "log": "Unterhaltung mit dem KitchenScaleCo-Demo-Assistenten",
+  "you": "Sie",
+  "assistant": "Assistent",
+  "typing": "Der Assistent schreibt…",
+  "input": {
+    "label": "Ihre Nachricht",
+    "placeholder": "Fragen zu Nutzung, Versand, Rückgabe…",
+    "send": "Nachricht senden"
+  },
+  "quickReplies": {
+    "title": "Vorgeschlagene Fragen",
+    "howToUse": "Wie benutze ich sie?",
+    "shipping": "Versand",
+    "tracking": "Bestellung verfolgen",
+    "payments": "Zahlungsarten",
+    "returns": "Rückgabe",
+    "human": "Mit einer Person sprechen"
+  },
+  "links": {
+    "faq": "Zu den FAQ",
+    "trackOrder": "Bestellung verfolgen",
+    "contact": "Kontaktformular",
+    "product": "Mini-Löffelwaage ansehen",
+    "shippingPolicy": "Versandrichtlinie (Entwurf)",
+    "refundPolicy": "Rückerstattungsrichtlinie (Entwurf)"
+  },
+  "footer": "Automatisierter Assistent · Verlauf auf diesem Gerät gespeichert",
+  "cleared": "Unterhaltung gelöscht.",
+  "answers": {
+    "welcome": "Hallo! Ich bin der Demo-Assistent von KitchenScaleCo. Ich beantworte häufige Fragen zur Mini-Löffelwaage, zu Versand, Bestellungen und Rückgaben. Ich bin ein automatischer Helfer — kein Live-Mitarbeiter.",
+    "greeting": "Hallo! Wie kann ich helfen? Sie können Fragen zur Nutzung der Mini-Löffelwaage, zum Versand, zur Sendungsverfolgung, zu Zahlungen oder Rückgaben stellen.",
+    "thanks": "Gern geschehen! Kann ich sonst noch helfen?",
+    "human": "Mit diesem Chat ist noch kein Live-Support-Team verbunden, daher kann ich dich nicht an eine Person weiterleiten. Bitte nutze das Kontaktformular — diese Nachrichten gehen direkt an unser Team.",
+    "tracking": "Du kannst eine Bestellung auf der Seite „Bestellung verfolgen“ mit deiner Bestellnummer und E-Mail-Adresse prüfen. Die Status werden von unserem Team aktualisiert; die Live-Sendungsverfolgung des Paketdienstes wird später hinzugefügt. Probiere die Bestellung {{order}} mit {{email}}.",
+    "returns": "Unsere Rückgabe- und Erstattungsrichtlinie wird derzeit fertiggestellt. Eine 30-Tage-Geld-zurück-Garantie wird geprüft, ist aber noch nicht bestätigt. Der Entwurf der Rückerstattungsrichtlinie enthält die aktuellen Informationen.",
+    "payments": "An der Kasse werden Visa, Mastercard, UPI und Net Banking als bevorzugte Zahlungsarten angezeigt. Die Zahlungsabwicklung ist noch nicht angebunden, daher werden keine Zahlungsdaten erfasst; die unterstützten Zahlungsarten werden bestätigt, sobald ein Zahlungsanbieter gewählt ist.",
+    "shipping": "Wir planen den Versand nach Nordamerika und Europa. Versandtarife und Lieferzeiten werden an der Kasse berechnet und sind vorerst vorläufig. Bei internationalen Bestellungen können Zölle und Steuern anfallen.",
+    "pricing": "Die Preise auf dieser Website sind Demo-Werte, bis die endgültigen Preise feststehen. Wenn Sie die Kasse ausprobieren möchten, funktionieren in dieser Vorschau die Demo-Gutscheincodes {{codes}}.",
+    "howToUse": "Schalten Sie die Waage ein und warten Sie, bis sich die Anzeige beruhigt hat. Nehmen Sie dann Ihre Zutat auf — das Gewicht erscheint im Display am Griff. Mit der Tara-Funktion setzen Sie die Anzeige zwischen Zutaten auf null. Eine vollständige Anleitung liegt der Verpackung bei.",
+    "ingredients": "Die Mini-Löffelwaage ist für kleine Mengen trockener und körniger Zutaten gedacht — zum Beispiel Gewürze, Mehl, Zucker, Kaffeepulver, losen Tee oder Backpulver. Tauchen Sie den Griff nicht ein und messen Sie keine heißen Flüssigkeiten.",
+    "units": "Laut Lieferantenangaben werden Gramm, Unzen, Grain und Karat angezeigt. Die endgültigen Einheiten werden vor dem Marktstart bestätigt.",
+    "cleaning": "Der Löffelkopf lässt sich zum Reinigen abnehmen. Spülen Sie ihn von Hand und wischen Sie den Griff mit einem feuchten Tuch ab — den Griff niemals in Wasser tauchen.",
+    "battery": "Angaben zur Batterie werden mit den endgültigen Produktspezifikationen vor dem Marktstart bestätigt.",
+    "contact": "Du erreichst uns über das Kontaktformular — Nachrichten gehen direkt an unser Team. Support-E-Mail und Telefonnummer findest du auf der Kontaktseite.",
+    "product": "Die Mini-Löffelwaage ist ein Messlöffel mit integriertem Digitaldisplay — aufnehmen, ablesen und in Ihr Rezept geben, ganz ohne separate Waage. Farben, Packungsoptionen und (Demo-)Preise finden Sie auf der Produktseite.",
+    "fallback": "Entschuldigung, da bin ich mir nicht sicher. Ich bin ein einfacher automatischer Assistent — probieren Sie eine der vorgeschlagenen Fragen, sehen Sie in den FAQ nach oder senden Sie eine Nachricht über das Kontaktformular."
+  }
+}

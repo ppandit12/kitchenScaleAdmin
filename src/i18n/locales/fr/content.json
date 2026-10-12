@@ -1,0 +1,369 @@
+{
+  "about": {
+    "metaTitle": "À propos",
+    "hero": {
+      "eyebrow": "Notre histoire",
+      "title": "Les petites mesures, sans effort.",
+      "text": "KitchenScaleCo est née d'une idée simple : les plus petites mesures d'une recette méritent un outil tout aussi soigné. Une pincée d'épices, une cuillerée de café, une cuillère rase de levure chimique — pesées là où vous prélevez."
+    },
+    "mission": {
+      "eyebrow": "Notre mission",
+      "title": "Rendre les petites mesures précises simples et sans effort.",
+      "p1": "La plupart des balances de cuisine sont conçues pour de grandes quantités. Pourtant, les ingrédients qui changent le plus un plat — épices, agents levants, café, thé — se mesurent souvent en quelques grammes. C'est là que l'approximation s'invite.",
+      "p2": "Nous concevons des outils qui apportent de la précision à ces petites quantités, sans étapes supplémentaires, ni encombrement, ni complication. Prélevez, lisez, ajoutez — et retournez à vos fourneaux.",
+      "imageAlt": "Illustration de la Mini cuillère balance sur un plan de travail de cuisine"
+    },
+    "values": {
+      "eyebrow": "Nos valeurs",
+      "title": "Trois principes à la base de tout ce que nous créons",
+      "design": {
+        "title": "Un design réfléchi",
+        "text": "Chaque détail doit avoir sa raison d'être. Nous privilégions des formes sobres et épurées, agréables en main et à leur place sur le plan de travail."
+      },
+      "useful": {
+        "title": "Utile au quotidien",
+        "text": "Nous créons des outils pour de vraies cuisines et des matins pressés — ceux que l'on prend tous les jours, pas des gadgets qui finissent au fond d'un tiroir."
+      },
+      "honest": {
+        "title": "Une information honnête",
+        "text": "Nous ne décrivons que ce que nous pouvons garantir. Lorsque des détails restent à confirmer, nous le disons clairement."
+      }
+    },
+    "why": {
+      "eyebrow": "Pourquoi une cuillère balance",
+      "title": "La balance, là où vous prélevez",
+      "text": "Une cuillère doseuse dotée d'un écran numérique intégré affiche le poids au moment précis où vous en avez besoin.",
+      "oneStep": {
+        "title": "Prélevez et lisez en un seul geste",
+        "text": "Pas de balance séparée, pas de bol à équilibrer sur le plan de travail. Prélevez votre ingrédient et la valeur s'affiche sur l'écran du manche.",
+        "imageAlt": "La Mini cuillère balance vue en biais, montrant l'écran du manche"
+      },
+      "small": {
+        "title": "Pensée pour les petites quantités",
+        "text": "Épices, agents levants, café moulu et thé en vrac : c'est là que quelques grammes comptent le plus. Une cuillère balance est dimensionnée pour ces moments précis.",
+        "imageAlt": "Gros plan de la cuillère remplie d'une petite quantité d'épices"
+      },
+      "tidy": {
+        "title": "Moins à laver, moins à ranger",
+        "text": "Utilisez la fonction tare pour remettre à zéro entre deux ingrédients, puis lavez à la main la tête de cuillère détachable une fois terminé. Un seul outil compact au lieu de plusieurs.",
+        "imageAlt": "La Mini cuillère balance posée sur son support d'affichage"
+      }
+    },
+    "who": {
+      "eyebrow": "À qui s'adresse-t-elle",
+      "title": "Pour tous ceux qui mesurent avec soin",
+      "cooks": {
+        "title": "Cuisiniers du quotidien",
+        "text": "Pour équilibrer l'assaisonnement et refaire un plat exactement comme vous l'aviez aimé."
+      },
+      "bakers": {
+        "title": "Pâtissiers",
+        "text": "Pour les agents levants, le sel et les épices — les petites quantités dont dépend une préparation."
+      },
+      "coffee": {
+        "title": "Amateurs de café et de thé",
+        "text": "Pour régler votre dose avant l'infusion, tasse après tasse."
+      },
+      "prep": {
+        "title": "Adeptes du meal prep",
+        "text": "Pour doser régulièrement les petits ingrédients des repas de la semaine."
+      }
+    },
+    "cta": {
+      "eyebrow": "Découvrez la Mini cuillère balance",
+      "title": "La précision à chaque cuillerée.",
+      "text": "Explorez les détails, les coloris et les formats — et voyez comment elle s'intègre à votre cuisine.",
+      "primary": "Découvrir la Mini cuillère balance",
+      "secondary": "Lire la FAQ"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "hero": {
+      "eyebrow": "Nous sommes là pour vous aider",
+      "title": "Contactez-nous",
+      "text": "Une question sur la Mini cuillère balance, une commande ou la vente en gros ? Envoyez-nous un message et nous vous orienterons."
+    },
+    "demoNotice": "Les messages arrivent directement sur le tableau de bord de notre équipe. Les réponses automatiques par e-mail ne sont pas encore activées.",
+    "form": {
+      "title": "Envoyer un message",
+      "requiredNote": "Les champs marqués d'un * sont obligatoires.",
+      "name": "Votre nom",
+      "email": "Adresse e-mail",
+      "subject": "Objet",
+      "subjectPlaceholder": "Choisissez un objet",
+      "subjects": {
+        "order": "Question sur une commande",
+        "product": "Question sur le produit",
+        "wholesale": "Vente en gros",
+        "other": "Autre"
+      },
+      "orderNumber": "Numéro de commande",
+      "orderNumberHint": "Facultatif — par exemple KSC-1009",
+      "message": "Message",
+      "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+      "messageHint": "Au moins 10 caractères.",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi…"
+    },
+    "success": {
+      "badge": "Démonstration",
+      "title": "Message enregistré — démo uniquement",
+      "text": "Merci, {{name}}. Nous avons bien reçu votre message et notre équipe vous répondra.",
+      "summary": "Ce que vous avez envoyé",
+      "another": "Envoyer un autre message",
+      "faq": "Consulter la FAQ",
+      "toast": "Message envoyé"
+    },
+    "error": {
+      "title": "Nous n'avons pas pu enregistrer votre message",
+      "text": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+    },
+    "side": {
+      "title": "Coordonnées",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "address": "Adresse de l'entreprise",
+      "placeholder": "Provisoire — à confirmer",
+      "helpTitle": "Aide rapide",
+      "faq": "Questions fréquentes",
+      "faqText": "Utilisation de la balance, commandes, paiements et retours.",
+      "track": "Suivre une commande",
+      "trackText": "Consultez le statut d'une commande avec son numéro et votre e-mail.",
+      "chatTitle": "Essayez l'assistant de démo",
+      "chatText": "Des réponses automatiques instantanées aux questions fréquentes. Ce n'est pas un conseiller en direct.",
+      "chatCta": "Ouvrir l'assistant",
+      "social": "Suivez-nous",
+      "socialNote": "Les liens vers les réseaux sociaux renvoient à des pages provisoires en attendant la confirmation des profils de la marque."
+    }
+  },
+  "faqPage": {
+    "metaTitle": "FAQ",
+    "eyebrow": "Centre d'aide",
+    "filterLabel": "Filtrer les questions par thème",
+    "all": "Toutes",
+    "searchLabel": "Rechercher dans la FAQ",
+    "searchPlaceholder": "Rechercher une question, p. ex. livraison",
+    "clearSearch": "Effacer la recherche",
+    "results_one": "{{count}} question",
+    "results_other": "{{count}} questions",
+    "empty": {
+      "title": "Aucune question correspondante",
+      "text": "Nous n'avons pas trouvé de réponse pour « {{query}} ». Essayez d'autres mots, ou posez-nous directement votre question.",
+      "reset": "Afficher toutes les questions"
+    },
+    "cta": {
+      "title": "Une autre question ?",
+      "text": "Envoyez-nous un message, ou demandez à l'assistant de démo des réponses automatiques rapides.",
+      "contact": "Nous contacter",
+      "chat": "Demander à l'assistant"
+    }
+  },
+  "legal": {
+    "draft": "Brouillon",
+    "noticeTitle": "BROUILLON — non encore approuvé",
+    "noticeText": "Cette page contient un contenu provisoire destiné à être relu par le client et un conseiller juridique. Il ne s'agit pas d'une politique définitive et elle ne doit pas servir de référence.",
+    "lastUpdated": "Dernière mise à jour : date à confirmer",
+    "toc": "Sur cette page",
+    "inShort": "En bref",
+    "englishOnly": "Le texte complet de ce brouillon n'est actuellement disponible qu'en anglais. Les titres de section et les résumés ont été traduits.",
+    "placeholderLegend": "Le texte surligné indique les informations restant à confirmer.",
+    "related": "Politiques associées",
+    "questionsTitle": "Des questions sur cette page ?",
+    "questionsText": "Contactez-nous et nous vous aiderons à clarifier tout point.",
+    "questionsCta": "Nous contacter",
+    "backToTop": "Haut de page",
+    "shipping": {
+      "metaTitle": "Politique de livraison",
+      "title": "Politique de livraison",
+      "intro": "Comment nous prévoyons d'expédier les commandes en Amérique du Nord et en Europe. Les tarifs, délais et transporteurs restent à confirmer.",
+      "sections": {
+        "overview": {
+          "title": "Vue d'ensemble",
+          "summary": "Ce brouillon explique où et comment les commandes seront expédiées une fois la boutique lancée."
+        },
+        "regions": {
+          "title": "Zones de livraison",
+          "summary": "Nous prévoyons de livrer aux États-Unis, au Canada et dans certains pays européens."
+        },
+        "processing": {
+          "title": "Traitement des commandes",
+          "summary": "Les délais de traitement seront confirmés avant le lancement."
+        },
+        "rates": {
+          "title": "Tarifs et délais de livraison estimés",
+          "summary": "Les tarifs et les estimations sont calculés lors de la commande. Les tarifs actuels sont provisoires et peuvent changer avant le lancement."
+        },
+        "customs": {
+          "title": "Douanes, droits et taxes",
+          "summary": "Les commandes internationales peuvent être soumises à des droits d'importation et à des taxes."
+        },
+        "tracking": {
+          "title": "Suivi de commande",
+          "summary": "Vous pouvez suivre une commande avec son numéro et votre adresse e-mail."
+        },
+        "issues": {
+          "title": "Colis perdus, retardés ou endommagés",
+          "summary": "Contactez-nous en cas de problème pendant le transport ; la procédure de réclamation est en cours de rédaction."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "Comment nous joindre pour une question sur la livraison."
+        }
+      }
+    },
+    "refund": {
+      "metaTitle": "Politique de remboursement",
+      "title": "Politique de remboursement",
+      "intro": "Notre approche des retours, des remboursements et des articles défectueux. Le délai et les conditions de retour restent à confirmer.",
+      "sections": {
+        "overview": {
+          "title": "Vue d'ensemble",
+          "summary": "Ce brouillon décrit le fonctionnement prévu des retours et des remboursements."
+        },
+        "window": {
+          "title": "Délai de retour",
+          "summary": "Le délai de retour reste à confirmer. Une garantie « satisfait ou remboursé » de 30 jours est à l'étude mais n'est pas confirmée."
+        },
+        "eligibility": {
+          "title": "Éligibilité et état de l'article",
+          "summary": "Les articles devront en principe être inutilisés, complets et dans leur emballage d'origine."
+        },
+        "process": {
+          "title": "Comment effectuer un retour",
+          "summary": "Contactez-nous avec votre numéro de commande avant de renvoyer quoi que ce soit."
+        },
+        "refunds": {
+          "title": "Remboursements",
+          "summary": "Les remboursements approuvés devraient être effectués sur le moyen de paiement d'origine."
+        },
+        "damaged": {
+          "title": "Articles endommagés ou défectueux",
+          "summary": "Prévenez-nous rapidement si un article arrive endommagé ou cesse de fonctionner."
+        },
+        "costs": {
+          "title": "Frais d'expédition des retours",
+          "summary": "La prise en charge des frais d'expédition des retours reste à confirmer."
+        },
+        "rights": {
+          "title": "Vos droits légaux",
+          "summary": "Cette politique n'affecte pas les droits dont vous disposez en vertu du droit local de la consommation."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "Comment nous joindre au sujet d'un retour ou d'un remboursement."
+        }
+      }
+    },
+    "privacy": {
+      "metaTitle": "Politique de confidentialité",
+      "title": "Politique de confidentialité",
+      "intro": "Comment les informations personnelles devraient être collectées, utilisées et protégées. Ce brouillon doit être examiné par un conseiller juridique avant le lancement.",
+      "sections": {
+        "about": {
+          "title": "À propos de cette politique",
+          "summary": "Qui est responsable de vos données et ce que couvre cette politique."
+        },
+        "collect": {
+          "title": "Informations que nous collectons",
+          "summary": "Les informations que vous nous fournissez, les informations de commande et des données techniques limitées."
+        },
+        "use": {
+          "title": "Comment nous utilisons vos informations",
+          "summary": "Pour traiter les commandes, assurer l'assistance, envoyer les communications marketing que vous avez acceptées et améliorer la boutique."
+        },
+        "cookies": {
+          "title": "Cookies et statistiques",
+          "summary": "Google Analytics 4 est prévu mais n'est pas actif. Des contrôles de consentement seront ajoutés avant le lancement."
+        },
+        "localStorage": {
+          "title": "Cookies et stockage local",
+          "summary": "Nous utilisons un cookie de connexion essentiel et conservons dans votre navigateur des préférences telles que votre panier, votre langue et votre devise."
+        },
+        "sharing": {
+          "title": "Partage avec des prestataires de services",
+          "summary": "Nous prévoyons de ne partager des données qu'avec des prestataires qui contribuent au fonctionnement de la boutique. Nous ne vendons pas les informations personnelles."
+        },
+        "retention": {
+          "title": "Durée de conservation des données",
+          "summary": "Les données ne seront conservées que le temps nécessaire ; les durées précises restent à confirmer."
+        },
+        "rights": {
+          "title": "Vos droits en matière de confidentialité",
+          "summary": "Selon votre lieu de résidence, vous pouvez disposer de droits d'accès, de rectification ou de suppression de vos données."
+        },
+        "transfers": {
+          "title": "Transferts internationaux",
+          "summary": "Les données peuvent être traitées dans d'autres pays avec des garanties appropriées."
+        },
+        "children": {
+          "title": "Confidentialité des enfants",
+          "summary": "La boutique ne s'adresse pas aux enfants."
+        },
+        "changes": {
+          "title": "Modifications de cette politique",
+          "summary": "Nous mettrons à jour cette page et la date ci-dessus lorsque la politique évoluera."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "Comment nous joindre au sujet de la confidentialité."
+        }
+      }
+    },
+    "terms": {
+      "metaTitle": "Conditions générales",
+      "title": "Conditions générales",
+      "intro": "Les conditions qui s'appliqueront lorsque vous utiliserez ce site et achèterez auprès de KitchenScaleCo. Contenu provisoire en attente de relecture juridique.",
+      "sections": {
+        "acceptance": {
+          "title": "Acceptation des conditions",
+          "summary": "En utilisant le site ou en passant commande, vous acceptez ces conditions."
+        },
+        "use": {
+          "title": "Utilisation du site",
+          "summary": "Utilisez le site de manière licite et n'entravez pas son fonctionnement."
+        },
+        "products": {
+          "title": "Produits et descriptions",
+          "summary": "Nous nous efforçons de décrire les produits avec exactitude ; certains détails restent à confirmer."
+        },
+        "pricing": {
+          "title": "Prix et erreurs",
+          "summary": "Les prix peuvent changer, et nous pouvons annuler les commandes passées à un prix manifestement erroné."
+        },
+        "orders": {
+          "title": "Commandes et acceptation",
+          "summary": "Une commande constitue une offre d'achat ; un contrat est formé lorsque nous la confirmons ou l'expédions."
+        },
+        "payment": {
+          "title": "Paiement",
+          "summary": "Le paiement est géré par un prestataire tiers qui reste à choisir."
+        },
+        "shipping": {
+          "title": "Livraison et retours",
+          "summary": "La livraison et les retours sont couverts par nos politiques distinctes, encore à l'état de brouillon."
+        },
+        "ip": {
+          "title": "Propriété intellectuelle",
+          "summary": "Le contenu du site et l'image de marque appartiennent à KitchenScaleCo ou à ses concédants de licence."
+        },
+        "liability": {
+          "title": "Limitation de responsabilité",
+          "summary": "Notre responsabilité est limitée dans la mesure permise par la loi."
+        },
+        "law": {
+          "title": "Droit applicable",
+          "summary": "Le droit applicable et la juridiction compétente restent à confirmer."
+        },
+        "changes": {
+          "title": "Modification des conditions",
+          "summary": "Nous pouvons mettre à jour ces conditions ; la version en vigueur au moment de votre commande s'applique."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "Comment nous joindre au sujet de ces conditions."
+        }
+      }
+    }
+  }
+}

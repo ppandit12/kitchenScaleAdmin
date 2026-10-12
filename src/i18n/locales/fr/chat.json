@@ -1,0 +1,60 @@
+{
+  "launcher": {
+    "open": "Ouvrir l'assistant KitchenScaleCo",
+    "close": "Fermer l'assistant KitchenScaleCo",
+    "label": "Des questions ?"
+  },
+  "header": {
+    "title": "Assistant KitchenScaleCo",
+    "subtitle": "Assistant de démonstration — réponses automatiques, pas un conseiller en direct",
+    "clear": "Effacer la conversation",
+    "close": "Fermer la discussion"
+  },
+  "log": "Conversation avec l'assistant de démonstration KitchenScaleCo",
+  "you": "Vous",
+  "assistant": "Assistant",
+  "typing": "L'assistant écrit…",
+  "input": {
+    "label": "Votre message",
+    "placeholder": "Utilisation, livraison, retours…",
+    "send": "Envoyer le message"
+  },
+  "quickReplies": {
+    "title": "Questions suggérées",
+    "howToUse": "Comment l'utiliser ?",
+    "shipping": "Livraison",
+    "tracking": "Suivre ma commande",
+    "payments": "Moyens de paiement",
+    "returns": "Retours",
+    "human": "Parler à une personne"
+  },
+  "links": {
+    "faq": "Lire la FAQ",
+    "trackOrder": "Suivre une commande",
+    "contact": "Formulaire de contact",
+    "product": "Voir la Mini cuillère balance",
+    "shippingPolicy": "Politique de livraison (brouillon)",
+    "refundPolicy": "Politique de remboursement (brouillon)"
+  },
+  "footer": "Assistant automatisé · historique enregistré sur cet appareil",
+  "cleared": "Conversation effacée.",
+  "answers": {
+    "welcome": "Bonjour ! Je suis l'assistant de démonstration de KitchenScaleCo. Je peux répondre aux questions fréquentes sur la Mini cuillère balance, la livraison, les commandes et les retours. Je suis un assistant automatique — pas un conseiller en direct.",
+    "greeting": "Bonjour ! Comment puis-je vous aider ? Vous pouvez poser une question sur l'utilisation de la Mini cuillère balance, la livraison, le suivi de commande, le paiement ou les retours.",
+    "thanks": "Avec plaisir ! Puis-je vous aider pour autre chose ?",
+    "human": "Aucune équipe d'assistance en direct n'est encore connectée à ce chat, je ne peux donc pas vous transférer à une personne. Veuillez utiliser le formulaire de contact — ces messages arrivent directement à notre équipe.",
+    "tracking": "Vous pouvez consulter une commande sur la page Suivi de commande avec votre numéro de commande et votre adresse e-mail. Les statuts sont mis à jour par notre équipe ; le suivi en direct par le transporteur sera ajouté ultérieurement. Essayez la commande {{order}} avec {{email}}.",
+    "returns": "Notre politique de retour et de remboursement est en cours de finalisation. Une garantie « satisfait ou remboursé » de 30 jours est à l'étude mais n'a pas encore été confirmée. Le brouillon de la Politique de remboursement contient les informations les plus récentes.",
+    "payments": "Lors de la commande, Visa, Mastercard, UPI et Net Banking sont proposés comme moyens de paiement préférés. Le traitement des paiements n'est pas encore connecté ; aucune donnée de paiement n'est donc collectée, et les moyens pris en charge seront confirmés lorsqu'un prestataire de paiement aura été choisi.",
+    "shipping": "Nous prévoyons de livrer en Amérique du Nord et en Europe. Les tarifs et délais de livraison sont calculés lors de la commande et restent provisoires pour le moment. Les commandes internationales peuvent être soumises à des droits de douane et à des taxes.",
+    "pricing": "Les prix affichés sur ce site sont des valeurs de démonstration en attendant la confirmation des tarifs définitifs. Pour essayer le paiement, les codes promo de démonstration {{codes}} fonctionnent dans cet aperçu.",
+    "howToUse": "Allumez la balance et attendez que l'affichage se stabilise, puis prélevez votre ingrédient — le poids s'affiche sur l'écran du manche. Utilisez la fonction tare pour remettre à zéro entre deux ingrédients. Les instructions complètes seront fournies dans la boîte.",
+    "ingredients": "La Mini cuillère balance est conçue pour de petites quantités d'ingrédients secs et granuleux — par exemple épices, farine, sucre, café moulu, thé en vrac ou levure chimique. Évitez d'immerger le manche ou de mesurer des liquides chauds.",
+    "units": "La fiche du fournisseur mentionne les grammes, onces, grains et carats. Les unités définitives seront confirmées avant le lancement.",
+    "cleaning": "La tête de cuillère se détache pour le nettoyage. Lavez-la à la main et essuyez le manche avec un chiffon humide — n'immergez jamais le manche dans l'eau.",
+    "battery": "Les informations sur la pile seront confirmées avec les caractéristiques définitives du produit avant le lancement.",
+    "contact": "Vous pouvez nous joindre via le formulaire de contact — les messages arrivent directement à notre équipe. Les coordonnées du support (e-mail et téléphone) figurent sur la page de contact.",
+    "product": "La Mini cuillère balance est une cuillère doseuse dotée d'un écran numérique intégré — prélevez, lisez et ajoutez à votre recette sans balance séparée. Coloris, lots et prix (de démonstration) sont présentés sur la page produit.",
+    "fallback": "Désolé, je ne suis pas sûr de pouvoir répondre à cela. Je suis un assistant automatique simple — essayez l'une des questions suggérées, consultez la FAQ ou envoyez un message via le formulaire de contact."
+  }
+}

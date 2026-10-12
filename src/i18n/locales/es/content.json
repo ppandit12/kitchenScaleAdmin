@@ -1,0 +1,369 @@
+{
+  "about": {
+    "metaTitle": "Nosotros",
+    "hero": {
+      "eyebrow": "Nuestra historia",
+      "title": "Pequeñas medidas, sin esfuerzo.",
+      "text": "KitchenScaleCo nació de una idea sencilla: las medidas más pequeñas de una receta merecen una herramienta igual de cuidada. Una pizca de especias, una cucharada de café, una cucharita al ras de levadura en polvo: pesadas justo donde las sirves."
+    },
+    "mission": {
+      "eyebrow": "Nuestra misión",
+      "title": "Hacer que medir pequeñas cantidades con precisión sea fácil.",
+      "p1": "La mayoría de las básculas de cocina están pensadas para grandes cantidades. Sin embargo, los ingredientes que más cambian un plato —especias, levaduras, café, té— suelen medirse en apenas unos gramos. Ahí es donde se cuela el cálculo a ojo.",
+      "p2": "Diseñamos herramientas que aportan precisión a esas cantidades pequeñas sin añadir pasos, desorden ni complicaciones. Sirve, lee, añade y vuelve a cocinar.",
+      "imageAlt": "Ilustración de la Mini cuchara báscula sobre una encimera de cocina"
+    },
+    "values": {
+      "eyebrow": "Lo que valoramos",
+      "title": "Tres principios detrás de todo lo que hacemos",
+      "design": {
+        "title": "Diseño cuidado",
+        "text": "Cada detalle debe ganarse su lugar. Preferimos formas tranquilas y sencillas que se sienten bien en la mano y quedan bien en la encimera."
+      },
+      "useful": {
+        "title": "Utilidad cotidiana",
+        "text": "Hacemos herramientas para cocinas reales y mañanas ajetreadas: cosas que usas cada día, no gadgets que acaban olvidados en un cajón."
+      },
+      "honest": {
+        "title": "Información honesta",
+        "text": "Solo describimos lo que podemos respaldar. Cuando algunos detalles aún se están confirmando, lo decimos con claridad."
+      }
+    },
+    "why": {
+      "eyebrow": "Por qué una cuchara báscula",
+      "title": "La báscula, justo donde sirves",
+      "text": "Una cuchara medidora con pantalla digital integrada te da el peso justo en el momento en que lo necesitas.",
+      "oneStep": {
+        "title": "Sirve y lee en un solo gesto",
+        "text": "Sin báscula aparte ni equilibrios con un bol sobre la encimera. Sirve tu ingrediente y la lectura aparece en la pantalla del mango.",
+        "imageAlt": "La Mini cuchara báscula vista en ángulo, mostrando la pantalla del mango"
+      },
+      "small": {
+        "title": "Pensada para las cantidades pequeñas",
+        "text": "En especias, levaduras, café molido y té en hebras es donde unos pocos gramos importan más. Una cuchara báscula tiene el tamaño justo para esos momentos.",
+        "imageAlt": "Primer plano de la cuchara llena con una pequeña cantidad de especia"
+      },
+      "tidy": {
+        "title": "Menos que lavar, menos que guardar",
+        "text": "Usa la función de tara para poner a cero entre ingredientes y luego lava a mano la cabeza desmontable de la cuchara cuando termines. Una herramienta compacta en lugar de varias.",
+        "imageAlt": "La Mini cuchara báscula apoyada en su soporte con pantalla"
+      }
+    },
+    "who": {
+      "eyebrow": "Para quién es",
+      "title": "Para todos los que miden con cuidado",
+      "cooks": {
+        "title": "Cocineros caseros",
+        "text": "Para equilibrar el sazón y repetir un plato exactamente como te gustó."
+      },
+      "bakers": {
+        "title": "Reposteros",
+        "text": "Para levaduras, sal y especias: las pequeñas cantidades de las que depende una receta."
+      },
+      "coffee": {
+        "title": "Amantes del café y el té",
+        "text": "Para ajustar tu dosis antes de preparar, taza tras taza."
+      },
+      "prep": {
+        "title": "Quienes preparan sus comidas",
+        "text": "Para porcionar ingredientes pequeños de forma constante en las comidas de la semana."
+      }
+    },
+    "cta": {
+      "eyebrow": "Conoce la Mini cuchara báscula",
+      "title": "Precisión en cada cucharada.",
+      "text": "Explora los detalles, los colores y las opciones de pack, y descubre cómo encaja en tu cocina.",
+      "primary": "Descubre la Mini cuchara báscula",
+      "secondary": "Leer las preguntas frecuentes"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contacto",
+    "hero": {
+      "eyebrow": "Estamos para ayudarte",
+      "title": "Ponte en contacto",
+      "text": "¿Tienes preguntas sobre la Mini cuchara báscula, un pedido o ventas al por mayor? Envíanos un mensaje y te orientaremos."
+    },
+    "demoNotice": "Los mensajes llegan directamente al panel de nuestro equipo. Las respuestas automáticas por correo aún no están activadas.",
+    "form": {
+      "title": "Enviar un mensaje",
+      "requiredNote": "Los campos marcados con * son obligatorios.",
+      "name": "Tu nombre",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Elige un asunto",
+      "subjects": {
+        "order": "Consulta sobre un pedido",
+        "product": "Consulta sobre el producto",
+        "wholesale": "Venta al por mayor",
+        "other": "Otro"
+      },
+      "orderNumber": "Número de pedido",
+      "orderNumberHint": "Opcional, por ejemplo KSC-1009",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿En qué podemos ayudarte?",
+      "messageHint": "Al menos 10 caracteres.",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando…"
+    },
+    "success": {
+      "badge": "Demostración",
+      "title": "Mensaje guardado: solo demo",
+      "text": "Gracias, {{name}}. Hemos recibido tu mensaje y nuestro equipo te responderá.",
+      "summary": "Lo que enviaste",
+      "another": "Enviar otro mensaje",
+      "faq": "Ver las preguntas frecuentes",
+      "toast": "Mensaje enviado"
+    },
+    "error": {
+      "title": "No pudimos guardar tu mensaje",
+      "text": "Algo salió mal al enviar tu mensaje. Inténtalo de nuevo."
+    },
+    "side": {
+      "title": "Datos de contacto",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "address": "Dirección comercial",
+      "placeholder": "Marcador de posición: por confirmar",
+      "helpTitle": "Ayuda rápida",
+      "faq": "Preguntas frecuentes",
+      "faqText": "Uso de la báscula, pedidos, pagos y devoluciones.",
+      "track": "Seguir un pedido",
+      "trackText": "Consulta el estado de un pedido con su número y correo.",
+      "chatTitle": "Prueba el asistente de demostración",
+      "chatText": "Respuestas automáticas e inmediatas a preguntas habituales. No es un agente en vivo.",
+      "chatCta": "Abrir asistente",
+      "social": "Síguenos",
+      "socialNote": "Los enlaces a redes sociales apuntan a páginas de ejemplo hasta que se confirmen los perfiles de la marca."
+    }
+  },
+  "faqPage": {
+    "metaTitle": "Preguntas frecuentes",
+    "eyebrow": "Centro de ayuda",
+    "filterLabel": "Filtrar preguntas por tema",
+    "all": "Todas",
+    "searchLabel": "Buscar en las preguntas frecuentes",
+    "searchPlaceholder": "Busca preguntas, p. ej. envío",
+    "clearSearch": "Borrar búsqueda",
+    "results_one": "{{count}} pregunta",
+    "results_other": "{{count}} preguntas",
+    "empty": {
+      "title": "No hay preguntas que coincidan",
+      "text": "No encontramos respuesta para «{{query}}». Prueba con otras palabras o pregúntanos directamente.",
+      "reset": "Mostrar todas las preguntas"
+    },
+    "cta": {
+      "title": "¿Sigues con dudas?",
+      "text": "Envíanos un mensaje o pregunta al asistente de demostración para obtener respuestas automáticas rápidas.",
+      "contact": "Contáctanos",
+      "chat": "Preguntar al asistente"
+    }
+  },
+  "legal": {
+    "draft": "Borrador",
+    "noticeTitle": "BORRADOR: aún no aprobado",
+    "noticeText": "Esta página contiene contenido provisional para su revisión por el cliente y el asesor legal. No es una política definitiva y no debe tomarse como referencia.",
+    "lastUpdated": "Última actualización: fecha por confirmar",
+    "toc": "En esta página",
+    "inShort": "En resumen",
+    "englishOnly": "El texto completo de este borrador solo está disponible por ahora en inglés. Se han traducido los títulos de las secciones y los resúmenes.",
+    "placeholderLegend": "El texto resaltado señala detalles que aún están por confirmar.",
+    "related": "Políticas relacionadas",
+    "questionsTitle": "¿Tienes preguntas sobre esta página?",
+    "questionsText": "Ponte en contacto y te ayudaremos a aclarar lo que necesites.",
+    "questionsCta": "Contáctanos",
+    "backToTop": "Volver arriba",
+    "shipping": {
+      "metaTitle": "Política de envíos",
+      "title": "Política de envíos",
+      "intro": "Cómo planeamos enviar los pedidos a Norteamérica y Europa. Las tarifas, los plazos y los transportistas aún se están confirmando.",
+      "sections": {
+        "overview": {
+          "title": "Resumen",
+          "summary": "Este borrador explica adónde y cómo se enviarán los pedidos cuando la tienda abra."
+        },
+        "regions": {
+          "title": "Adónde enviamos",
+          "summary": "Planeamos enviar a Estados Unidos, Canadá y algunos países europeos seleccionados."
+        },
+        "processing": {
+          "title": "Preparación del pedido",
+          "summary": "Los plazos de preparación están por confirmar antes del lanzamiento."
+        },
+        "rates": {
+          "title": "Tarifas y estimaciones de entrega",
+          "summary": "Las tarifas y estimaciones se calculan al finalizar la compra. Las tarifas actuales son provisionales y pueden cambiar antes del lanzamiento."
+        },
+        "customs": {
+          "title": "Aduanas, aranceles e impuestos",
+          "summary": "Los pedidos internacionales pueden estar sujetos a aranceles de importación e impuestos."
+        },
+        "tracking": {
+          "title": "Seguimiento del pedido",
+          "summary": "Puedes seguir un pedido con su número de pedido y correo electrónico."
+        },
+        "issues": {
+          "title": "Paquetes perdidos, retrasados o dañados",
+          "summary": "Contáctanos si algo sale mal durante el transporte; el proceso de reclamaciones se está redactando."
+        },
+        "contact": {
+          "title": "Contacto",
+          "summary": "Cómo contactarnos para una consulta sobre envíos."
+        }
+      }
+    },
+    "refund": {
+      "metaTitle": "Política de reembolsos",
+      "title": "Política de reembolsos",
+      "intro": "Nuestro enfoque sobre devoluciones, reembolsos y artículos defectuosos. El plazo y las condiciones de devolución aún están por confirmar.",
+      "sections": {
+        "overview": {
+          "title": "Resumen",
+          "summary": "Este borrador describe cómo se prevé que funcionen las devoluciones y los reembolsos."
+        },
+        "window": {
+          "title": "Plazo de devolución",
+          "summary": "El plazo de devolución está por confirmar. Se está considerando una garantía de devolución del dinero de 30 días, pero no está confirmada."
+        },
+        "eligibility": {
+          "title": "Requisitos y estado del artículo",
+          "summary": "En general, los artículos deberán estar sin usar, completos y en su embalaje original."
+        },
+        "process": {
+          "title": "Cómo iniciar una devolución",
+          "summary": "Contáctanos con tu número de pedido antes de devolver nada."
+        },
+        "refunds": {
+          "title": "Reembolsos",
+          "summary": "Se prevé que los reembolsos aprobados se devuelvan al método de pago original."
+        },
+        "damaged": {
+          "title": "Artículos dañados o defectuosos",
+          "summary": "Avísanos cuanto antes si un artículo llega dañado o deja de funcionar."
+        },
+        "costs": {
+          "title": "Costes de envío de la devolución",
+          "summary": "Quién paga el envío de la devolución está por confirmar."
+        },
+        "rights": {
+          "title": "Tus derechos legales",
+          "summary": "Esta política no afecta a los derechos que tengas según la ley de consumo local."
+        },
+        "contact": {
+          "title": "Contacto",
+          "summary": "Cómo contactarnos sobre una devolución o un reembolso."
+        }
+      }
+    },
+    "privacy": {
+      "metaTitle": "Política de privacidad",
+      "title": "Política de privacidad",
+      "intro": "Cómo se prevé recopilar, usar y proteger la información personal. Este borrador debe ser revisado por un asesor legal antes del lanzamiento.",
+      "sections": {
+        "about": {
+          "title": "Acerca de esta política",
+          "summary": "Quién es responsable de tus datos y qué cubre esta política."
+        },
+        "collect": {
+          "title": "Información que recopilamos",
+          "summary": "Los datos que nos facilitas, la información del pedido y datos técnicos limitados."
+        },
+        "use": {
+          "title": "Cómo usamos tu información",
+          "summary": "Para procesar pedidos, ofrecer asistencia, enviar el marketing que aceptaste y mejorar la tienda."
+        },
+        "cookies": {
+          "title": "Cookies y analítica",
+          "summary": "Google Analytics 4 está previsto, pero no está activo. Se añadirán controles de consentimiento antes del lanzamiento."
+        },
+        "localStorage": {
+          "title": "Cookies y almacenamiento local",
+          "summary": "Usamos una cookie esencial de inicio de sesión y guardamos en tu navegador preferencias como el carrito, el idioma y la moneda."
+        },
+        "sharing": {
+          "title": "Compartir con proveedores de servicios",
+          "summary": "Prevemos compartir datos únicamente con proveedores que ayudan a operar la tienda. No vendemos información personal."
+        },
+        "retention": {
+          "title": "Cuánto tiempo conservamos los datos",
+          "summary": "Los datos se conservarán solo el tiempo necesario; los plazos concretos están por confirmar."
+        },
+        "rights": {
+          "title": "Tus derechos de privacidad",
+          "summary": "Según dónde vivas, puedes tener derecho a acceder a tus datos, corregirlos o eliminarlos."
+        },
+        "transfers": {
+          "title": "Transferencias internacionales",
+          "summary": "Los datos pueden tratarse en otros países con las garantías adecuadas."
+        },
+        "children": {
+          "title": "Privacidad de los menores",
+          "summary": "La tienda no está dirigida a menores."
+        },
+        "changes": {
+          "title": "Cambios en esta política",
+          "summary": "Actualizaremos esta página y la fecha indicada arriba cuando la política cambie."
+        },
+        "contact": {
+          "title": "Contacto",
+          "summary": "Cómo contactarnos sobre privacidad."
+        }
+      }
+    },
+    "terms": {
+      "metaTitle": "Términos y condiciones",
+      "title": "Términos y condiciones",
+      "intro": "Los términos que se aplicarán cuando uses este sitio web y compres a KitchenScaleCo. Contenido provisional pendiente de revisión legal.",
+      "sections": {
+        "acceptance": {
+          "title": "Aceptación de estos términos",
+          "summary": "Al usar el sitio o hacer un pedido, aceptas estos términos."
+        },
+        "use": {
+          "title": "Uso del sitio",
+          "summary": "Usa el sitio de forma lícita y no interfieras en su funcionamiento."
+        },
+        "products": {
+          "title": "Productos y descripciones",
+          "summary": "Procuramos describir los productos con exactitud; algunos detalles aún se están confirmando."
+        },
+        "pricing": {
+          "title": "Precios y errores",
+          "summary": "Los precios pueden cambiar y podemos cancelar pedidos realizados a un precio evidentemente erróneo."
+        },
+        "orders": {
+          "title": "Pedidos y aceptación",
+          "summary": "Un pedido es una oferta de compra; el contrato se forma cuando lo confirmamos o lo enviamos."
+        },
+        "payment": {
+          "title": "Pago",
+          "summary": "El pago lo gestiona un proveedor externo que aún está por elegir."
+        },
+        "shipping": {
+          "title": "Envíos y devoluciones",
+          "summary": "La entrega y las devoluciones se rigen por nuestras políticas en borrador, que son independientes."
+        },
+        "ip": {
+          "title": "Propiedad intelectual",
+          "summary": "El contenido y la imagen de marca del sitio pertenecen a KitchenScaleCo o a sus licenciantes."
+        },
+        "liability": {
+          "title": "Limitación de responsabilidad",
+          "summary": "Nuestra responsabilidad se limita en la medida que permita la ley."
+        },
+        "law": {
+          "title": "Ley aplicable",
+          "summary": "La ley aplicable y la jurisdicción están por confirmar."
+        },
+        "changes": {
+          "title": "Cambios en estos términos",
+          "summary": "Podemos actualizar estos términos; se aplica la versión vigente en el momento de tu pedido."
+        },
+        "contact": {
+          "title": "Contacto",
+          "summary": "Cómo contactarnos sobre estos términos."
+        }
+      }
+    }
+  }
+}

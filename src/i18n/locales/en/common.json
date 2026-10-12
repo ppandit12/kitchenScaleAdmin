@@ -1,0 +1,160 @@
+{
+  "brand": {
+    "name": "KitchenScaleCo",
+    "tagline": "Precision in Every Scoop"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "trackOrder": "Track order",
+    "account": "Account",
+    "cart": "Cart",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "skipToContent": "Skip to content"
+  },
+  "header": {
+    "language": "Language",
+    "currency": "Currency",
+    "cartWithCount_one": "Cart, {{count}} item",
+    "cartWithCount_other": "Cart, {{count}} items",
+    "signIn": "Sign in",
+    "myAccount": "My account"
+  },
+  "actions": {
+    "addToCart": "Add to cart",
+    "buyNow": "Buy now",
+    "shopNow": "Shop now",
+    "viewDetails": "View details",
+    "learnMore": "Learn more",
+    "continueShopping": "Continue shopping",
+    "checkout": "Checkout",
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "remove": "Remove",
+    "apply": "Apply",
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "back": "Back",
+    "next": "Continue",
+    "retry": "Try again",
+    "subscribe": "Subscribe",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied",
+    "signOut": "Sign out",
+    "goHome": "Back to home",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "quantity": "Quantity",
+    "search": "Search"
+  },
+  "demo": {
+    "badge": "Demo",
+    "pricing": "Demo pricing — final prices to be confirmed.",
+    "currencyEstimate": "Prices in {{currency}} are estimates using demonstration exchange rates, not live rates.",
+    "mode": "Demo mode",
+    "noBackend": "Payments aren't connected yet — orders are saved without taking payment.",
+    "review": "Demonstration review"
+  },
+  "stock": {
+    "in_stock": "In stock",
+    "low_stock": "Only {{count}} left",
+    "out_of_stock": "Out of stock",
+    "demoNote": "Stock levels are demonstration values."
+  },
+  "orderStatus": {
+    "placed": "Order placed",
+    "confirmed": "Confirmed",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "out_for_delivery": "Out for delivery",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled"
+  },
+  "payment": {
+    "visa": "Visa",
+    "mastercard": "Mastercard",
+    "upi": "UPI",
+    "netbanking": "Net Banking"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Enter a valid email address",
+    "minLength": "Must be at least {{count}} characters",
+    "maxLength": "Must be {{count}} characters or fewer",
+    "phone": "Enter a valid phone number",
+    "consent": "Please confirm to continue",
+    "passwordMatch": "Passwords do not match",
+    "rating": "Please choose a rating"
+  },
+  "footer": {
+    "about": "Thoughtfully designed kitchen tools for people who love to cook, bake and brew.",
+    "shop": "Shop",
+    "company": "Company",
+    "help": "Help",
+    "legal": "Legal",
+    "allProducts": "All products",
+    "miniSpoonScale": "Mini Spoon Scale",
+    "shipping": "Shipping Policy",
+    "refunds": "Refund Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "followUs": "Follow us",
+    "newsletterTitle": "Recipes, tips and launch news",
+    "newsletterText": "Occasional emails. Unsubscribe any time.",
+    "rights": "© {{year}} KitchenScaleCo. All rights reserved.",
+    "demoNotice": "Pre-launch store — prices, specifications and policies are pending final confirmation. No payments are taken."
+  },
+  "newsletter": {
+    "placeholder": "Your email address",
+    "consent": "I agree to receive marketing emails from KitchenScaleCo.",
+    "success": "You're on the list! Thanks for subscribing.",
+    "already": "This email is already subscribed.",
+    "demoNote": "Your sign-up is stored securely and used only with your consent. You can unsubscribe at any time."
+  },
+  "share": {
+    "title": "Share",
+    "facebook": "Share on Facebook",
+    "x": "Share on X",
+    "pinterest": "Pin on Pinterest",
+    "email": "Share by email"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "pinterest": "Pinterest",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "states": {
+    "loading": "Loading…",
+    "error": "Something went wrong.",
+    "errorText": "We couldn't load this content. Please try again.",
+    "empty": "Nothing here yet."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you're looking for doesn't exist or has moved.",
+    "cta": "Back to home"
+  },
+  "reviews": {
+    "count_one": "{{count}} review",
+    "count_other": "{{count}} reviews",
+    "outOf": "{{rating}} out of 5"
+  },
+  "currencyNames": {
+    "USD": "US Dollar",
+    "CAD": "Canadian Dollar",
+    "EUR": "Euro",
+    "GBP": "British Pound"
+  }
+}

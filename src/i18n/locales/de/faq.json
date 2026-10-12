@@ -1,0 +1,49 @@
+{
+  "title": "Häufig gestellte Fragen",
+  "subtitle": "Antworten auf häufige Fragen zur Mini-Löffelwaage, zu Bestellungen und zum Versand.",
+  "draftNote": "Einige Antworten sind Platzhalter, bis die Shop-Richtlinien bestätigt sind.",
+  "categories": {
+    "product": "Produkt",
+    "orders": "Bestellung und Versand",
+    "payments": "Zahlung",
+    "returns": "Rückgabe"
+  },
+  "items": {
+    "howToUse": {
+      "q": "Wie benutze ich die Mini-Löffelwaage?",
+      "a": "Schalte die Waage ein, warte, bis sich die Anzeige beruhigt hat, und schöpfe dann deine Zutat. Das Gewicht erscheint im Display am Griff. Mit der Tara-Funktion setzt du die Anzeige zwischen Zutaten auf null. Eine vollständige Anleitung liegt der Verpackung bei."
+    },
+    "ingredients": {
+      "q": "Welche Zutaten kann ich messen?",
+      "a": "Sie ist für kleine Mengen trockener und körniger Zutaten gedacht — zum Beispiel Gewürze, Mehl, Zucker, Kaffeepulver, losen Tee oder Backpulver. Tauche den Griff nicht ein und miss keine heißen Flüssigkeiten."
+    },
+    "units": {
+      "q": "Welche Einheiten zeigt sie an?",
+      "a": "Laut Lieferantenangaben werden Gramm, Unzen, Grain und Karat angezeigt. Die endgültigen Einheiten werden vor dem Start bestätigt."
+    },
+    "cleaning": {
+      "q": "Wie reinige ich sie?",
+      "a": "Der Löffelkopf lässt sich zum Reinigen abnehmen. Spüle ihn von Hand und wische den Griff mit einem feuchten Tuch ab — den Griff niemals in Wasser tauchen."
+    },
+    "international": {
+      "q": "Bietet ihr internationalen Versand an?",
+      "a": "Wir planen den Versand nach Nordamerika und Europa. Die an der Kasse angezeigten Tarife und Lieferzeiten sind vorläufig; die endgültige Versandrichtlinie wird noch erstellt."
+    },
+    "tracking": {
+      "q": "Wie kann ich meine Bestellung verfolgen?",
+      "a": "Nutze die Seite „Bestellung verfolgen“ mit deiner Bestellnummer und E-Mail-Adresse. Die Status werden von unserem Team aktualisiert; die Live-Sendungsverfolgung des Paketdienstes wird später hinzugefügt."
+    },
+    "payments": {
+      "q": "Welche Zahlungsarten werden unterstützt?",
+      "a": "An der Kasse werden Visa, Mastercard, UPI und Net Banking als bevorzugte Optionen angezeigt. Die Zahlungsabwicklung ist noch nicht angebunden, und die unterstützten Zahlungsarten werden bestätigt, sobald ein Zahlungsanbieter gewählt ist."
+    },
+    "returns": {
+      "q": "Wie lautet eure Rückgaberichtlinie?",
+      "a": "Unsere Rückgabe- und Erstattungsrichtlinie wird derzeit fertiggestellt. Die aktuellsten Informationen findest du auf der Seite mit dem Entwurf der Rückerstattungsrichtlinie."
+    },
+    "battery": {
+      "q": "Welche Batterie benötigt sie?",
+      "a": "Angaben zur Batterie werden mit den endgültigen Produktspezifikationen vor dem Start bestätigt."
+    }
+  }
+}

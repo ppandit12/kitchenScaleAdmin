@@ -1,0 +1,190 @@
+{
+  "title": "Commande",
+  "demoBanner": {
+    "title": "Les paiements ne sont pas encore connectés",
+    "text": "Votre commande sera enregistrée et confirmée par notre équipe, mais aucun paiement n'est encaissé et aucune donnée de carte n'est demandée. Les prix sont en attente de confirmation définitive."
+  },
+  "fields": {
+    "fullName": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "country": "Pays",
+    "line1": "Adresse ligne 1",
+    "line1Placeholder": "Adresse",
+    "line2": "Adresse ligne 2",
+    "line2Placeholder": "Appartement, bâtiment, etc.",
+    "city": "Ville",
+    "postalCode": "Code postal",
+    "optional": "Facultatif"
+  },
+  "region": {
+    "state": "État",
+    "province": "Province",
+    "county": "Comt?",
+    "region": "État ou région"
+  },
+  "steps": {
+    "customer": {
+      "title": "Informations client",
+      "short": "Informations",
+      "text": "Indiquez-nous pour qui est la commande."
+    },
+    "address": {
+      "title": "Adresse de livraison",
+      "short": "Adresse",
+      "text": "Où devons-nous envoyer votre commande ?"
+    },
+    "shipping": {
+      "title": "Mode de livraison",
+      "short": "Livraison",
+      "text": "Choisissez un mode de livraison pour votre destination."
+    },
+    "payment": {
+      "title": "Mode de paiement",
+      "short": "Paiement",
+      "text": "Sélectionnez un moyen de paiement pour un simple aperçu. Aucune donnée de paiement n'est collectée."
+    },
+    "review": {
+      "title": "Vérifier votre commande",
+      "short": "Vérification",
+      "text": "Vérifiez vos informations avant de passer votre commande."
+    }
+  },
+  "stepper": {
+    "label": "Étapes de la commande",
+    "completed": "Terminée",
+    "current": "Étape en cours",
+    "stepOf": "Étape {{current}} sur {{total}}"
+  },
+  "nav": {
+    "back": "Retour",
+    "backToCart": "Retour au panier",
+    "continueTo": "Continuer vers {{step}}"
+  },
+  "customer": {
+    "emailHint": "Nous l'utiliserons pour votre commande et son suivi. Les e-mails de confirmation ne sont pas encore activés.",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "signIn": "Se connecter",
+    "signedInAs": "Connecté·e en tant que {{email}}"
+  },
+  "address": {
+    "default": "Par défaut",
+    "newAddress": "Nouvelle adresse",
+    "saved": "Adresses enregistrées",
+    "useNew": "Utiliser une nouvelle adresse"
+  },
+  "shipping": {
+    "chooseMethod": "Choisissez un mode de livraison",
+    "editAddress": "Modifier l'adresse",
+    "eta": "{{min}}–{{max}} jours ouvrés (estimation)",
+    "loading": "Chargement des tarifs de livraison…",
+    "ratesLabel": "Tarifs de livraison (provisoires)",
+    "to": "Livraison vers : {{country}}",
+    "unsupportedTitle": "Aucun mode de livraison disponible",
+    "unsupportedText": "Choisissez une destination activée en Amérique du Nord ou en Europe.",
+    "weight": "Poids du colis : {{weight}} g"
+  },
+  "payment": {
+    "choose": "Choisissez votre moyen de paiement préféré",
+    "noticeTitle": "Aucun paiement réel.",
+    "notice": "Ne saisissez aucune donnée de paiement. Cet écran est un simple aperçu.",
+    "noFields": "Aucun numéro de carte, CVV, identifiant bancaire ou code PIN UPI n'est collecté.",
+    "descriptions": {
+      "visa": "Aperçu Visa uniquement",
+      "mastercard": "Aperçu Mastercard uniquement",
+      "upi": "Aperçu UPI uniquement",
+      "netbanking": "Aperçu Net Banking uniquement"
+    }
+  },
+  "review": {
+    "confirm": "Je comprends qu'aucun paiement n'est encaissé pour le moment et que ma commande sera confirmée par l'équipe KitchenScaleCo.",
+    "contact": "Coordonnées",
+    "edit": "Modifier",
+    "editSection": "Modifier : {{section}}",
+    "error": "Nous n'avons pas pu passer votre commande. Veuillez réessayer.",
+    "items": "Vos articles",
+    "method": "Mode de livraison",
+    "payment": "Moyen de paiement préféré",
+    "paymentNote": "Aucun paiement n'est encaissé.",
+    "place": "Passer la commande",
+    "placedToast": "Commande passée",
+    "placing": "Envoi de votre commande…",
+    "shipTo": "Adresse de livraison",
+    "errors": {
+      "stock": "Un article de votre panier vient d'être épuisé ou il en reste moins que la quantité choisie. Vérifiez votre panier et réessayez.",
+      "coupon": "Votre code de réduction ne peut plus être appliqué. Retirez-le de votre panier et réessayez.",
+      "shipping": "Ce mode de livraison n'est plus disponible pour cette adresse. Veuillez en choisir un autre.",
+      "network": "Impossible de joindre le serveur pour le moment. Votre commande n'a pas été passée — veuillez réessayer dans un instant."
+    }
+  },
+  "summary": {
+    "title": "Résumé de commande",
+    "subtotal": "Sous-total",
+    "discount": "Réduction",
+    "discountCode": "Remise ({{code}})",
+    "shipping": "Livraison",
+    "shippingPending": "Choisissez un mode de livraison",
+    "total": "Total",
+    "demoTotals": "Aucun paiement n'est encaissé pour le moment. Les prix sont en attente de confirmation définitive.",
+    "editCart": "Modifier le panier",
+    "hide": "Masquer le récapitulatif",
+    "show": "Afficher le récapitulatif",
+    "itemCount": "{{count}} articles",
+    "qty": "Qté {{count}}"
+  },
+  "empty": {
+    "title": "Votre panier est vide",
+    "text": "Choisissez un produit avant de commencer la commande.",
+    "cta": "Découvrir la boutique"
+  },
+  "success": {
+    "metaTitle": "Commande passée",
+    "eyebrow": "Un petit moment de fête",
+    "title": "Merci, {{name}} !",
+    "text": "Nous avons bien reçu votre commande. Notre équipe la confirmera prochainement.",
+    "demoNote": "Aucun paiement n'a été encaissé. Les mises à jour de statut apparaîtront sur la page de suivi.",
+    "email": "E-mail de contact",
+    "emailNote": "Aucun e-mail de confirmation n'a été envoyé.",
+    "items": "Articles de la commande",
+    "method": "Mode de livraison",
+    "notFoundTitle": "Commande introuvable",
+    "notFoundText": "Nous n'avons pas trouvé la commande {{number}}. Connectez-vous pour consulter vos commandes, ou recherchez-la sur la page de suivi avec votre adresse e-mail.",
+    "orderNumber": "Numéro de commande",
+    "payment": "Moyen de paiement préféré",
+    "paymentNote": "Aucun paiement n'a été encaissé.",
+    "placedOn": "Enregistrée le {{date}}",
+    "shippingTo": "Adresse de livraison",
+    "continue": "Continuer les achats",
+    "track": "Suivre cette commande",
+    "trackOther": "Suivre une autre commande",
+    "viewAccount": "Voir le compte"
+  },
+  "track": {
+    "metaTitle": "Suivre une commande",
+    "eyebrow": "Le parcours de votre commande",
+    "title": "Suivre votre commande",
+    "text": "Saisissez votre numéro de commande et votre adresse e-mail pour voir son dernier statut.",
+    "demoNote": "Les statuts sont mis à jour par notre équipe. Le suivi en direct par le transporteur sera ajouté ultérieurement.",
+    "formTitle": "Retrouver votre commande",
+    "orderNumber": "Numéro de commande",
+    "orderPlaceholder": "KSC-1009",
+    "email": "Adresse e-mail",
+    "submit": "Suivre la commande",
+    "searching": "Recherche…",
+    "useDemo": "Utiliser la commande d'exemple",
+    "hint": "Un test ? Essayez KSC-1009 avec demo@kitchenscaleco.test.",
+    "emptyTitle": "Votre parcours s'affichera ici",
+    "emptyText": "Saisissez les informations de votre commande pour voir son suivi.",
+    "notFoundTitle": "Aucune commande correspondante",
+    "notFoundText": "Vérifiez le numéro de commande et l'adresse e-mail utilisée lors de la commande, puis réessayez.",
+    "result": "Résultat du suivi",
+    "status": "Statut",
+    "placedOn": "Enregistrée le {{date}}",
+    "trackingNumber": "Numéro de suivi",
+    "noTracking": "Aucun numéro de suivi n'a encore été attribué.",
+    "items": "Articles de la commande",
+    "shipTo": "Adresse de livraison",
+    "method": "Mode de livraison",
+    "searchedFor": "Recherche effectuée pour {{number}}"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "launcher": {
+    "open": "Abrir el asistente de KitchenScaleCo",
+    "close": "Cerrar el asistente de KitchenScaleCo",
+    "label": "¿Preguntas?"
+  },
+  "header": {
+    "title": "Asistente de KitchenScaleCo",
+    "subtitle": "Asistente de demostración — respuestas automáticas, no un agente en vivo",
+    "clear": "Borrar conversación",
+    "close": "Cerrar chat"
+  },
+  "log": "Conversación con el asistente de demostración de KitchenScaleCo",
+  "you": "Tú",
+  "assistant": "Asistente",
+  "typing": "El asistente está escribiendo…",
+  "input": {
+    "label": "Tu mensaje",
+    "placeholder": "Pregunta sobre uso, envíos, devoluciones…",
+    "send": "Enviar mensaje"
+  },
+  "quickReplies": {
+    "title": "Preguntas sugeridas",
+    "howToUse": "¿Cómo se usa?",
+    "shipping": "Envíos",
+    "tracking": "Seguir mi pedido",
+    "payments": "Métodos de pago",
+    "returns": "Devoluciones",
+    "human": "Hablar con una persona"
+  },
+  "links": {
+    "faq": "Leer las preguntas frecuentes",
+    "trackOrder": "Seguir un pedido",
+    "contact": "Formulario de contacto",
+    "product": "Ver la Mini cuchara báscula",
+    "shippingPolicy": "Política de envíos (borrador)",
+    "refundPolicy": "Política de reembolsos (borrador)"
+  },
+  "footer": "Asistente automatizado · historial guardado en este dispositivo",
+  "cleared": "Conversación borrada.",
+  "answers": {
+    "welcome": "¡Hola! Soy el asistente de demostración de KitchenScaleCo. Puedo responder preguntas frecuentes sobre la Mini cuchara báscula, los envíos, los pedidos y las devoluciones. Soy un asistente automático, no un agente en vivo.",
+    "greeting": "¡Hola! ¿En qué puedo ayudarte? Puedes preguntar sobre cómo usar la Mini cuchara báscula, envíos, seguimiento de pedidos, pagos o devoluciones.",
+    "thanks": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+    "human": "Todavía no hay un equipo de soporte en vivo conectado a este chat, así que no puedo pasarte con una persona. Usa el formulario de contacto: esos mensajes llegan directamente a nuestro equipo.",
+    "tracking": "Puedes consultar un pedido en la página Seguir pedido con tu número de pedido y tu correo electrónico. Los estados los actualiza nuestro equipo; el seguimiento en vivo del transportista se añadirá más adelante. Prueba el pedido {{order}} con {{email}}.",
+    "returns": "Nuestra política de devoluciones y reembolsos se está terminando de definir. Se está estudiando una garantía de devolución del dinero de 30 días, pero aún no está confirmada. El borrador de la Política de reembolsos contiene la información más reciente.",
+    "payments": "Al finalizar la compra se muestran Visa, Mastercard, UPI y Net Banking como métodos de pago preferidos. El procesamiento de pagos aún no está conectado, por lo que no se recopilan datos de pago; los métodos admitidos se confirmarán cuando se elija un proveedor de pagos.",
+    "shipping": "Planeamos enviar a Norteamérica y Europa. Las tarifas y los plazos de entrega se calculan al finalizar la compra y por ahora son provisionales. Los pedidos internacionales pueden estar sujetos a aranceles e impuestos.",
+    "pricing": "Los precios de este sitio son valores de demostración hasta que se confirmen los precios definitivos. Si quieres probar el pago, los códigos de cupón de demostración {{codes}} funcionan en esta vista previa.",
+    "howToUse": "Enciende la báscula y espera a que la pantalla se estabilice; luego toma tu ingrediente con la cuchara: el peso aparece en la pantalla del mango. Usa la función de tara para poner la lectura a cero entre ingredientes. Las instrucciones completas se incluirán en la caja.",
+    "ingredients": "La Mini cuchara báscula está pensada para pequeñas cantidades de ingredientes secos y granulados: por ejemplo especias, harina, azúcar, café molido, té a granel o levadura química. Evita sumergir el mango o medir líquidos calientes.",
+    "units": "La ficha del proveedor indica gramos, onzas, granos y quilates. Las unidades definitivas se confirmarán antes del lanzamiento.",
+    "cleaning": "El cabezal de la cuchara se desmonta para limpiarlo. Lávalo a mano y limpia el mango con un paño húmedo; nunca sumerjas el mango en agua.",
+    "battery": "Los detalles de la pila se confirmarán con las especificaciones definitivas del producto antes del lanzamiento.",
+    "contact": "Puedes contactarnos mediante el formulario de contacto: los mensajes llegan directamente a nuestro equipo. El correo y el teléfono de soporte están en la página de contacto.",
+    "product": "La Mini cuchara báscula es una cuchara medidora con pantalla digital integrada: toma, lee y añade a tu receta sin una báscula aparte. En la página del producto encontrarás colores, packs y precios (de demostración).",
+    "fallback": "Lo siento, no estoy seguro de eso. Soy un asistente automático sencillo: prueba una de las preguntas sugeridas, consulta las preguntas frecuentes o envía un mensaje mediante el formulario de contacto."
+  }
+}

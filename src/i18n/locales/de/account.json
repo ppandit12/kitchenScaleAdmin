@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "panelEyebrow": "Dein Küchenbegleiter",
+    "panelTitle": "Ein kleiner Platz ganz für dich.",
+    "panelText": "Behalte deine Bestellungen, dein Profil und deine Adressen an einem Ort.",
+    "perks": {
+      "addresses": "Verwalte deine Adressen",
+      "orders": "Sieh dir deinen Bestellverlauf an",
+      "profile": "Aktualisiere dein Profil"
+    },
+    "simulated": "Dein Konto wird sicher gespeichert. Passwörter werden nur als Einweg-Hash abgelegt."
+  },
+  "dashboard": {
+    "eyebrow": "Dein Konto",
+    "greeting": "Hallo, {{name}}.",
+    "memberSince": "Mitglied seit {{date}}",
+    "metaTitle": "Dein Konto",
+    "missingText": "Wir konnten dein Profil nicht laden. Bitte melde dich erneut an.",
+    "missingTitle": "Profil nicht verfügbar",
+    "nav": {
+      "addresses": "Adressbuch",
+      "label": "Kontonavigation",
+      "orders": "Bestellungen",
+      "overview": "Übersicht",
+      "profile": "Profil",
+      "signOut": "Abmelden",
+      "track": "Bestellung verfolgen"
+    },
+    "signedOut": "Du wurdest abgemeldet",
+    "simulated": "Deine Kontodaten werden sicher gespeichert."
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "noAccount": "E-Mail-Adresse oder Passwort ist falsch.",
+    "exists": "Mit dieser E-Mail-Adresse existiert bereits ein Konto. Versuche stattdessen, dich anzumelden.",
+    "invalidCredentials": "E-Mail-Adresse oder Passwort ist falsch.",
+    "tooManyAttempts": "Zu viele Versuche. Bitte warte ein paar Minuten und versuche es erneut.",
+    "network": "Wir können den Server gerade nicht erreichen. Bitte versuche es in Kürze erneut."
+  },
+  "forgot": {
+    "back": "Zurück zur Anmeldung",
+    "demoNote": "E-Mails zum Zurücksetzen des Passworts sind noch nicht aktiviert, daher wird keine E-Mail gesendet. Wenn du ausgesperrt bist, kontaktiere uns bitte.",
+    "email": "E-Mail-Adresse",
+    "metaTitle": "Passwort zurücksetzen",
+    "sentText": "Wir haben deine Anfrage erfasst. E-Mails zum Zurücksetzen sind noch nicht aktiviert — bitte kontaktiere uns, dann helfen wir dir, wieder Zugang zu erhalten.",
+    "sentTitle": "Anfrage erhalten",
+    "submit": "Zurücksetzen anfordern",
+    "text": "Gib die E-Mail-Adresse deines Kontos ein.",
+    "title": "Passwort vergessen?",
+    "tryAgain": "Andere E-Mail-Adresse versuchen"
+  },
+  "login": {
+    "backendNote": "Du bleibst über ein sicheres HTTP-only-Cookie angemeldet.",
+    "create": "Konto erstellen",
+    "demoText": "Zum Testen melde dich als demo@kitchenscaleco.test mit dem Passwort demo1234 an.",
+    "demoTitle": "Beispielkonto",
+    "email": "E-Mail-Adresse",
+    "forgot": "Passwort vergessen?",
+    "metaTitle": "Anmelden",
+    "noAccount": "Neu hier?",
+    "password": "Passwort",
+    "submit": "Anmelden",
+    "text": "Willkommen zurück bei deinem Küchenbegleiter.",
+    "title": "Willkommen zurück.",
+    "useDemo": "Beispielkonto eintragen",
+    "welcome": "Willkommen, {{name}}!"
+  },
+  "orders": {
+    "date": "Datum",
+    "emptyText": "Sobald du eine Bestellung aufgibst, erscheint sie hier.",
+    "emptyTitle": "Noch keine Bestellungen",
+    "itemCount": "{{count}} Artikel",
+    "items": "Artikel",
+    "metaTitle": "Deine Bestellungen",
+    "order": "Bestellung",
+    "shop": "Shop entdecken",
+    "status": "Status",
+    "text": "Alle deine Bestellungen an einem Ort.",
+    "title": "Bestellverlauf",
+    "total": "Gesamt",
+    "view": "Details ansehen",
+    "viewOrder": "Bestellung {{number}} ansehen"
+  },
+  "overview": {
+    "addAddress": "Adresse hinzufügen",
+    "addresses": "Gespeicherte Adressen",
+    "defaultAddress": "Standardadresse",
+    "latestStatus": "Status der letzten Bestellung",
+    "links": {
+      "faq": "Häufig gestellte Fragen",
+      "profile": "Profil bearbeiten",
+      "shop": "Shop entdecken",
+      "track": "Bestellung verfolgen"
+    },
+    "manage": "Adressen verwalten",
+    "noAddress": "Du hast noch keine Adresse gespeichert.",
+    "noOrders": "Noch keine Bestellungen",
+    "ordersCount": "Bestellungen",
+    "quickLinks": "Hilfreiche Links",
+    "recent": "Letzte Bestellungen",
+    "viewAll": "Alle Bestellungen ansehen"
+  },
+  "password": {
+    "hide": "Passwort verbergen",
+    "show": "Passwort anzeigen"
+  },
+  "register": {
+    "confirm": "Demo-Passwort bestätigen",
+    "country": "Land",
+    "email": "E-Mail-Adresse",
+    "fullName": "Vollständiger Name",
+    "haveAccount": "Du hast bereits ein Demo-Konto?",
+    "marketing": "Schick mir Rezepte, Tipps und Produktneuigkeiten per E-Mail. Ich kann mich jederzeit abmelden.",
+    "metaTitle": "Demo-Konto erstellen",
+    "note": "Dein Passwort wird nur als sicherer Einweg-Hash gespeichert. Die E-Mail-Bestätigung ist noch nicht aktiviert.",
+    "password": "Passwort",
+    "passwordHint": "Mindestens 8 Zeichen.",
+    "signIn": "Anmelden",
+    "submit": "Demo-Konto erstellen",
+    "success": "Dein Demo-Konto ist bereit",
+    "text": "Schaffe ein wenig Platz für deine Küchenessentials.",
+    "title": "Demo-Konto erstellen."
+  },
+  "timeline": {
+    "cancelled": "Diese Bestellung wurde storniert.",
+    "current": "Aktueller Schritt",
+    "pending": "Ausstehend",
+    "title": "Bestellverlauf"
+  },
+  "profile": {
+    "title": "Ihr Profil",
+    "phone": "Telefon (optional)",
+    "save": "Änderungen speichern",
+    "saved": "Profil gespeichert",
+    "emailUsed": "Diese E-Mail-Adresse wird bereits von einem anderen Konto verwendet."
+  },
+  "details": {
+    "notFound": "Bestellung nicht gefunden",
+    "back": "Zurück zu Bestellungen",
+    "demo": "Für diese Bestellung wurde keine Zahlung eingezogen. Statusaktualisierungen kommen von unserem Team, nicht von einem Paketdienst.",
+    "address": "Lieferadresse"
+  },
+  "addresses": {
+    "title": "Adressbuch",
+    "add": "Adresse hinzufügen",
+    "edit": "Adresse bearbeiten",
+    "remove": "Entfernen",
+    "default": "Standard",
+    "makeDefault": "Als Standard festlegen",
+    "empty": "Noch keine Adressen gespeichert",
+    "saved": "Adresse gespeichert",
+    "fields": {
+      "label": "Adressbezeichnung",
+      "fullName": "Vollständiger Name",
+      "line1": "Adresszeile 1",
+      "line2": "Adresszeile 2 (optional)",
+      "city": "Stadt",
+      "state": "Bundesland oder Provinz",
+      "postalCode": "Postleitzahl"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "title": "Kasse",
+  "demoBanner": {
+    "title": "Zahlungen sind noch nicht angebunden",
+    "text": "Deine Bestellung wird gespeichert und von unserem Team bestätigt, aber es wird keine Zahlung eingezogen und es werden keine Kartendaten abgefragt. Die Preise stehen unter dem Vorbehalt der endgültigen Bestätigung."
+  },
+  "fields": {
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "country": "Land",
+    "line1": "Adresszeile 1",
+    "line1Placeholder": "Straße und Hausnummer",
+    "line2": "Adresszeile 2",
+    "line2Placeholder": "Wohnung, Etage usw.",
+    "city": "Stadt",
+    "postalCode": "Postleitzahl",
+    "optional": "Optional"
+  },
+  "region": {
+    "state": "Bundesstaat",
+    "province": "Provinz",
+    "county": "Grafschaft",
+    "region": "Bundesland oder Region"
+  },
+  "steps": {
+    "customer": {
+      "title": "Kundeninformationen",
+      "short": "Informationen",
+      "text": "Sag uns, für wen die Bestellung ist."
+    },
+    "address": {
+      "title": "Lieferadresse",
+      "short": "Adresse",
+      "text": "Wohin sollen wir deine Bestellung senden?"
+    },
+    "shipping": {
+      "title": "Versandart",
+      "short": "Versand",
+      "text": "Wähle eine Versandart für dein Ziel."
+    },
+    "payment": {
+      "title": "Zahlungsart",
+      "short": "Zahlung",
+      "text": "Wähle eine Zahlungsart nur zur Vorschau. Es werden keine Zahlungsdaten erfasst."
+    },
+    "review": {
+      "title": "Bestellung prüfen",
+      "short": "Prüfung",
+      "text": "Prüfe deine Angaben, bevor du die Bestellung aufgibst."
+    }
+  },
+  "stepper": {
+    "label": "Schritte der Kasse",
+    "completed": "Abgeschlossen",
+    "current": "Aktueller Schritt",
+    "stepOf": "Schritt {{current}} von {{total}}"
+  },
+  "nav": {
+    "back": "Zurück",
+    "backToCart": "Zurück zum Warenkorb",
+    "continueTo": "Weiter zu {{step}}"
+  },
+  "customer": {
+    "emailHint": "Wir verwenden sie für deine Bestellung und die Sendungsverfolgung. Bestätigungs-E-Mails sind noch nicht aktiviert.",
+    "haveAccount": "Du hast bereits ein Konto?",
+    "signIn": "Anmelden",
+    "signedInAs": "Angemeldet als {{email}}"
+  },
+  "address": {
+    "default": "Standard",
+    "newAddress": "Neue Adresse",
+    "saved": "Gespeicherte Adressen",
+    "useNew": "Neue Adresse verwenden"
+  },
+  "shipping": {
+    "chooseMethod": "Versandart wählen",
+    "editAddress": "Adresse bearbeiten",
+    "eta": "{{min}}–{{max}} Werktage (Schätzung)",
+    "loading": "Versandtarife werden geladen…",
+    "ratesLabel": "Versandtarife (vorläufig)",
+    "to": "Versand nach {{country}}",
+    "unsupportedTitle": "Keine Versandart verfügbar",
+    "unsupportedText": "Wähle ein aktiviertes Ziel in Nordamerika oder Europa.",
+    "weight": "Paketgewicht: {{weight}} g"
+  },
+  "payment": {
+    "choose": "Wähle deine bevorzugte Zahlungsart",
+    "noticeTitle": "Keine echte Zahlung.",
+    "notice": "Gib keine Zahlungsdaten ein. Dieser Bildschirm ist nur eine Vorschau.",
+    "noFields": "Es werden keine Kartennummern, CVV, Online-Banking-Zugangsdaten oder UPI-PINs erfasst.",
+    "descriptions": {
+      "visa": "Nur Visa-Vorschau",
+      "mastercard": "Nur Mastercard-Vorschau",
+      "upi": "Nur UPI-Vorschau",
+      "netbanking": "Nur Net-Banking-Vorschau"
+    }
+  },
+  "review": {
+    "confirm": "Ich verstehe, dass derzeit keine Zahlung eingezogen wird und dass meine Bestellung vom KitchenScaleCo-Team bestätigt wird.",
+    "contact": "Kontaktdaten",
+    "edit": "Bearbeiten",
+    "editSection": "{{section}} bearbeiten",
+    "error": "Wir konnten deine Bestellung nicht aufgeben. Bitte versuche es erneut.",
+    "items": "Ihre Artikel",
+    "method": "Versandart",
+    "payment": "Bevorzugte Zahlungsart",
+    "paymentNote": "Es wird keine Zahlung eingezogen.",
+    "place": "Bestellung aufgeben",
+    "placedToast": "Bestellung aufgegeben",
+    "placing": "Deine Bestellung wird aufgegeben…",
+    "shipTo": "Lieferadresse",
+    "errors": {
+      "stock": "Ein Artikel in deinem Warenkorb ist gerade ausverkauft oder nicht mehr in der gewählten Menge verfügbar. Bitte prüfe deinen Warenkorb und versuche es erneut.",
+      "coupon": "Dein Rabattcode kann nicht mehr angewendet werden. Entferne ihn aus dem Warenkorb und versuche es erneut.",
+      "shipping": "Diese Versandart ist für diese Adresse nicht mehr verfügbar. Bitte wähle eine andere Versandart.",
+      "network": "Der Server ist gerade nicht erreichbar. Deine Bestellung wurde nicht aufgegeben – bitte versuche es gleich noch einmal."
+    }
+  },
+  "summary": {
+    "title": "Bestellübersicht",
+    "subtotal": "Zwischensumme",
+    "discount": "Rabatt",
+    "discountCode": "Rabatt ({{code}})",
+    "shipping": "Versand",
+    "shippingPending": "Versandart wählen",
+    "total": "Gesamtbetrag",
+    "demoTotals": "Derzeit wird keine Zahlung eingezogen. Die Preise stehen unter dem Vorbehalt der endgültigen Bestätigung.",
+    "editCart": "Warenkorb bearbeiten",
+    "hide": "Zusammenfassung ausblenden",
+    "show": "Zusammenfassung anzeigen",
+    "itemCount": "{{count}} Artikel",
+    "qty": "Menge {{count}}"
+  },
+  "empty": {
+    "title": "Dein Warenkorb ist leer",
+    "text": "Wähle ein Produkt, bevor du zur Kasse gehst.",
+    "cta": "Shop entdecken"
+  },
+  "success": {
+    "metaTitle": "Bestellung aufgegeben",
+    "eyebrow": "Ein kleiner Grund zur Freude",
+    "title": "Vielen Dank, {{name}}!",
+    "text": "Wir haben deine Bestellung erhalten. Unser Team bestätigt sie in Kürze.",
+    "demoNote": "Es wurde keine Zahlung eingezogen. Statusaktualisierungen erscheinen auf der Seite zur Sendungsverfolgung.",
+    "email": "Kontakt-E-Mail",
+    "emailNote": "Es wurde keine Bestätigungs-E-Mail gesendet.",
+    "items": "Bestellte Artikel",
+    "method": "Versandart",
+    "notFoundTitle": "Bestellung nicht gefunden",
+    "notFoundText": "Wir konnten die Bestellung {{number}} nicht finden. Melde dich an, um deine Bestellungen zu sehen, oder suche sie mit deiner E-Mail-Adresse auf der Seite zur Sendungsverfolgung.",
+    "orderNumber": "Bestellnummer",
+    "payment": "Bevorzugte Zahlungsart",
+    "paymentNote": "Es wurde keine Zahlung eingezogen.",
+    "placedOn": "Gespeichert am {{date}}",
+    "shippingTo": "Lieferadresse",
+    "continue": "Weiter einkaufen",
+    "track": "Bestellung verfolgen",
+    "trackOther": "Andere Bestellung verfolgen",
+    "viewAccount": "Konto ansehen"
+  },
+  "track": {
+    "metaTitle": "Bestellung verfolgen",
+    "eyebrow": "Der Weg deiner Bestellung",
+    "title": "Verfolge deine Bestellung",
+    "text": "Gib deine Bestellnummer und E-Mail-Adresse ein, um den aktuellen Status zu sehen.",
+    "demoNote": "Die Status werden von unserem Team aktualisiert. Die Live-Sendungsverfolgung des Paketdienstes wird später hinzugefügt.",
+    "formTitle": "Finde deine Bestellung",
+    "orderNumber": "Bestellnummer",
+    "orderPlaceholder": "KSC-1009",
+    "email": "E-Mail-Adresse",
+    "submit": "Bestellung verfolgen",
+    "searching": "Suche läuft…",
+    "useDemo": "Beispielbestellung verwenden",
+    "hint": "Zum Testen? Probiere KSC-1009 mit demo@kitchenscaleco.test.",
+    "emptyTitle": "Hier erscheint der Weg deiner Bestellung",
+    "emptyText": "Gib deine Bestelldaten ein, um den Verlauf zu sehen.",
+    "notFoundTitle": "Keine passende Bestellung",
+    "notFoundText": "Prüfe die Bestellnummer und die an der Kasse verwendete E-Mail-Adresse und versuche es dann erneut.",
+    "result": "Ergebnis der Sendungsverfolgung",
+    "status": "Status",
+    "placedOn": "Gespeichert am {{date}}",
+    "trackingNumber": "Sendungsnummer",
+    "noTracking": "Es wurde noch keine Sendungsnummer vergeben.",
+    "items": "Bestellte Artikel",
+    "shipTo": "Lieferadresse",
+    "method": "Versandart",
+    "searchedFor": "Gesucht nach {{number}}"
+  }
+}

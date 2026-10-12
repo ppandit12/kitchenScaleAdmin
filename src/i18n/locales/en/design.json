@@ -1,0 +1,263 @@
+{
+  "header": {
+    "shipping": "International shipping",
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "search": "Search",
+    "searchLabel": "Search products",
+    "empty": "No matching products"
+  },
+  "hero": {
+    "eyebrow": "Mini Spoon Scale",
+    "lead": "Small Scoop",
+    "every": "Big",
+    "scoop": "Precision",
+    "text": "Measure small ingredients with ease. A thoughtful companion for cooking, baking, coffee and more.",
+    "alt": "White digital spoon scale measuring coffee grounds beside a coffee cup",
+    "measure": "Easy Measuring",
+    "measureText": "Small ingredients",
+    "display": "Easy to Use",
+    "displayText": "Digital display",
+    "units": "Multi-Unit",
+    "unitsText": "Supplier-listed units",
+    "shop": "Shop Now",
+    "watch": "Watch how it works"
+  },
+  "how": {
+    "title": "A simple way to measure",
+    "note": "Interactive product walkthrough. Illustrations demonstrate the process; no product video was supplied.",
+    "steps": {
+      "0": {
+        "title": "Prepare your ingredient",
+        "text": "Gather your recipe ingredients and check the product instructions before use."
+      },
+      "1": {
+        "title": "Measure your scoop",
+        "text": "Scoop your ingredient, hold the scale as directed and read the handle display."
+      },
+      "2": {
+        "title": "Make it part of your recipe",
+        "text": "Transfer your ingredient and continue preparing your recipe."
+      }
+    }
+  },
+  "trust": {
+    "0": {
+      "title": "International Shipping",
+      "text": "Destination-based estimates"
+    },
+    "1": {
+      "title": "Demo Checkout",
+      "text": "No payment collected"
+    },
+    "2": {
+      "title": "Returns Information",
+      "text": "See our draft policy"
+    },
+    "3": {
+      "title": "Customer Support",
+      "text": "Explore help & FAQs"
+    }
+  },
+  "product": {
+    "noReviews": "No reviews yet",
+    "demoReviews": "Demo reviews",
+    "details": "Explore product details",
+    "checkout": "Demo checkout",
+    "returns": "Draft returns policy",
+    "shipping": "Shipping estimates",
+    "paymentDemo": "Payment method previews — no live payments",
+    "bank": "Net Banking",
+    "demoNote": "Demo prices, stock and payment options. Final details to be confirmed."
+  },
+  "gallery": {
+    "previous": "Previous image",
+    "next": "Next image",
+    "show": "Show image {{number}}",
+    "zoom": "Enlarge product image",
+    "alt": "{{name}} client design reference",
+    "note": "Reference photo"
+  },
+  "everyday": {
+    "title": "Designed for Everyday Precision",
+    "text": "From your kitchen to your coffee corner — make thoughtful measuring part of your daily routine.",
+    "items": {
+      "0": {
+        "title": "Cooking & Baking",
+        "text": "Your everyday recipes"
+      },
+      "1": {
+        "title": "Coffee Brewing",
+        "text": "Measure your grounds"
+      },
+      "2": {
+        "title": "Meal Preparation",
+        "text": "Ingredients, one scoop at a time"
+      },
+      "3": {
+        "title": "Small Portions",
+        "text": "A compact kitchen companion"
+      }
+    }
+  },
+  "uses": {
+    "title": "One Scale. Many Possibilities.",
+    "text": "Explore the small ingredients in your daily life",
+    "items": {
+      "0": {
+        "title": "Baking",
+        "text": "Measure ingredients for your favourite recipes"
+      },
+      "1": {
+        "title": "Coffee",
+        "text": "Make your morning brewing routine your own"
+      },
+      "2": {
+        "title": "Spices",
+        "text": "Measure small quantities for big flavours"
+      },
+      "3": {
+        "title": "Supplements",
+        "text": "Follow the product label and professional advice"
+      },
+      "4": {
+        "title": "Pet Food",
+        "text": "Follow your pet's recommended feeding guide"
+      }
+    },
+    "note": "Use-case imagery is from the client design concept. Suitability and final specifications require confirmation."
+  },
+  "reviews": {
+    "title": "What Our Customers Say",
+    "text": "Demonstration reviews preview the experience. These are not verified customer testimonials.",
+    "demo": "Demonstration review",
+    "local": "Customer submission",
+    "empty": "No reviews to show yet",
+    "previous": "Previous reviews",
+    "next": "Next reviews",
+    "page": "Review page {{number}}",
+    "write": "Write a demo review",
+    "filter": "Filter by rating",
+    "allRatings": "All ratings"
+  },
+  "cta": {
+    "eyebrow": "Make Every Scoop Count",
+    "title": "Upgrade Your Kitchen Today",
+    "text": "A small addition to your kitchen. A thoughtful way to measure, cook and create."
+  },
+  "footer": {
+    "support": "Support",
+    "tagline": "Precision tools for your everyday kitchen.",
+    "newsletter": "Subscribe & Discover",
+    "newsletterText": "Kitchen inspiration and a look at what's next."
+  },
+  "blog": {
+    "title": "Notes from the kitchen",
+    "text": "Simple ideas for your everyday cooking and coffee rituals.",
+    "category": "Kitchen journal",
+    "read": "Read the article",
+    "articles": {
+      "0": {
+        "title": "A calmer baking routine",
+        "intro": "A little preparation makes more room for the joy of baking.",
+        "body": "Start by reading your recipe from beginning to end. Set out your ingredients and tools, then prepare each ingredient before you mix. Keep a small bowl nearby for measured ingredients and a cloth for your workspace. For weighing, follow the instructions supplied with your scale and the quantities in your recipe. The aim is a comfortable routine that helps you enjoy the process."
+      },
+      "1": {
+        "title": "Make your coffee ritual your own",
+        "intro": "Small, consistent steps can make your mornings feel more considered.",
+        "body": "Choose a brewing method you enjoy and follow the instructions for your equipment. Keep notes on the amount of coffee, water and brew time so you can repeat a cup you like. Store your beans as recommended by the roaster, and clean your brewing equipment regularly. A measuring tool can be one part of your routine; use it within its confirmed specifications."
+      },
+      "2": {
+        "title": "A little organisation for your spices",
+        "intro": "Bring your most-used ingredients within easy reach.",
+        "body": "Group spices by the recipes you cook most often, label jars clearly and follow storage guidance on the packaging. Before cooking, measure the amounts your recipe calls for into separate dishes. Add ingredients at the stages specified in the recipe and adjust future batches to suit your preferences. Keep measuring tools dry and clean, following their care instructions."
+      },
+      "3": {
+        "title": "Build Your Own Everyday Spice Blend",
+        "intro": "A simple way to keep your favourite flavours close at hand.",
+        "body": "Choose a few spices you already enjoy, then combine small measured amounts in a clean, dry jar. Write down the proportions so you can repeat the blend or adjust it next time. Label the jar with its ingredients and date, and keep it away from heat and moisture. Start with a little when seasoning a dish and taste as you go."
+      },
+      "4": {
+        "title": "Make Meal Preparation More Consistent",
+        "intro": "Organise ingredients before you begin your weekly cooking.",
+        "body": "Choose your recipes first and make a list of their ingredients. Prepare small seasonings separately so they are easy to add at the right time. Use clean containers and follow food-storage guidance for the foods you prepare. Measurements help repeat a recipe; nutritional needs and appropriate portions depend on the individual."
+      },
+      "5": {
+        "title": "A Small Tool for an Organised Kitchen",
+        "intro": "Create a measuring routine that fits your counter and cupboard.",
+        "body": "Keep the measuring tools you use most near your preparation area. Read the instructions for your scale, check the selected unit and use the tare function as directed. Clean the detachable spoon head according to the product instructions and keep the electronic handle dry. Store small tools together so they are easy to find when you cook."
+      }
+    },
+    "back": "Back to the journal",
+    "journal": "THE KITCHEN JOURNAL",
+    "coverText": "A little inspiration for the everyday. Thoughtful recipes, better brewing rituals, and small ideas that make your kitchen feel like home.",
+    "explore": "Explore the journal",
+    "coverAlt": "Sunlit kitchen table with sourdough bread, pears and warm ceramic dishes",
+    "coverCaption": "Good food. Small rituals. Everyday joy.",
+    "latest": "Fresh from the kitchen",
+    "articleCount_one": "{{count}} article",
+    "articleCount_other": "{{count}} articles",
+    "open": "Read {{title}}",
+    "readTime": "{{minutes}} min read",
+    "shopKicker": "MAKE ROOM FOR THE EVERYDAY",
+    "shopTitle": "Small tools. Thoughtful cooking.",
+    "imageAlts": {
+      "0": "Baking ingredients and a whisk arranged on a sunlit wooden table",
+      "1": "Pour-over coffee and a ceramic cup in a warm morning setting",
+      "2": "Glass spice jars organised on a wooden shelf",
+      "3": "Ceramic bowls of spices arranged for blending",
+      "4": "Vegetables and grains prepared in meal containers",
+      "5": "Wooden utensils and linen in an organised kitchen corner"
+    }
+  },
+  "carousel": {
+    "label": "KitchenScale highlights",
+    "slideLabel": "Slide {{number}} of {{total}}",
+    "previous": "Previous banner",
+    "next": "Next banner",
+    "showSlide": "Show banner {{number}}",
+    "pause": "Pause banner rotation",
+    "play": "Start banner rotation",
+    "bakingLead": "Bake with",
+    "bakingAccent": "Confidence",
+    "bakingText": "From flour to a pinch of yeast, make measuring a simple part of your favorite recipes.",
+    "spiceLead": "Little Scoops.",
+    "spiceAccent": "Big Flavor.",
+    "spiceText": "Bring balance to your spice blends and everyday cooking, one measured scoop at a time.",
+    "spiceAlt": "Digital spoon scale surrounded by spices on a kitchen worktop"
+  },
+  "reference": {
+    "collection": "The KitchenScale Collection",
+    "collectionText": "Thoughtful little tools for your everyday recipes.",
+    "flourAlt": "Digital spoon scale measuring flour in a kitchen"
+  },
+  "pages": {
+    "shopIntro": "Discover our precision kitchen scale, designed for everyday life.",
+    "filters": "Filter products",
+    "category": "Category",
+    "allProducts": "All products",
+    "price": "Price",
+    "upTo": "Up to ${{price}} USD (demo base price)",
+    "color": "Color",
+    "allColors": "All colors",
+    "inStock": "In stock only",
+    "productCount_one": "{{count}} product",
+    "productCount_other": "{{count}} products",
+    "aboutTitle": "About KitchenScaleCo",
+    "aboutIntro": "We believe that small tools can make a big difference in everyday life.",
+    "ourStory": "Our Story",
+    "storyAlt": "Reference photograph of a digital measuring spoon in use in a kitchen",
+    "whyChoose": "Why Choose KitchenScaleCo?",
+    "reviewsTitle": "Customer Reviews",
+    "blogTitle": "Kitchen Tips & Insights",
+    "articleCategories": "Article categories",
+    "categories": {
+      "all": "All",
+      "recipes": "Recipes",
+      "coffee": "Coffee",
+      "baking": "Baking",
+      "nutrition": "Nutrition",
+      "kitchen": "Kitchen Tips"
+    }
+  }
+}

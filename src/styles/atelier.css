@@ -1,0 +1,137 @@
+/* Editorial layouts inspired by the reference, using the original KitchenScaleCo palette. */
+.journal-article { padding-top: 40px; padding-bottom: 64px; }
+.journal-back-link { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 600; color: #B83B0B; }
+.journal-back-link:hover { text-decoration: underline; }
+.journal-article-heading { max-width: 760px; margin: 40px auto 32px; text-align: center; }
+.journal-article-heading .journal-card-meta { justify-content: center; }
+.journal-article-heading h1 { font-size: clamp(38px,4vw,60px); line-height: 1.1; color: #342016; margin-top: 20px; }
+.journal-article-heading > p { margin: 20px auto 0; color: #756A62; line-height: 1.8; max-width: 600px; }
+.journal-article-photo { width: 100%; max-width: 1000px; margin: 0 auto; aspect-ratio: 2; object-fit: cover; border-radius: 18px; }
+.journal-article-body { max-width: 700px; margin: 36px auto 0; }
+.journal-article-body > p { font-size: 17px; line-height: 1.95; color: #342016; }
+.journal-article-body .journal-back-link { margin-top: 32px; }
+@media (max-width: 767px) {
+ .journal-article { padding-top: 28px; padding-bottom: 40px; }
+ .journal-article-heading { margin-top: 28px; }
+ .journal-article-photo { aspect-ratio: 1.4; border-radius: 12px; }
+ .journal-article-body > p { font-size: 16px; }
+}
+:root { --color-primary-700: #B83B0B; --color-primary-50: #FFF1E8; --color-line: #E8DED4; --color-muted: #756A62; }
+.client-store { background: var(--color-cream); color: var(--color-ink); }
+.client-store h1, .client-store h2, .atelier-story h2 { font-family: 'Cormorant', Georgia, serif; font-weight: 600; letter-spacing: -.025em; }
+.client-announcement { background: #F7E5D8; color: #342016; }
+.client-announcement .client-top-selectors button { color: #342016; }
+.client-header { background: #FFF9F2; border-color: #E8DED4; }
+.client-header nav ul { font-size: 13px; letter-spacing: .015em; text-transform: none; }
+.client-logo { font-family: 'Plus Jakarta Sans', sans-serif; color: #342016; font-size: 26px; font-weight: 750; letter-spacing: -.055em; }
+.client-logo span, .client-logo-leaf { color: var(--color-primary); }
+.client-logo.client-logo-image { align-items: center; padding: 10px 0 12px; flex-shrink: 0; }
+.client-brand-stacked { display: flex; flex-direction: column; align-items: center; }
+.client-brand-image { display: block; width: 180px; height: auto; aspect-ratio: 510 / 295; }
+.client-logo .client-brand-motto { display: block; margin-top: 2px; color: #514532; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 7px; font-weight: 600; line-height: 1.6; letter-spacing: 1px; white-space: nowrap; }
+.client-footer .client-brand-image { width: 240px; }
+.client-footer .client-brand-motto { font-size: 9px; letter-spacing: 1.2px; }
+.client-logo-compact .client-brand-image { width: 120px; }
+.client-logo-compact .client-brand-motto { font-size: 5px; letter-spacing: .5px; }
+@media (max-width: 640px) {
+  .client-header .client-brand-image { width: 130px; height: auto; }
+  .client-header .client-brand-motto { font-size: 6px; letter-spacing: .4px; }
+  .client-footer .client-brand-image { width: 220px; }
+}
+.client-hero { background: #FFF9F2; border-bottom: 1px solid #E8DED4; }
+.client-hero-photo { width: 46%; right: max(24px,calc((100vw - 1280px)/2)); top: 40px; bottom: 40px; height: auto; border-radius: 24px; overflow: hidden; }
+.client-hero-photo::after { display: none; }
+.client-hero-inner { min-height: 620px; }
+.client-hero-copy { width: 44%; padding: 56px 0; display: flex; flex-direction: column; align-items: flex-start; }
+.client-hero h1 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(46px,4.5vw,66px); font-weight: 600; line-height: 1.13; color: #342016; letter-spacing: -.04em; margin-top: 20px; }
+.client-hero h1 span { color: #D94E12; }
+.client-eyebrow { color: #B83B0B; font-size: 10px; letter-spacing: .18em; }
+.client-hero-description { color: #756A62; font-size: 16px; line-height: 1.8; max-width: 390px; margin-top: 24px; }
+.client-line-icon { border-color: #E8DED4; }
+.client-hero-benefits { order: 4; gap: 20px; margin-top: 32px; padding-top: 24px; border-top: 1px solid #E8DED4; width: 100%; }
+.client-hero-benefits strong { color: #342016; }
+.client-hero-benefits small { color: #756A62; }
+.client-hero-actions { order: 3; gap: 24px; margin-top: 28px; }
+.client-watch { font-size: 12px; color: #342016; }
+.client-button { border-radius: 8px; font-size: 13px; min-height: 48px; padding-left: 28px; padding-right: 28px; background: var(--color-primary); }
+.client-trust-strip { background: #FFF9F2; border-color: #E8DED4; color: #B83B0B; }
+.client-featured { padding-top: 72px; padding-bottom: 72px; }
+.client-product-info h2 { color: #342016; font-size: 48px; font-family: 'Cormorant', Georgia, serif; font-weight: 500; }
+.client-product-photo { background: #F2E5D7; border-radius: 20px; }
+.client-home .client-everyday { max-width: none; padding: 0; }
+.client-everyday-panel { background: #F7E5D8; border-radius: 0; padding: 56px max(24px,calc((100vw - 1200px)/2)); }
+.client-everyday-panel::before, .client-everyday-panel::after { display: none; }
+.client-home h2 { color: #342016; }
+.client-everyday-panel h2, .client-possibilities > h2, .client-reviews > h2 { font-size: 44px; font-weight: 500; }
+.client-use-benefits > div { background: transparent; }
+.client-use-benefits > div > span { background: #FFF9F2; color: #D94E12; }
+.client-possibilities { padding-top: 64px; padding-bottom: 64px; }
+.client-use-cards article { background: transparent; border-radius: 0; }
+.client-use-cards img { border-radius: 18px; aspect-ratio: 1; }
+.client-use-cards h3 { color: #B83B0B; font-family: 'Cormorant', Georgia, serif; font-size: 23px; font-weight: 600; }
+.atelier-story { display: grid; grid-template-columns: 1fr 1fr; background: #F7E5D8; }
+.atelier-story > img { width: 100%; height: 100%; aspect-ratio: 1.15; object-fit: cover; }
+.atelier-story-copy { padding: clamp(36px,6vw,100px); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.atelier-story h2 { font-size: clamp(36px,4vw,58px); line-height: 1.1; color: #342016; margin: 18px 0; max-width: 480px; }
+.atelier-story-copy > p:not(.client-eyebrow) { color: #756A62; font-size: 14px; line-height: 1.85; max-width: 370px; }
+.atelier-story-copy a { display: inline-flex; align-items: center; gap: 20px; margin-top: 28px; padding: 10px 0; border-bottom: 1px solid #D94E12; font-size: 12px; color: #B83B0B; }
+.atelier-story-reverse { background: #F7F3EF; }
+.atelier-story-reverse > img { grid-column: 2; grid-row: 1; }
+.atelier-story-reverse .atelier-story-copy { grid-column: 1; grid-row: 1; }
+.client-reviews { padding-top: 64px; padding-bottom: 64px; }
+.client-review-cards article { background: #FFF9F2; border-color: #E8DED4; box-shadow: none; }
+.client-cta { background: #F7E5D8; color: #342016; }
+.client-cta-image::after { background: linear-gradient(90deg,#F7E5D8,transparent 25%); }
+.client-cta h2, .editorial-page .client-cta h2 { font-family: 'Cormorant', Georgia, serif; color: #342016; font-size: 46px; font-weight: 500; }
+.client-cta .client-eyebrow { color: #B83B0B; }
+.client-cta-copy > p:not(.client-eyebrow) { color: #756A62; }
+.client-footer { background: #F7E5D8; color: #342016; }
+.client-footer .client-logo, .client-footer .client-logo-light { color: #342016; }
+.client-footer h3 { color: #342016; text-transform: uppercase; letter-spacing: .1em; font-size: 11px; }
+.client-footer-brand > p, .client-footer li, .client-footer-newsletter > p, .client-footer-bottom, .client-footer-demo, .client-footer-newsletter > div > p { color: #756A62; }
+.client-footer-bottom { border-color: #E8DED4; }
+.client-footer-payment-methods { border-color: #E8DED4; }
+/* The footer is light here, so hover states must darken (the older dark-footer rule turned links #F7E5D8 = invisible). */
+.client-footer li a { transition: color .2s ease; }
+.client-footer li a:not([aria-label]):hover, .client-footer li a:not([aria-label]):focus-visible { color: #B83B0B; }
+/* Social icon buttons fill orange on hover, so their icon must stay light. */
+.client-footer li a[aria-label]:hover { color: #FFFFFF; }
+.client-footer-bottom button { color: #342016; }
+.client-footer-bottom button:hover, .client-footer-bottom button[aria-expanded='true'] { background: #F2E5D7; color: #342016; }
+.page-banner { background: #F7E5D8; }
+.about-page .page-banner { background: #F7E5D8; }
+.reviews-page .page-banner { background: #F7F3EF; }
+.page-banner h1, .journal-cover h1, .account-entry-form h1 { font-family: 'Cormorant', Georgia, serif; color: #342016; font-weight: 500; }
+.editorial-page h2 { font-family: 'Cormorant', Georgia, serif; color: #342016; }
+.editorial-page .card { border-color: #E8DED4; }
+.journal-cover { background: #F7E5D8; }
+.journal-shop-note { background: #F7E5D8; }
+.account-entry-card { border-color: #E8DED4; box-shadow: none; }
+.account-entry-form h1 { font-size: 44px; }
+@media (max-width: 1023px) {
+ .client-hero-benefits { gap: 10px; }
+ .client-hero-actions { flex-wrap: wrap; gap: 16px; }
+ .atelier-story-copy { padding: 36px; }
+}
+@media (max-width: 767px) {
+ .client-hero { display: flex; flex-direction: column; }
+ .client-hero-inner { order: 1; min-height: 0; width: 100%; }
+ .client-hero-copy { width: 100%; padding: 36px 0; }
+ .client-hero h1 { font-size: clamp(40px,10.5vw,50px); }
+ .client-hero-photo { order: 2; position: relative; inset: auto; width: calc(100% - 32px); margin: 0 16px 24px; height: auto; aspect-ratio: 1; border-radius: 20px; }
+ .client-hero-photo img { object-position: center; }
+ .client-hero-benefits { gap: 18px; }
+ .client-hero-description { font-size: 14px; }
+ .client-featured { padding-top: 36px; padding-bottom: 36px; }
+ .client-product-info h2 { font-size: 38px; }
+ .client-everyday-panel { padding: 36px 16px; }
+ .client-everyday-panel h2, .client-possibilities > h2, .client-reviews > h2 { font-size: 36px; }
+ .client-possibilities, .client-reviews { padding-top: 40px; padding-bottom: 40px; }
+ .atelier-story { grid-template-columns: 1fr; }
+ .atelier-story > img, .atelier-story-reverse > img { grid-column: 1; grid-row: 2; aspect-ratio: 1.25; }
+ .atelier-story-copy, .atelier-story-reverse .atelier-story-copy { grid-column: 1; grid-row: 1; padding: 36px 24px; }
+ .atelier-story h2 { font-size: 40px; }
+ .client-cta h2, .editorial-page .client-cta h2 { font-size: 36px; }
+ .client-cta-image::after { background: linear-gradient(0deg,transparent 70%,#F7E5D8); }
+ .account-entry-form h1 { font-size: 36px; }
+}

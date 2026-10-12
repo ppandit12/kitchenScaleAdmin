@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "eyebrow": "Durchdachte Küchenhelfer",
+    "titleLead": "Präzision mit",
+    "titleAccent": "Jedem Löffel.",
+    "subtitle": "Entdecken Sie eine neue Art, Zutaten mit der KitchenScaleCo Mini Spoon Scale abzuwiegen.",
+    "shopNow": "Jetzt einkaufen",
+    "explore": "Funktionen entdecken",
+    "colorsLabel": "Farbe auswählen",
+    "colorPreview": "{{color}} ansehen",
+    "imageAlt": "Mini-Löffelwaage in {{color}}",
+    "illustrationNote": "Produktillustration",
+    "chipSpoon": "Schöpfen und messen",
+    "chipDisplay": "Display am Griff",
+    "chipDrawer": "Kompaktes Design"
+  },
+  "benefits": {
+    "eyebrow": "Kleines Werkzeug. Viele Möglichkeiten im Alltag.",
+    "titleLead": "Gemacht für deine",
+    "titleAccent": "Küchenrituale.",
+    "text": "Vom ersten Kaffee des Tages bis zum Lieblingsrezept — mach das Abmessen zu einem Teil des Genusses.",
+    "imageAlt": "Detailillustration der Löffelwaage",
+    "imageCaption": "Eine originale Produktillustration. Finale Fotografie folgt.",
+    "items": {
+      "convenient": {
+        "title": "Praktisches Abmessen von Zutaten",
+        "text": "Schöpfe deine Zutat und lies das Display am Griff ab — in einem einfachen Ablauf."
+      },
+      "compact": {
+        "title": "Kompakter Küchenhelfer",
+        "text": "Ein kleiner Begleiter für deine Küchenschublade und alltägliche Rezepte."
+      },
+      "simple": {
+        "title": "Einfache Nutzung im Alltag",
+        "text": "Vorbereiten, abmessen und die Zutat in dein Rezept geben."
+      },
+      "modern": {
+        "title": "Entworfen für moderne Küchen",
+        "text": "Eine durchdachte Ergänzung für deine Sammlung an Küchenwerkzeugen."
+      }
+    }
+  },
+  "featured": {
+    "badge": "Ihr Küchenbegleiter",
+    "viewDetails": "Produktdetails ansehen",
+    "unavailable": "Unser Produkt macht gerade eine kurze Pause",
+    "unavailableText": "Bitte versuche es erneut, um den aktuellen Katalog zu laden."
+  },
+  "how": {
+    "eyebrow": "Dein Rezept, Löffel für Löffel",
+    "title": "Drei einfache Schritte.",
+    "text": "Ein wenig Vorbereitung. Ein abgemessener Löffel. Etwas Leckeres.",
+    "step": "Schritt {{n}}",
+    "steps": {
+      "prepare": {
+        "title": "Zutat vorbereiten.",
+        "text": "Stelle die Zutaten für dein Rezept bereit und befolge die Produktanleitung."
+      },
+      "measure": {
+        "title": "Mit der Löffelwaage messen.",
+        "text": "Schöpfe deine Zutat und lies das Display am Griff ab."
+      },
+      "add": {
+        "title": "Zur Rezeptur hinzufügen.",
+        "text": "Gib die abgemessene Zutat dazu und koche kreativ weiter."
+      }
+    }
+  },
+  "showcase": {
+    "eyebrow": "Inspiration für den Alltag",
+    "titleLead": "Ein kleines Detail.",
+    "titleAccent": "Ein schöner Unterschied.",
+    "text": "Bring eine durchdachte Messroutine in dein Backen, deinen Kaffee und deine Küchenexperimente.",
+    "cta": "Lerne die Mini-Löffelwaage kennen",
+    "note": "Originalillustrationen zur Demonstration. Die finalen Produktmaterialien warten noch auf die Freigabe.",
+    "alts": {
+      "lifestyle": "Illustration von Küchenzutaten",
+      "angle": "Löffelwaage von schräg",
+      "detail": "Nahaufnahme der Löffelwaage",
+      "display": "Display am Griff der Löffelwaage",
+      "pack": "Illustration der Löffelwaage im Doppelpack"
+    },
+    "captions": {
+      "lifestyle": "Für deine Alltagsrezepte",
+      "angle": "Ein durchdachter Küchenbegleiter",
+      "detail": "Die kleinen Details",
+      "display": "Auf einen Blick abzulesen",
+      "pack": "Ein Paar für deine Küche"
+    }
+  },
+  "faq": {
+    "title": "Häufige Fragen.",
+    "text": "Hilfreiche Antworten vor deinem ersten Löffel.",
+    "all": "Alle Fragen ansehen"
+  },
+  "newsletter": {
+    "title": "Inspiration für die Küche.",
+    "text": "Rezepte, Wiege-Tipps und Neuigkeiten zum Start — gelegentliche E-Mails, jederzeit abbestellbar."
+  }
+}

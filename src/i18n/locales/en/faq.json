@@ -1,0 +1,49 @@
+{
+  "title": "Frequently asked questions",
+  "subtitle": "Answers to common questions about the Mini Spoon Scale, orders and shipping.",
+  "draftNote": "Some answers are placeholders until store policies are confirmed.",
+  "categories": {
+    "product": "Product",
+    "orders": "Orders & shipping",
+    "payments": "Payments",
+    "returns": "Returns"
+  },
+  "items": {
+    "howToUse": {
+      "q": "How do I use the Mini Spoon Scale?",
+      "a": "Switch the scale on, let the display settle, then scoop your ingredient. The weight appears on the handle display. Use the tare function to zero the reading between ingredients. Full instructions will be included in the box."
+    },
+    "ingredients": {
+      "q": "What ingredients can I measure?",
+      "a": "It is designed for small quantities of dry and granular ingredients — for example spices, flour, sugar, coffee grounds, loose-leaf tea or baking powder. Avoid submerging the handle or measuring hot liquids."
+    },
+    "units": {
+      "q": "Which units does it display?",
+      "a": "The supplier listing describes grams, ounces, grains and carats. Final unit options will be confirmed before launch."
+    },
+    "cleaning": {
+      "q": "How do I clean it?",
+      "a": "The spoon head detaches for cleaning. Wash the spoon head by hand and wipe the handle with a damp cloth — never immerse the handle in water."
+    },
+    "international": {
+      "q": "Do you offer international shipping?",
+      "a": "We plan to ship to North America and Europe. Rates and delivery times shown at checkout are provisional; the final shipping policy is being drafted."
+    },
+    "tracking": {
+      "q": "How can I track my order?",
+      "a": "Use the Track Order page with your order number and email address. Statuses are updated by our team; live courier tracking will be added later."
+    },
+    "payments": {
+      "q": "What payment methods are supported?",
+      "a": "Checkout shows Visa, Mastercard, UPI and Net Banking as preferred options. Payment processing isn't connected yet, and supported methods will be confirmed when a payment provider is chosen."
+    },
+    "returns": {
+      "q": "What is your return policy?",
+      "a": "Our return and refund policy is currently being finalised. Please see the draft Refund Policy page for the latest information."
+    },
+    "battery": {
+      "q": "What battery does it use?",
+      "a": "Battery details will be confirmed with final product specifications before launch."
+    }
+  }
+}

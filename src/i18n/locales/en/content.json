@@ -1,0 +1,369 @@
+{
+  "about": {
+    "metaTitle": "About us",
+    "hero": {
+      "eyebrow": "Our story",
+      "title": "Small measures, made effortless.",
+      "text": "KitchenScaleCo began with a simple idea: the smallest measurements in a recipe deserve a tool that's just as considered. A pinch of spice, a scoop of coffee, a level spoon of baking powder — weighed right where you scoop."
+    },
+    "mission": {
+      "eyebrow": "Our mission",
+      "title": "Make small, precise measuring effortless.",
+      "p1": "Most kitchen scales are built for big batches. Yet the ingredients that change a dish the most — spices, leavening, coffee, tea — are often measured in just a few grams. That's where guesswork creeps in.",
+      "p2": "We design tools that bring precision to those small amounts without adding steps, clutter or fuss. Scoop, read, add — and get back to cooking.",
+      "imageAlt": "Illustration of the Mini Spoon Scale on a kitchen counter"
+    },
+    "values": {
+      "eyebrow": "What we value",
+      "title": "Three principles behind everything we make",
+      "design": {
+        "title": "Thoughtful design",
+        "text": "Every detail should earn its place. We favour calm, simple forms that feel good in the hand and look at home on the counter."
+      },
+      "useful": {
+        "title": "Everyday usefulness",
+        "text": "We make tools for real kitchens and busy mornings — things you reach for every day, not gadgets that disappear into a drawer."
+      },
+      "honest": {
+        "title": "Honest information",
+        "text": "We only describe what we can stand behind. Where details are still being confirmed, we say so plainly."
+      }
+    },
+    "why": {
+      "eyebrow": "Why a spoon scale",
+      "title": "The scale, right where you scoop",
+      "text": "A measuring spoon with a built-in digital display brings the weight to the exact moment you need it.",
+      "oneStep": {
+        "title": "Scoop and read in one motion",
+        "text": "No separate scale, no balancing a bowl on the counter. Scoop your ingredient and the reading appears on the handle display.",
+        "imageAlt": "The Mini Spoon Scale seen at an angle, showing the handle display"
+      },
+      "small": {
+        "title": "Made for the small amounts",
+        "text": "Spices, leavening, coffee grounds and loose-leaf tea are where a few grams matter most. A spoon scale is sized for exactly those moments.",
+        "imageAlt": "Close-up of the spoon bowl filled with a small amount of spice"
+      },
+      "tidy": {
+        "title": "Less to wash, less to store",
+        "text": "Use the tare function to zero between ingredients, then wash the detachable spoon head by hand when you're done. One compact tool instead of several.",
+        "imageAlt": "The Mini Spoon Scale resting on its display stand"
+      }
+    },
+    "who": {
+      "eyebrow": "Who it's for",
+      "title": "For everyone who measures with care",
+      "cooks": {
+        "title": "Home cooks",
+        "text": "For balancing seasoning and repeating a dish exactly the way you liked it."
+      },
+      "bakers": {
+        "title": "Bakers",
+        "text": "For leavening, salt and spices — the small quantities a bake depends on."
+      },
+      "coffee": {
+        "title": "Coffee & tea lovers",
+        "text": "For dialling in your dose before you brew, cup after cup."
+      },
+      "prep": {
+        "title": "Meal preppers",
+        "text": "For portioning small ingredients consistently across the week's meals."
+      }
+    },
+    "cta": {
+      "eyebrow": "Meet the Mini Spoon Scale",
+      "title": "Precision in every scoop.",
+      "text": "Explore the details, colours and pack options — and see how it fits into your kitchen.",
+      "primary": "Discover the Mini Spoon Scale",
+      "secondary": "Read the FAQ"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "hero": {
+      "eyebrow": "We're here to help",
+      "title": "Get in touch",
+      "text": "Questions about the Mini Spoon Scale, an order or wholesale? Send us a message and we'll point you in the right direction."
+    },
+    "demoNotice": "Messages go straight to our team's dashboard. Automatic email replies aren't switched on yet.",
+    "form": {
+      "title": "Send a message",
+      "requiredNote": "Fields marked * are required.",
+      "name": "Your name",
+      "email": "Email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "Choose a subject",
+      "subjects": {
+        "order": "Order question",
+        "product": "Product question",
+        "wholesale": "Wholesale",
+        "other": "Other"
+      },
+      "orderNumber": "Order number",
+      "orderNumberHint": "Optional — for example KSC-1009",
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "messageHint": "At least 10 characters.",
+      "submit": "Send message",
+      "submitting": "Sending…"
+    },
+    "success": {
+      "badge": "Demonstration",
+      "title": "Message saved — demo only",
+      "text": "Thanks, {{name}}. We've received your message and our team will get back to you.",
+      "summary": "What you sent",
+      "another": "Send another message",
+      "faq": "Browse the FAQ",
+      "toast": "Message sent"
+    },
+    "error": {
+      "title": "We couldn't save your message",
+      "text": "Something went wrong while sending your message. Please try again."
+    },
+    "side": {
+      "title": "Contact details",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Business address",
+      "placeholder": "Placeholder — to be confirmed",
+      "helpTitle": "Quick help",
+      "faq": "Frequently asked questions",
+      "faqText": "Using the scale, orders, payments and returns.",
+      "track": "Track an order",
+      "trackText": "Check an order's status with its number and email.",
+      "chatTitle": "Try the demo assistant",
+      "chatText": "Instant automated answers to common questions. It's not a live agent.",
+      "chatCta": "Open assistant",
+      "social": "Follow along",
+      "socialNote": "Social links point to placeholder pages until the brand's profiles are confirmed."
+    }
+  },
+  "faqPage": {
+    "metaTitle": "FAQ",
+    "eyebrow": "Help centre",
+    "filterLabel": "Filter questions by topic",
+    "all": "All",
+    "searchLabel": "Search the FAQ",
+    "searchPlaceholder": "Search questions, e.g. shipping",
+    "clearSearch": "Clear search",
+    "results_one": "{{count}} question",
+    "results_other": "{{count}} questions",
+    "empty": {
+      "title": "No matching questions",
+      "text": "We couldn't find an answer for “{{query}}”. Try different words, or ask us directly.",
+      "reset": "Show all questions"
+    },
+    "cta": {
+      "title": "Still have a question?",
+      "text": "Send us a message, or ask the demo assistant for quick automated answers.",
+      "contact": "Contact us",
+      "chat": "Ask the assistant"
+    }
+  },
+  "legal": {
+    "draft": "Draft",
+    "noticeTitle": "DRAFT — not yet approved",
+    "noticeText": "This page contains placeholder content for review by the client and legal counsel. It is not a final policy and should not be relied on.",
+    "lastUpdated": "Last updated: date to be confirmed",
+    "toc": "On this page",
+    "inShort": "In short",
+    "englishOnly": "The full text of this draft is currently available in English only. Section headings and summaries have been translated.",
+    "placeholderLegend": "Highlighted text marks details that are still to be confirmed.",
+    "related": "Related policies",
+    "questionsTitle": "Questions about this page?",
+    "questionsText": "Get in touch and we'll help clarify anything here.",
+    "questionsCta": "Contact us",
+    "backToTop": "Back to top",
+    "shipping": {
+      "metaTitle": "Shipping Policy",
+      "title": "Shipping Policy",
+      "intro": "How we plan to ship orders to North America and Europe. Rates, times and carriers are still being confirmed.",
+      "sections": {
+        "overview": {
+          "title": "Overview",
+          "summary": "This draft explains where and how orders will be shipped once the store launches."
+        },
+        "regions": {
+          "title": "Where we ship",
+          "summary": "We plan to ship to the United States, Canada and selected European countries."
+        },
+        "processing": {
+          "title": "Order processing",
+          "summary": "Processing times are to be confirmed before launch."
+        },
+        "rates": {
+          "title": "Rates & delivery estimates",
+          "summary": "Rates and estimates are calculated at checkout. Current rates are provisional and may change before launch."
+        },
+        "customs": {
+          "title": "Customs, duties & taxes",
+          "summary": "International orders may be subject to import duties and taxes."
+        },
+        "tracking": {
+          "title": "Order tracking",
+          "summary": "You can follow an order using its order number and email address."
+        },
+        "issues": {
+          "title": "Lost, delayed or damaged parcels",
+          "summary": "Contact us if something goes wrong in transit; the claims process is being drafted."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "How to reach us with a shipping question."
+        }
+      }
+    },
+    "refund": {
+      "metaTitle": "Refund Policy",
+      "title": "Refund Policy",
+      "intro": "Our approach to returns, refunds and faulty items. The return window and conditions are still to be confirmed.",
+      "sections": {
+        "overview": {
+          "title": "Overview",
+          "summary": "This draft outlines how returns and refunds are expected to work."
+        },
+        "window": {
+          "title": "Return window",
+          "summary": "The return window is to be confirmed. A 30-day money-back guarantee is under consideration but not confirmed."
+        },
+        "eligibility": {
+          "title": "Eligibility & condition",
+          "summary": "Items will generally need to be unused, complete and in their original packaging."
+        },
+        "process": {
+          "title": "How to start a return",
+          "summary": "Contact us with your order number before sending anything back."
+        },
+        "refunds": {
+          "title": "Refunds",
+          "summary": "Approved refunds are expected to go back to the original payment method."
+        },
+        "damaged": {
+          "title": "Damaged or faulty items",
+          "summary": "Tell us promptly if an item arrives damaged or stops working."
+        },
+        "costs": {
+          "title": "Return shipping costs",
+          "summary": "Who pays for return shipping is to be confirmed."
+        },
+        "rights": {
+          "title": "Your statutory rights",
+          "summary": "This policy does not affect rights you have under local consumer law."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "How to reach us about a return or refund."
+        }
+      }
+    },
+    "privacy": {
+      "metaTitle": "Privacy Policy",
+      "title": "Privacy Policy",
+      "intro": "How personal information is expected to be collected, used and protected. This draft must be reviewed by legal counsel before launch.",
+      "sections": {
+        "about": {
+          "title": "About this policy",
+          "summary": "Who is responsible for your data and what this policy covers."
+        },
+        "collect": {
+          "title": "Information we collect",
+          "summary": "Details you give us, order information and limited technical data."
+        },
+        "use": {
+          "title": "How we use your information",
+          "summary": "To process orders, provide support, send marketing you agreed to and improve the store."
+        },
+        "cookies": {
+          "title": "Cookies & analytics",
+          "summary": "Google Analytics 4 is planned but not active. Consent controls will be added before launch."
+        },
+        "localStorage": {
+          "title": "Cookies and local storage",
+          "summary": "We use one essential sign-in cookie, and keep preferences such as your cart, language and currency in your browser."
+        },
+        "sharing": {
+          "title": "Sharing with service providers",
+          "summary": "We expect to share data only with providers who help run the store. We don't sell personal information."
+        },
+        "retention": {
+          "title": "How long we keep data",
+          "summary": "Data will be kept only as long as needed; specific periods are to be confirmed."
+        },
+        "rights": {
+          "title": "Your privacy rights",
+          "summary": "Depending on where you live, you may have rights to access, correct or delete your data."
+        },
+        "transfers": {
+          "title": "International transfers",
+          "summary": "Data may be processed in other countries with appropriate safeguards."
+        },
+        "children": {
+          "title": "Children's privacy",
+          "summary": "The store is not directed at children."
+        },
+        "changes": {
+          "title": "Changes to this policy",
+          "summary": "We'll update this page and the date above when the policy changes."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "How to reach us about privacy."
+        }
+      }
+    },
+    "terms": {
+      "metaTitle": "Terms & Conditions",
+      "title": "Terms & Conditions",
+      "intro": "The terms that will apply when you use this website and buy from KitchenScaleCo. Placeholder content pending legal review.",
+      "sections": {
+        "acceptance": {
+          "title": "Acceptance of these terms",
+          "summary": "By using the site or placing an order, you agree to these terms."
+        },
+        "use": {
+          "title": "Using the site",
+          "summary": "Use the site lawfully and don't interfere with how it works."
+        },
+        "products": {
+          "title": "Products & descriptions",
+          "summary": "We aim to describe products accurately; some details are still being confirmed."
+        },
+        "pricing": {
+          "title": "Pricing & errors",
+          "summary": "Prices may change, and we may cancel orders placed at an obviously wrong price."
+        },
+        "orders": {
+          "title": "Orders & acceptance",
+          "summary": "An order is an offer to buy; a contract is formed when we confirm or ship it."
+        },
+        "payment": {
+          "title": "Payment",
+          "summary": "Payment is handled by a third-party provider still to be chosen."
+        },
+        "shipping": {
+          "title": "Shipping & returns",
+          "summary": "Delivery and returns are covered by our separate draft policies."
+        },
+        "ip": {
+          "title": "Intellectual property",
+          "summary": "Site content and branding belong to KitchenScaleCo or its licensors."
+        },
+        "liability": {
+          "title": "Limitation of liability",
+          "summary": "Our liability is limited to the extent the law allows."
+        },
+        "law": {
+          "title": "Governing law",
+          "summary": "The governing law and jurisdiction are to be confirmed."
+        },
+        "changes": {
+          "title": "Changes to these terms",
+          "summary": "We may update these terms; the version at the time of your order applies."
+        },
+        "contact": {
+          "title": "Contact",
+          "summary": "How to reach us about these terms."
+        }
+      }
+    }
+  }
+}

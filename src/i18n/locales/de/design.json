@@ -1,0 +1,263 @@
+{
+  "header": {
+    "shipping": "Internationaler Versand",
+    "reviews": "Bewertungen",
+    "blog": "Blog",
+    "search": "Suchen",
+    "searchLabel": "Produkte suchen",
+    "empty": "Keine Produkte gefunden"
+  },
+  "hero": {
+    "eyebrow": "Mini Spoon Scale",
+    "lead": "Kleiner Löffel",
+    "every": "Große",
+    "scoop": "Präzision",
+    "text": "Kleine Zutaten einfach messen. Ein Begleiter zum Kochen, Backen und Kaffeebrühen.",
+    "alt": "Weiße digitale Messlöffelwaage mit Kaffeepulver neben einer Tasse",
+    "measure": "Einfach messen",
+    "measureText": "Kleine Zutaten",
+    "display": "Einfache Bedienung",
+    "displayText": "Digitales Display",
+    "units": "Mehrere Einheiten",
+    "unitsText": "Einheiten zu bestätigen",
+    "shop": "Jetzt einkaufen",
+    "watch": "So funktioniert es"
+  },
+  "how": {
+    "title": "Einfach Zutaten messen",
+    "note": "Interaktive Anleitung mit Illustrationen. Es wurde kein Produktvideo bereitgestellt.",
+    "steps": {
+      "0": {
+        "title": "Zutat vorbereiten",
+        "text": "Stelle die Zutaten für dein Rezept bereit und lies vor der Nutzung die Produktanleitung."
+      },
+      "1": {
+        "title": "Löffel abmessen",
+        "text": "Schöpfe deine Zutat, halte die Waage wie beschrieben und lies das Display am Griff ab."
+      },
+      "2": {
+        "title": "Ab damit ins Rezept",
+        "text": "Gib deine Zutat dazu und bereite dein Rezept weiter zu."
+      }
+    }
+  },
+  "trust": {
+    "0": {
+      "title": "Internationaler Versand",
+      "text": "Schätzung nach Zielland"
+    },
+    "1": {
+      "title": "Demo-Checkout",
+      "text": "Keine Zahlung erfolgt"
+    },
+    "2": {
+      "title": "Informationen zur Rückgabe",
+      "text": "Vorläufige Richtlinie ansehen"
+    },
+    "3": {
+      "title": "Kundenservice",
+      "text": "Hilfe und häufige Fragen"
+    }
+  },
+  "product": {
+    "noReviews": "Noch keine Bewertungen",
+    "demoReviews": "Demobewertungen",
+    "details": "Produktdetails ansehen",
+    "checkout": "Demo-Checkout",
+    "returns": "Vorläufige Rückgaberichtlinie",
+    "shipping": "Versandschätzungen",
+    "paymentDemo": "Vorschau der Zahlungsarten — keine echten Zahlungen",
+    "bank": "Net Banking",
+    "demoNote": "Demo-Preise, -Bestände und -Zahlungsoptionen. Endgültige Angaben werden noch bestätigt."
+  },
+  "gallery": {
+    "previous": "Vorheriges Bild",
+    "next": "Nächstes Bild",
+    "show": "Bild {{number}} ansehen",
+    "zoom": "Produktbild vergrößern",
+    "alt": "{{name}} Designreferenz des Auftraggebers",
+    "note": "Referenzfoto"
+  },
+  "everyday": {
+    "title": "Für den Alltag entwickelt",
+    "text": "Von der Küche bis zur Kaffeeecke: eine durchdachte Messroutine.",
+    "items": {
+      "0": {
+        "title": "Kochen und Backen",
+        "text": "Ihre täglichen Rezepte"
+      },
+      "1": {
+        "title": "Kaffeezubereitung",
+        "text": "Kaffeepulver abmessen"
+      },
+      "2": {
+        "title": "Essensvorbereitung",
+        "text": "Eine Zutat nach der anderen"
+      },
+      "3": {
+        "title": "Kleine Portionen",
+        "text": "Ein kompakter Küchenhelfer"
+      }
+    }
+  },
+  "uses": {
+    "title": "Eine Waage. Viele Möglichkeiten.",
+    "text": "Kleine Zutaten in Ihrem Alltag",
+    "items": {
+      "0": {
+        "title": "Backen",
+        "text": "Miss Zutaten für deine Lieblingsrezepte ab"
+      },
+      "1": {
+        "title": "Kaffee",
+        "text": "Gestalte dein morgendliches Brühritual ganz nach deinem Geschmack"
+      },
+      "2": {
+        "title": "Gewürze",
+        "text": "Miss kleine Mengen für große Aromen ab"
+      },
+      "3": {
+        "title": "Nahrungsergänzung",
+        "text": "Beachte das Produktetikett und den Rat von Fachleuten"
+      },
+      "4": {
+        "title": "Tierfutter",
+        "text": "Beachte die empfohlene Fütterungsanleitung für dein Haustier"
+      }
+    },
+    "note": "Die Bilder zu den Anwendungsfällen stammen aus dem Designkonzept des Auftraggebers. Eignung und endgültige Spezifikationen müssen noch bestätigt werden."
+  },
+  "reviews": {
+    "title": "Was unsere Kunden sagen",
+    "text": "Demobewertungen. Diese sind keine verifizierten Kundenaussagen.",
+    "demo": "Demobewertung",
+    "local": "Kundenbeitrag",
+    "empty": "Noch keine Bewertungen",
+    "previous": "Vorherige Bewertungen",
+    "next": "Weitere Bewertungen",
+    "page": "Bewertungsseite {{number}}",
+    "write": "Demobewertung schreiben",
+    "filter": "Nach Bewertung filtern",
+    "allRatings": "Alle Bewertungen"
+  },
+  "cta": {
+    "eyebrow": "Jeder Löffel zählt",
+    "title": "Eine Bereicherung für Ihre Küche",
+    "text": "Eine kleine Ergänzung für Ihre Küche. Durchdacht messen, kochen und genießen."
+  },
+  "footer": {
+    "support": "Support",
+    "tagline": "Werkzeuge für Ihre tägliche Küche.",
+    "newsletter": "Abonnieren und entdecken",
+    "newsletterText": "Kücheninspiration und Neuigkeiten."
+  },
+  "blog": {
+    "title": "Notizen aus der Küche",
+    "text": "Einfache Ideen für Ihre Koch- und Kaffeerituale.",
+    "category": "Küchenjournal",
+    "read": "Artikel lesen",
+    "articles": {
+      "0": {
+        "title": "Eine entspanntere Back-Routine",
+        "intro": "Ein wenig Vorbereitung schafft mehr Raum für die Freude am Backen.",
+        "body": "Lies dein Rezept zuerst von Anfang bis Ende durch. Lege Zutaten und Werkzeuge bereit und bereite jede Zutat vor, bevor du mischst. Halte eine kleine Schüssel für abgemessene Zutaten und ein Tuch für deine Arbeitsfläche bereit. Befolge beim Wiegen die Anleitung, die deiner Waage beiliegt, und die Mengen in deinem Rezept. Ziel ist eine angenehme Routine, die dir hilft, den Prozess zu genießen."
+      },
+      "1": {
+        "title": "Gestalte dein Kaffeeritual ganz nach dir",
+        "intro": "Kleine, gleichbleibende Schritte können deine Morgen bewusster machen.",
+        "body": "Wähle eine Zubereitungsmethode, die dir gefällt, und befolge die Anleitung deines Geräts. Notiere Kaffeemenge, Wassermenge und Brühzeit, damit du eine Tasse, die dir schmeckt, wiederholen kannst. Lagere deine Bohnen wie vom Röster empfohlen und reinige dein Brühgerät regelmäßig. Ein Messwerkzeug kann Teil deiner Routine sein; nutze es im Rahmen seiner bestätigten Spezifikationen."
+      },
+      "2": {
+        "title": "Ein bisschen Ordnung für deine Gewürze",
+        "intro": "Hol deine meistgenutzten Zutaten in Reichweite.",
+        "body": "Gruppiere Gewürze nach den Rezepten, die du am häufigsten kochst, beschrifte Gläser deutlich und beachte die Lagerhinweise auf der Verpackung. Miss vor dem Kochen die Mengen, die dein Rezept verlangt, in separate Schälchen ab. Gib Zutaten zu den im Rezept angegebenen Zeitpunkten hinzu und passe künftige Ansätze an deinen Geschmack an. Halte Messwerkzeuge trocken und sauber und beachte ihre Pflegehinweise."
+      },
+      "3": {
+        "title": "Mische deine eigene Alltags-Gewürzmischung",
+        "intro": "Eine einfache Möglichkeit, deine Lieblingsaromen griffbereit zu haben.",
+        "body": "Wähle ein paar Gewürze, die du ohnehin magst, und mische kleine abgemessene Mengen in einem sauberen, trockenen Glas. Schreibe die Verhältnisse auf, damit du die Mischung wiederholen oder beim nächsten Mal anpassen kannst. Beschrifte das Glas mit Zutaten und Datum und bewahre es fern von Hitze und Feuchtigkeit auf. Beginne beim Würzen eines Gerichts mit wenig und schmecke zwischendurch ab."
+      },
+      "4": {
+        "title": "Meal Prep gleichmäßiger gestalten",
+        "intro": "Ordne deine Zutaten, bevor du mit dem wöchentlichen Kochen beginnst.",
+        "body": "Wähle zuerst deine Rezepte aus und mache eine Liste ihrer Zutaten. Bereite kleine Gewürzmengen separat vor, damit sie sich zur richtigen Zeit leicht zugeben lassen. Verwende saubere Behälter und beachte die Hinweise zur Lagerung von Lebensmitteln für die Speisen, die du zubereitest. Abmessungen helfen, ein Rezept zu wiederholen; Nährstoffbedarf und angemessene Portionen hängen von der jeweiligen Person ab."
+      },
+      "5": {
+        "title": "Ein kleines Werkzeug für eine aufgeräumte Küche",
+        "intro": "Entwickle eine Messroutine, die zu deiner Arbeitsplatte und deinem Schrank passt.",
+        "body": "Bewahre die Messwerkzeuge, die du am häufigsten nutzt, in der Nähe deines Vorbereitungsbereichs auf. Lies die Anleitung deiner Waage, prüfe die gewählte Einheit und nutze die Tara-Funktion wie beschrieben. Reinige den abnehmbaren Löffelkopf gemäß der Produktanleitung und halte den elektronischen Griff trocken. Bewahre kleine Werkzeuge zusammen auf, damit du sie beim Kochen schnell findest."
+      }
+    },
+    "back": "Zurück zum Journal",
+    "journal": "DAS KÜCHEN-JOURNAL",
+    "coverText": "Ein wenig Inspiration für den Alltag. Durchdachte Rezepte, bessere Brührituale und kleine Ideen, die deine Küche zum Zuhause machen.",
+    "explore": "Journal entdecken",
+    "coverAlt": "Sonnenbeschienener Küchentisch mit Sauerteigbrot, Birnen und warmem Keramikgeschirr",
+    "coverCaption": "Gutes Essen. Kleine Rituale. Freude im Alltag.",
+    "latest": "Frisch aus der Küche",
+    "articleCount_one": "{{count}} Artikel",
+    "articleCount_other": "{{count}} Artikel",
+    "open": "{{title}} lesen",
+    "readTime": "{{minutes}} Min. Lesezeit",
+    "shopKicker": "PLATZ FÜR DEN ALLTAG",
+    "shopTitle": "Kleine Werkzeuge. Durchdachtes Kochen.",
+    "imageAlts": {
+      "0": "Backzutaten und ein Schneebesen auf einem sonnenbeschienenen Holztisch",
+      "1": "Filterkaffee und eine Keramiktasse in warmer Morgenstimmung",
+      "2": "Gewürzgläser aus Glas, geordnet in einem Holzregal",
+      "3": "Keramikschalen mit Gewürzen, bereit zum Mischen",
+      "4": "Gemüse und Getreide, in Meal-Prep-Behältern vorbereitet",
+      "5": "Holzutensilien und Leinen in einer aufgeräumten Küchenecke"
+    }
+  },
+  "carousel": {
+    "label": "KitchenScale Highlights",
+    "slideLabel": "Folie {{number}} von {{total}}",
+    "previous": "Vorheriges Banner",
+    "next": "Nächstes Banner",
+    "showSlide": "Banner {{number}} anzeigen",
+    "pause": "Banner pausieren",
+    "play": "Banner starten",
+    "bakingLead": "Backen mit",
+    "bakingAccent": "Vertrauen",
+    "bakingText": "Von Mehl bis zu einer Prise Hefe: Einfaches Abmessen für deine Lieblingsrezepte.",
+    "spiceLead": "Kleine Löffel.",
+    "spiceAccent": "Großer Geschmack.",
+    "spiceText": "Bringe deine Gewürzmischungen und Alltagsgerichte ins Gleichgewicht, einen Löffel nach dem anderen.",
+    "spiceAlt": "Digitale Messlöffelwaage mit Gewürzen auf einer Küchenarbeitsplatte"
+  },
+  "reference": {
+    "collection": "Die KitchenScale Kollektion",
+    "collectionText": "Praktische kleine Helfer für deine täglichen Rezepte.",
+    "flourAlt": "Digitale Messlöffelwaage mit Mehl in einer Küche"
+  },
+  "pages": {
+    "shopIntro": "Entdecke unsere Präzisions-Küchenwaage, gemacht für den Alltag.",
+    "filters": "Produkte filtern",
+    "category": "Kategorie",
+    "allProducts": "Alle Produkte",
+    "price": "Preis",
+    "upTo": "Bis zu ${{price}} USD (Demo-Basispreis)",
+    "color": "Farbe",
+    "allColors": "Alle Farben",
+    "inStock": "Nur auf Lager",
+    "productCount_one": "{{count}} Produkt",
+    "productCount_other": "{{count}} Produkte",
+    "aboutTitle": "Über KitchenScaleCo",
+    "aboutIntro": "Wir glauben, dass kleine Werkzeuge im Alltag einen großen Unterschied machen können.",
+    "ourStory": "Unsere Geschichte",
+    "storyAlt": "Referenzfoto eines digitalen Messlöffels im Einsatz in einer Küche",
+    "whyChoose": "Warum KitchenScaleCo?",
+    "reviewsTitle": "Kundenbewertungen",
+    "blogTitle": "Tipps aus der Küche",
+    "articleCategories": "Artikelkategorien",
+    "categories": {
+      "all": "Alle",
+      "recipes": "Rezepte",
+      "coffee": "Kaffee",
+      "baking": "Backen",
+      "nutrition": "Ernährung",
+      "kitchen": "Küchentipps"
+    }
+  }
+}

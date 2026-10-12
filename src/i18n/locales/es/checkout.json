@@ -1,0 +1,190 @@
+{
+  "title": "Finalizar compra",
+  "demoBanner": {
+    "title": "Los pagos aún no están conectados",
+    "text": "Tu pedido se guardará y nuestro equipo lo confirmará, pero no se cobra ningún pago ni se solicitan datos de tarjeta. Los precios están pendientes de confirmación final."
+  },
+  "fields": {
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "country": "País",
+    "line1": "Dirección línea 1",
+    "line1Placeholder": "Dirección",
+    "line2": "Dirección línea 2",
+    "line2Placeholder": "Apartamento, piso, etc.",
+    "city": "Ciudad",
+    "postalCode": "Código postal",
+    "optional": "Opcional"
+  },
+  "region": {
+    "state": "Estado",
+    "province": "Provincia",
+    "county": "Condado",
+    "region": "Estado o región"
+  },
+  "steps": {
+    "customer": {
+      "title": "Información del cliente",
+      "short": "Información",
+      "text": "Dinos para quién es el pedido."
+    },
+    "address": {
+      "title": "Dirección de envío",
+      "short": "Dirección",
+      "text": "¿Adónde debemos enviar tu pedido?"
+    },
+    "shipping": {
+      "title": "Método de envío",
+      "short": "Envío",
+      "text": "Elige una opción de envío para tu destino."
+    },
+    "payment": {
+      "title": "Método de pago",
+      "short": "Pago",
+      "text": "Selecciona un método solo como vista previa. No se recopilan datos de pago."
+    },
+    "review": {
+      "title": "Revisar tu pedido",
+      "short": "Revisión",
+      "text": "Revisa tus datos antes de realizar el pedido."
+    }
+  },
+  "stepper": {
+    "label": "Pasos de la finalización de compra",
+    "completed": "Completado",
+    "current": "Paso actual",
+    "stepOf": "Paso {{current}} de {{total}}"
+  },
+  "nav": {
+    "back": "Atrís",
+    "backToCart": "Volver al carrito",
+    "continueTo": "Continuar a {{step}}"
+  },
+  "customer": {
+    "emailHint": "Lo usaremos para tu pedido y su seguimiento. Los correos de confirmación aún no están activados.",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "signIn": "Iniciar sesión",
+    "signedInAs": "Sesión iniciada como {{email}}"
+  },
+  "address": {
+    "default": "Predeterminada",
+    "newAddress": "Nueva dirección",
+    "saved": "Direcciones guardadas",
+    "useNew": "Usar una dirección nueva"
+  },
+  "shipping": {
+    "chooseMethod": "Elige un método de envío",
+    "editAddress": "Editar dirección",
+    "eta": "{{min}}–{{max}} días hábiles (estimación)",
+    "loading": "Cargando tarifas de envío…",
+    "ratesLabel": "Tarifas de envío (provisionales)",
+    "to": "Envío a {{country}}",
+    "unsupportedTitle": "No hay opciones de envío disponibles",
+    "unsupportedText": "Elige un destino habilitado en Norteamérica o Europa.",
+    "weight": "Peso del paquete: {{weight}} g"
+  },
+  "payment": {
+    "choose": "Elige tu método de pago preferido",
+    "noticeTitle": "Sin pago real.",
+    "notice": "No introduzcas credenciales de pago. Esta pantalla es solo una vista previa.",
+    "noFields": "No se recopilan números de tarjeta, CVV, credenciales bancarias ni PIN de UPI.",
+    "descriptions": {
+      "visa": "Visa, solo vista previa",
+      "mastercard": "Mastercard, solo vista previa",
+      "upi": "UPI, solo vista previa",
+      "netbanking": "Banca en línea, solo vista previa"
+    }
+  },
+  "review": {
+    "confirm": "Entiendo que por ahora no se cobra ningún pago y que mi pedido será confirmado por el equipo de KitchenScaleCo.",
+    "contact": "Datos de contacto",
+    "edit": "Editar",
+    "editSection": "Editar {{section}}",
+    "error": "No pudimos realizar tu pedido. Inténtalo de nuevo.",
+    "items": "Tus productos",
+    "method": "Método de envío",
+    "payment": "Método de pago preferido",
+    "paymentNote": "No se cobra ningún pago.",
+    "place": "Realizar pedido",
+    "placedToast": "Pedido realizado",
+    "placing": "Realizando tu pedido…",
+    "shipTo": "Dirección de envío",
+    "errors": {
+      "stock": "Un artículo de tu carrito acaba de agotarse o quedan menos unidades de las que elegiste. Revisa tu carrito e inténtalo de nuevo.",
+      "coupon": "Tu código de descuento ya no se puede aplicar. Quítalo del carrito e inténtalo de nuevo.",
+      "shipping": "Ese método de envío ya no está disponible para esta dirección. Elige otro método de envío.",
+      "network": "No podemos conectar con el servidor en este momento. Tu pedido no se ha realizado; inténtalo de nuevo en unos instantes."
+    }
+  },
+  "summary": {
+    "title": "Resumen del pedido",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "discountCode": "Descuento ({{code}})",
+    "shipping": "Envío",
+    "shippingPending": "Elige un método de envío",
+    "total": "Total",
+    "demoTotals": "Por ahora no se cobra ningún pago. Los precios están pendientes de confirmación final.",
+    "editCart": "Editar carrito",
+    "hide": "Ocultar resumen",
+    "show": "Mostrar resumen",
+    "itemCount": "{{count}} artículos",
+    "qty": "Cant. {{count}}"
+  },
+  "empty": {
+    "title": "Tu carrito está vacío",
+    "text": "Elige un producto antes de iniciar la compra.",
+    "cta": "Explorar la tienda"
+  },
+  "success": {
+    "metaTitle": "Pedido realizado",
+    "eyebrow": "Un pequeño festejo",
+    "title": "¡Gracias, {{name}}!",
+    "text": "Hemos recibido tu pedido. Nuestro equipo lo confirmará pronto.",
+    "demoNote": "No se ha cobrado ningún pago. Las actualizaciones de estado aparecerán en la página de seguimiento.",
+    "email": "Correo de contacto",
+    "emailNote": "No se ha enviado ningún correo de confirmación.",
+    "items": "Artículos del pedido",
+    "method": "Método de envío",
+    "notFoundTitle": "Pedido no encontrado",
+    "notFoundText": "No pudimos encontrar el pedido {{number}}. Inicia sesión para ver tus pedidos o búscalo en la página de seguimiento con tu correo electrónico.",
+    "orderNumber": "Número de pedido",
+    "payment": "Método de pago preferido",
+    "paymentNote": "No se cobró ningún pago.",
+    "placedOn": "Guardado el {{date}}",
+    "shippingTo": "Dirección de envío",
+    "continue": "Seguir comprando",
+    "track": "Seguir este pedido",
+    "trackOther": "Seguir otro pedido",
+    "viewAccount": "Ver cuenta"
+  },
+  "track": {
+    "metaTitle": "Seguir un pedido",
+    "eyebrow": "El recorrido de tu pedido",
+    "title": "Sigue tu pedido",
+    "text": "Introduce tu número de pedido y tu correo electrónico para ver su último estado.",
+    "demoNote": "Los estados los actualiza nuestro equipo. El seguimiento en vivo del transportista se añadirá más adelante.",
+    "formTitle": "Encuentra tu pedido",
+    "orderNumber": "Número de pedido",
+    "orderPlaceholder": "KSC-1009",
+    "email": "Correo electrónico",
+    "submit": "Seguir pedido",
+    "searching": "Buscando…",
+    "useDemo": "Usar pedido de ejemplo",
+    "hint": "¿Probando? Prueba KSC-1009 con demo@kitchenscaleco.test.",
+    "emptyTitle": "Tu recorrido aparecerá aquí",
+    "emptyText": "Introduce los datos de tu pedido para ver su cronología.",
+    "notFoundTitle": "No hay ningún pedido coincidente",
+    "notFoundText": "Comprueba el número de pedido y el correo electrónico usado al finalizar la compra e inténtalo de nuevo.",
+    "result": "Resultado del seguimiento",
+    "status": "Estado",
+    "placedOn": "Guardado el {{date}}",
+    "trackingNumber": "Número de seguimiento",
+    "noTracking": "Aún no se ha asignado un número de seguimiento.",
+    "items": "Artículos del pedido",
+    "shipTo": "Dirección de envío",
+    "method": "Método de envío",
+    "searchedFor": "Búsqueda de {{number}}"
+  }
+}

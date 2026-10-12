@@ -1,0 +1,263 @@
+{
+  "header": {
+    "shipping": "Envío internacional",
+    "reviews": "Reseñas",
+    "blog": "Blog",
+    "search": "Buscar",
+    "searchLabel": "Buscar productos",
+    "empty": "No se encontraron productos"
+  },
+  "hero": {
+    "eyebrow": "Mini Spoon Scale",
+    "lead": "Pequeña cuchara",
+    "every": "Gran",
+    "scoop": "precisión",
+    "text": "Mide pequeños ingredientes con facilidad. Un compañero para cocinar, hornear y preparar café.",
+    "alt": "Báscula de cuchara blanca midiendo café molido junto a una taza",
+    "measure": "Medición sencilla",
+    "measureText": "Pequeños ingredientes",
+    "display": "Fácil de usar",
+    "displayText": "Pantalla digital",
+    "units": "Varias unidades",
+    "unitsText": "Unidades por confirmar",
+    "shop": "Comprar ahora",
+    "watch": "Ver cómo funciona"
+  },
+  "how": {
+    "title": "Una forma sencilla de medir",
+    "note": "Guía interactiva ilustrada. No se proporcionó un vídeo del producto.",
+    "steps": {
+      "0": {
+        "title": "Prepara tu ingrediente",
+        "text": "Reúne los ingredientes de tu receta y revisa las instrucciones del producto antes de usarlo."
+      },
+      "1": {
+        "title": "Mide tu cucharada",
+        "text": "Sirve tu ingrediente, sostén la báscula como se indica y lee la pantalla del mango."
+      },
+      "2": {
+        "title": "Haz que forme parte de tu receta",
+        "text": "Pasa tu ingrediente y sigue preparando tu receta."
+      }
+    }
+  },
+  "trust": {
+    "0": {
+      "title": "Envío internacional",
+      "text": "Estimaciones por destino"
+    },
+    "1": {
+      "title": "Pago de demostración",
+      "text": "No se cobra ningún pago"
+    },
+    "2": {
+      "title": "Información de devoluciones",
+      "text": "Ver política provisional"
+    },
+    "3": {
+      "title": "Atención al cliente",
+      "text": "Ayuda y preguntas frecuentes"
+    }
+  },
+  "product": {
+    "noReviews": "Aún no hay reseñas",
+    "demoReviews": "Reseñas de demostración",
+    "details": "Ver detalles del producto",
+    "checkout": "Pago de demostración",
+    "returns": "Política provisional de devoluciones",
+    "shipping": "Estimaciones de envío",
+    "paymentDemo": "Vistas previas de métodos de pago: sin pagos reales",
+    "bank": "Banca en línea",
+    "demoNote": "Precios, stock y opciones de pago de demostración. Detalles finales por confirmar."
+  },
+  "gallery": {
+    "previous": "Imagen anterior",
+    "next": "Imagen siguiente",
+    "show": "Ver imagen {{number}}",
+    "zoom": "Ampliar imagen del producto",
+    "alt": "Referencia de diseño del cliente de {{name}}",
+    "note": "Foto de referencia"
+  },
+  "everyday": {
+    "title": "Diseñada para el día a día",
+    "text": "De tu cocina a tu rincón de café: una rutina de medición para cada día.",
+    "items": {
+      "0": {
+        "title": "Cocina y repostería",
+        "text": "Tus recetas diarias"
+      },
+      "1": {
+        "title": "Preparación de café",
+        "text": "Mide tu café molido"
+      },
+      "2": {
+        "title": "Preparación de comidas",
+        "text": "Un ingrediente a la vez"
+      },
+      "3": {
+        "title": "Pequeñas porciones",
+        "text": "Un compañero compacto"
+      }
+    }
+  },
+  "uses": {
+    "title": "Una báscula. Muchas posibilidades.",
+    "text": "Pequeños ingredientes en tu día a día",
+    "items": {
+      "0": {
+        "title": "Repostería",
+        "text": "Mide ingredientes para tus recetas favoritas"
+      },
+      "1": {
+        "title": "Café",
+        "text": "Haz tuya tu rutina matutina de café"
+      },
+      "2": {
+        "title": "Especias",
+        "text": "Mide pequeñas cantidades para grandes sabores"
+      },
+      "3": {
+        "title": "Suplementos",
+        "text": "Sigue la etiqueta del producto y el consejo de profesionales"
+      },
+      "4": {
+        "title": "Comida para mascotas",
+        "text": "Sigue la guía de alimentación recomendada para tu mascota"
+      }
+    },
+    "note": "Las imágenes de usos proceden del concepto de diseño del cliente. La idoneidad y las especificaciones finales requieren confirmación."
+  },
+  "reviews": {
+    "title": "Qué dicen nuestros clientes",
+    "text": "Reseñas de demostración. No son testimonios de clientes verificados.",
+    "demo": "Reseña de demostración",
+    "local": "Aportación de un cliente",
+    "empty": "Todavía no hay reseñas",
+    "previous": "Reseñas anteriores",
+    "next": "Reseñas siguientes",
+    "page": "Página de reseñas {{number}}",
+    "write": "Escribir reseña de demostración",
+    "filter": "Filtrar por valoración",
+    "allRatings": "Todas las valoraciones"
+  },
+  "cta": {
+    "eyebrow": "Cada cucharada cuenta",
+    "title": "Renueva tu cocina hoy",
+    "text": "Una pequeña adición a tu cocina. Mide, cocina y crea con cuidado."
+  },
+  "footer": {
+    "support": "Soporte",
+    "tagline": "Utensilios para tu cocina diaria.",
+    "newsletter": "Suscríbete y descubre",
+    "newsletterText": "Inspiración para tu cocina y próximas novedades."
+  },
+  "blog": {
+    "title": "Notas de cocina",
+    "text": "Ideas sencillas para cocinar y preparar café.",
+    "category": "Diario de cocina",
+    "read": "Leer artículo",
+    "articles": {
+      "0": {
+        "title": "Una rutina de repostería más tranquila",
+        "intro": "Un poco de preparación deja más espacio para disfrutar de hornear.",
+        "body": "Empieza leyendo tu receta de principio a fin. Deja a mano los ingredientes y utensilios y prepara cada ingrediente antes de mezclar. Ten cerca un bol pequeño para los ingredientes medidos y un paño para tu zona de trabajo. Para pesar, sigue las instrucciones que acompañan a tu báscula y las cantidades de tu receta. El objetivo es una rutina cómoda que te ayude a disfrutar del proceso."
+      },
+      "1": {
+        "title": "Haz tuyo tu ritual del café",
+        "intro": "Pequeños pasos constantes pueden hacer que tus mañanas se sientan más cuidadas.",
+        "body": "Elige un método de preparación que disfrutes y sigue las instrucciones de tu equipo. Anota la cantidad de café, el agua y el tiempo de preparación para poder repetir una taza que te guste. Guarda tus granos como recomiende el tostador y limpia tu equipo de preparación con regularidad. Una herramienta de medición puede ser una parte de tu rutina; úsala dentro de sus especificaciones confirmadas."
+      },
+      "2": {
+        "title": "Un poco de orden para tus especias",
+        "intro": "Pon al alcance de la mano tus ingredientes más usados.",
+        "body": "Agrupa las especias según las recetas que cocinas con más frecuencia, etiqueta bien los frascos y sigue las indicaciones de conservación del envase. Antes de cocinar, mide en platos separados las cantidades que pide tu receta. Añade los ingredientes en los momentos que indica la receta y ajusta las próximas tandas a tu gusto. Mantén las herramientas de medición secas y limpias, siguiendo sus instrucciones de cuidado."
+      },
+      "3": {
+        "title": "Crea tu propia mezcla de especias de todos los días",
+        "intro": "Una forma sencilla de tener a mano tus sabores favoritos.",
+        "body": "Elige unas cuantas especias que ya te gusten y combina pequeñas cantidades medidas en un frasco limpio y seco. Anota las proporciones para poder repetir la mezcla o ajustarla la próxima vez. Etiqueta el frasco con sus ingredientes y la fecha, y mantenlo alejado del calor y la humedad. Empieza con poco al sazonar un plato y prueba sobre la marcha."
+      },
+      "4": {
+        "title": "Haz más constante la preparación de tus comidas",
+        "intro": "Organiza los ingredientes antes de empezar a cocinar para la semana.",
+        "body": "Elige primero tus recetas y haz una lista de sus ingredientes. Prepara por separado los condimentos pequeños para añadirlos fácilmente en el momento adecuado. Usa recipientes limpios y sigue las indicaciones de conservación de los alimentos que prepares. Medir ayuda a repetir una receta; las necesidades nutricionales y las porciones adecuadas dependen de cada persona."
+      },
+      "5": {
+        "title": "Una pequeña herramienta para una cocina ordenada",
+        "intro": "Crea una rutina de medición que encaje en tu encimera y tu armario.",
+        "body": "Ten las herramientas de medición que más usas cerca de tu zona de preparación. Lee las instrucciones de tu báscula, comprueba la unidad seleccionada y usa la función de tara como se indica. Limpia la cabeza desmontable de la cuchara según las instrucciones del producto y mantén seco el mango electrónico. Guarda juntas las herramientas pequeñas para encontrarlas fácilmente al cocinar."
+      }
+    },
+    "back": "Volver al diario",
+    "journal": "EL DIARIO DE COCINA",
+    "coverText": "Un poco de inspiración para el día a día. Recetas cuidadas, mejores rituales de café y pequeñas ideas que hacen que tu cocina se sienta como en casa.",
+    "explore": "Explorar el diario",
+    "coverAlt": "Mesa de cocina soleada con pan de masa madre, peras y platos de cerámica cálidos",
+    "coverCaption": "Buena comida. Pequeños rituales. Alegría cotidiana.",
+    "latest": "Recién salido de la cocina",
+    "articleCount_one": "{{count}} artículo",
+    "articleCount_other": "{{count}} artículos",
+    "open": "Leer {{title}}",
+    "readTime": "{{minutes}} min de lectura",
+    "shopKicker": "HAZ SITIO PARA LO COTIDIANO",
+    "shopTitle": "Herramientas pequeñas. Cocina con cariño.",
+    "imageAlts": {
+      "0": "Ingredientes de repostería y un batidor sobre una mesa de madera soleada",
+      "1": "Café de filtro y una taza de cerámica en un ambiente cálido de mañana",
+      "2": "Frascos de especias de vidrio ordenados en una estantería de madera",
+      "3": "Cuencos de cerámica con especias dispuestos para mezclar",
+      "4": "Verduras y cereales preparados en recipientes para comidas",
+      "5": "Utensilios de madera y lino en un rincón de cocina ordenado"
+    }
+  },
+  "carousel": {
+    "label": "Destacados de KitchenScale",
+    "slideLabel": "Diapositiva {{number}} de {{total}}",
+    "previous": "Banner anterior",
+    "next": "Banner siguiente",
+    "showSlide": "Mostrar banner {{number}}",
+    "pause": "Pausar los banners",
+    "play": "Iniciar los banners",
+    "bakingLead": "Hornea con",
+    "bakingAccent": "Confianza",
+    "bakingText": "De la harina a una pizca de levadura, simplifica las medidas en tus recetas favoritas.",
+    "spiceLead": "Pequeñas Cucharadas.",
+    "spiceAccent": "Gran Sabor.",
+    "spiceText": "Equilibra tus mezclas de especias y platos diarios, una cucharada medida a la vez.",
+    "spiceAlt": "Báscula de cuchara digital rodeada de especias en una encimera"
+  },
+  "reference": {
+    "collection": "La colección KitchenScale",
+    "collectionText": "Pequeñas herramientas prácticas para tus recetas diarias.",
+    "flourAlt": "Báscula de cuchara digital midiendo harina en una cocina"
+  },
+  "pages": {
+    "shopIntro": "Descubre nuestra báscula de cocina de precisión, diseñada para el día a día.",
+    "filters": "Filtrar productos",
+    "category": "Categoría",
+    "allProducts": "Todos los productos",
+    "price": "Precio",
+    "upTo": "Hasta ${{price}} USD (precio base de demostración)",
+    "color": "Color",
+    "allColors": "Todos los colores",
+    "inStock": "Solo disponibles",
+    "productCount_one": "{{count}} producto",
+    "productCount_other": "{{count}} productos",
+    "aboutTitle": "Sobre KitchenScaleCo",
+    "aboutIntro": "Creemos que las herramientas pequeñas pueden marcar una gran diferencia en el día a día.",
+    "ourStory": "Nuestra historia",
+    "storyAlt": "Fotografía de referencia de una cuchara medidora digital en uso en una cocina",
+    "whyChoose": "¿Por qué KitchenScaleCo?",
+    "reviewsTitle": "Opiniones de clientes",
+    "blogTitle": "Consejos de cocina",
+    "articleCategories": "Categorías de artículos",
+    "categories": {
+      "all": "Todos",
+      "recipes": "Recetas",
+      "coffee": "Café",
+      "baking": "Repostería",
+      "nutrition": "Nutrición",
+      "kitchen": "Consejos"
+    }
+  }
+}

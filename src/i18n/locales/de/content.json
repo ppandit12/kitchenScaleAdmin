@@ -1,0 +1,369 @@
+{
+  "about": {
+    "metaTitle": "Über uns",
+    "hero": {
+      "eyebrow": "Unsere Geschichte",
+      "title": "Kleine Mengen, mühelos gemessen.",
+      "text": "KitchenScaleCo begann mit einer einfachen Idee: Die kleinsten Mengen in einem Rezept verdienen ein ebenso durchdachtes Werkzeug. Eine Prise Gewürz, ein Löffel Kaffee, ein gestrichener Löffel Backpulver — gewogen genau dort, wo du schöpfst."
+    },
+    "mission": {
+      "eyebrow": "Unsere Mission",
+      "title": "Kleine, genaue Mengen mühelos abmessen.",
+      "p1": "Die meisten Küchenwaagen sind für große Mengen gebaut. Doch die Zutaten, die ein Gericht am meisten verändern — Gewürze, Triebmittel, Kaffee, Tee — werden oft in nur wenigen Gramm gemessen. Genau da schleicht sich das Raten ein.",
+      "p2": "Wir entwickeln Werkzeuge, die diese kleinen Mengen präzise machen, ohne zusätzliche Schritte, Unordnung oder Aufwand. Schöpfen, ablesen, zugeben — und weiterkochen.",
+      "imageAlt": "Illustration der Mini-Löffelwaage auf einer Küchenarbeitsplatte"
+    },
+    "values": {
+      "eyebrow": "Was uns wichtig ist",
+      "title": "Drei Grundsätze hinter allem, was wir machen",
+      "design": {
+        "title": "Durchdachtes Design",
+        "text": "Jedes Detail soll seinen Platz verdienen. Wir bevorzugen ruhige, schlichte Formen, die sich gut in der Hand anfühlen und auf der Arbeitsplatte zu Hause aussehen."
+      },
+      "useful": {
+        "title": "Nützlich im Alltag",
+        "text": "Wir machen Werkzeuge für echte Küchen und hektische Morgen — Dinge, nach denen du jeden Tag greifst, keine Gadgets, die in einer Schublade verschwinden."
+      },
+      "honest": {
+        "title": "Ehrliche Informationen",
+        "text": "Wir beschreiben nur, wofür wir einstehen können. Wo Details noch bestätigt werden, sagen wir das offen."
+      }
+    },
+    "why": {
+      "eyebrow": "Warum eine Löffelwaage",
+      "title": "Die Waage genau dort, wo du schöpfst",
+      "text": "Ein Messlöffel mit integriertem Digitaldisplay zeigt dir das Gewicht genau in dem Moment, in dem du es brauchst.",
+      "oneStep": {
+        "title": "Schöpfen und ablesen in einer Bewegung",
+        "text": "Keine separate Waage, keine Schüssel, die auf der Arbeitsplatte balanciert werden muss. Schöpfe deine Zutat und der Wert erscheint im Display am Griff.",
+        "imageAlt": "Die Mini-Löffelwaage schräg von der Seite, mit sichtbarem Display am Griff"
+      },
+      "small": {
+        "title": "Gemacht für kleine Mengen",
+        "text": "Bei Gewürzen, Triebmitteln, Kaffeepulver und losem Tee zählen wenige Gramm am meisten. Eine Löffelwaage ist genau für diese Momente ausgelegt.",
+        "imageAlt": "Nahaufnahme der Löffelschale mit einer kleinen Menge Gewürz"
+      },
+      "tidy": {
+        "title": "Weniger spülen, weniger verstauen",
+        "text": "Setze mit der Tara-Funktion zwischen den Zutaten auf null und wasche den abnehmbaren Löffelkopf danach von Hand. Ein kompaktes Werkzeug statt mehrerer.",
+        "imageAlt": "Die Mini-Löffelwaage auf ihrem Displayständer"
+      }
+    },
+    "who": {
+      "eyebrow": "Für wen sie gedacht ist",
+      "title": "Für alle, die sorgfältig abmessen",
+      "cooks": {
+        "title": "Hobbyköche",
+        "text": "Zum Abstimmen der Würze und um ein Gericht genau so zu wiederholen, wie es dir geschmeckt hat."
+      },
+      "bakers": {
+        "title": "Bäcker",
+        "text": "Für Triebmittel, Salz und Gewürze — die kleinen Mengen, von denen ein Gebäck abhängt."
+      },
+      "coffee": {
+        "title": "Kaffee- und Teeliebhaber",
+        "text": "Um deine Dosis vor dem Aufbrühen einzustellen, Tasse für Tasse."
+      },
+      "prep": {
+        "title": "Meal-Prepper",
+        "text": "Um kleine Zutaten über die Mahlzeiten der Woche hinweg gleichmäßig zu portionieren."
+      }
+    },
+    "cta": {
+      "eyebrow": "Lerne die Mini-Löffelwaage kennen",
+      "title": "Präzision in jedem Löffel.",
+      "text": "Entdecke Details, Farben und Packungsoptionen — und sieh, wie sie in deine Küche passt.",
+      "primary": "Mini-Löffelwaage entdecken",
+      "secondary": "FAQ lesen"
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontakt",
+    "hero": {
+      "eyebrow": "Wir sind für dich da",
+      "title": "Melde dich bei uns",
+      "text": "Fragen zur Mini-Löffelwaage, zu einer Bestellung oder zum Großhandel? Schick uns eine Nachricht und wir weisen dir den richtigen Weg."
+    },
+    "demoNotice": "Nachrichten landen direkt im Dashboard unseres Teams. Automatische E-Mail-Antworten sind noch nicht aktiviert.",
+    "form": {
+      "title": "Nachricht senden",
+      "requiredNote": "Mit * markierte Felder sind Pflichtfelder.",
+      "name": "Dein Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Betreff wählen",
+      "subjects": {
+        "order": "Frage zur Bestellung",
+        "product": "Frage zum Produkt",
+        "wholesale": "Großhandel",
+        "other": "Sonstiges"
+      },
+      "orderNumber": "Bestellnummer",
+      "orderNumberHint": "Optional — zum Beispiel KSC-1009",
+      "message": "Nachricht",
+      "messagePlaceholder": "Wie können wir helfen?",
+      "messageHint": "Mindestens 10 Zeichen.",
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet…"
+    },
+    "success": {
+      "badge": "Demo",
+      "title": "Nachricht gespeichert — nur Demo",
+      "text": "Danke, {{name}}. Wir haben deine Nachricht erhalten und unser Team meldet sich bei dir.",
+      "summary": "Das hast du gesendet",
+      "another": "Weitere Nachricht senden",
+      "faq": "FAQ durchstöbern",
+      "toast": "Nachricht gesendet"
+    },
+    "error": {
+      "title": "Wir konnten deine Nachricht nicht speichern",
+      "text": "Beim Senden deiner Nachricht ist etwas schiefgelaufen. Bitte versuche es erneut."
+    },
+    "side": {
+      "title": "Kontaktdaten",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Geschäftsadresse",
+      "placeholder": "Platzhalter — wird noch bestätigt",
+      "helpTitle": "Schnelle Hilfe",
+      "faq": "Häufig gestellte Fragen",
+      "faqText": "Nutzung der Waage, Bestellungen, Zahlungen und Rückgaben.",
+      "track": "Bestellung verfolgen",
+      "trackText": "Prüfe den Status einer Bestellung mit Nummer und E-Mail-Adresse.",
+      "chatTitle": "Probiere den Demo-Assistenten",
+      "chatText": "Sofortige automatische Antworten auf häufige Fragen. Es ist kein Live-Mitarbeiter.",
+      "chatCta": "Assistent öffnen",
+      "social": "Folge uns",
+      "socialNote": "Social-Media-Links führen zu Platzhalterseiten, bis die Profile der Marke bestätigt sind."
+    }
+  },
+  "faqPage": {
+    "metaTitle": "FAQ",
+    "eyebrow": "Hilfezentrum",
+    "filterLabel": "Fragen nach Thema filtern",
+    "all": "Alle",
+    "searchLabel": "FAQ durchsuchen",
+    "searchPlaceholder": "Fragen suchen, z. B. Versand",
+    "clearSearch": "Suche löschen",
+    "results_one": "{{count}} Frage",
+    "results_other": "{{count}} Fragen",
+    "empty": {
+      "title": "Keine passenden Fragen",
+      "text": "Wir konnten keine Antwort zu „{{query}}“ finden. Versuche andere Begriffe oder frag uns direkt.",
+      "reset": "Alle Fragen anzeigen"
+    },
+    "cta": {
+      "title": "Noch eine Frage?",
+      "text": "Schick uns eine Nachricht oder frag den Demo-Assistenten nach schnellen automatischen Antworten.",
+      "contact": "Kontakt aufnehmen",
+      "chat": "Den Assistenten fragen"
+    }
+  },
+  "legal": {
+    "draft": "Entwurf",
+    "noticeTitle": "ENTWURF — noch nicht freigegeben",
+    "noticeText": "Diese Seite enthält Platzhalterinhalte zur Prüfung durch den Auftraggeber und Rechtsberater. Sie ist keine endgültige Richtlinie und es sollte nicht auf sie vertraut werden.",
+    "lastUpdated": "Zuletzt aktualisiert: Datum wird noch bestätigt",
+    "toc": "Auf dieser Seite",
+    "inShort": "Kurz gesagt",
+    "englishOnly": "Der vollständige Text dieses Entwurfs ist derzeit nur auf Englisch verfügbar. Abschnittsüberschriften und Zusammenfassungen wurden übersetzt.",
+    "placeholderLegend": "Hervorgehobener Text kennzeichnet Angaben, die noch bestätigt werden müssen.",
+    "related": "Verwandte Richtlinien",
+    "questionsTitle": "Fragen zu dieser Seite?",
+    "questionsText": "Melde dich bei uns und wir helfen dir, Unklarheiten zu klären.",
+    "questionsCta": "Kontakt aufnehmen",
+    "backToTop": "Nach oben",
+    "shipping": {
+      "metaTitle": "Versandrichtlinie",
+      "title": "Versandrichtlinie",
+      "intro": "Wie wir Bestellungen nach Nordamerika und Europa versenden wollen. Tarife, Zeiten und Zusteller werden noch bestätigt.",
+      "sections": {
+        "overview": {
+          "title": "Überblick",
+          "summary": "Dieser Entwurf erklärt, wohin und wie Bestellungen nach dem Start des Shops versendet werden."
+        },
+        "regions": {
+          "title": "Wohin wir liefern",
+          "summary": "Wir planen den Versand in die USA, nach Kanada und in ausgewählte europäische Länder."
+        },
+        "processing": {
+          "title": "Bestellbearbeitung",
+          "summary": "Die Bearbeitungszeiten werden vor dem Start noch bestätigt."
+        },
+        "rates": {
+          "title": "Tarife und Lieferzeiten",
+          "summary": "Tarife und Schätzungen werden an der Kasse berechnet. Die aktuellen Tarife sind vorläufig und können sich vor dem Start ändern."
+        },
+        "customs": {
+          "title": "Zoll, Abgaben und Steuern",
+          "summary": "Für internationale Bestellungen können Einfuhrzölle und Steuern anfallen."
+        },
+        "tracking": {
+          "title": "Sendungsverfolgung",
+          "summary": "Du kannst eine Bestellung mit Bestellnummer und E-Mail-Adresse verfolgen."
+        },
+        "issues": {
+          "title": "Verlorene, verspätete oder beschädigte Pakete",
+          "summary": "Kontaktiere uns, wenn beim Transport etwas schiefgeht; der Ablauf für Reklamationen wird noch ausgearbeitet."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "summary": "So erreichst du uns bei Fragen zum Versand."
+        }
+      }
+    },
+    "refund": {
+      "metaTitle": "Rückerstattungsrichtlinie",
+      "title": "Rückerstattungsrichtlinie",
+      "intro": "Unser Vorgehen bei Rückgaben, Rückerstattungen und fehlerhaften Artikeln. Rückgabefrist und Bedingungen werden noch bestätigt.",
+      "sections": {
+        "overview": {
+          "title": "Überblick",
+          "summary": "Dieser Entwurf skizziert, wie Rückgaben und Rückerstattungen voraussichtlich funktionieren."
+        },
+        "window": {
+          "title": "Rückgabefrist",
+          "summary": "Die Rückgabefrist wird noch bestätigt. Eine 30-Tage-Geld-zurück-Garantie wird geprüft, ist aber noch nicht bestätigt."
+        },
+        "eligibility": {
+          "title": "Voraussetzungen und Zustand",
+          "summary": "Artikel müssen in der Regel unbenutzt, vollständig und in der Originalverpackung sein."
+        },
+        "process": {
+          "title": "So startest du eine Rückgabe",
+          "summary": "Kontaktiere uns mit deiner Bestellnummer, bevor du etwas zurücksendest."
+        },
+        "refunds": {
+          "title": "Rückerstattungen",
+          "summary": "Genehmigte Rückerstattungen sollen voraussichtlich auf die ursprüngliche Zahlungsart zurückfließen."
+        },
+        "damaged": {
+          "title": "Beschädigte oder fehlerhafte Artikel",
+          "summary": "Sag uns umgehend Bescheid, wenn ein Artikel beschädigt ankommt oder nicht mehr funktioniert."
+        },
+        "costs": {
+          "title": "Kosten der Rücksendung",
+          "summary": "Wer die Rücksendekosten trägt, wird noch bestätigt."
+        },
+        "rights": {
+          "title": "Deine gesetzlichen Rechte",
+          "summary": "Diese Richtlinie berührt nicht die Rechte, die dir nach dem örtlichen Verbraucherrecht zustehen."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "summary": "So erreichst du uns bei Fragen zu Rückgabe oder Rückerstattung."
+        }
+      }
+    },
+    "privacy": {
+      "metaTitle": "Datenschutzerklärung",
+      "title": "Datenschutzerklärung",
+      "intro": "Wie personenbezogene Daten voraussichtlich erhoben, verwendet und geschützt werden. Dieser Entwurf muss vor dem Start von Rechtsberatern geprüft werden.",
+      "sections": {
+        "about": {
+          "title": "Über diese Erklärung",
+          "summary": "Wer für deine Daten verantwortlich ist und was diese Erklärung abdeckt."
+        },
+        "collect": {
+          "title": "Informationen, die wir erheben",
+          "summary": "Angaben, die du uns machst, Bestellinformationen und begrenzte technische Daten."
+        },
+        "use": {
+          "title": "Wie wir deine Informationen verwenden",
+          "summary": "Um Bestellungen abzuwickeln, Support zu bieten, Marketing zu senden, dem du zugestimmt hast, und den Shop zu verbessern."
+        },
+        "cookies": {
+          "title": "Cookies und Analyse",
+          "summary": "Google Analytics 4 ist geplant, aber nicht aktiv. Einwilligungssteuerungen werden vor dem Start hinzugefügt."
+        },
+        "localStorage": {
+          "title": "Cookies und lokaler Speicher",
+          "summary": "Wir verwenden ein unverzichtbares Anmelde-Cookie und speichern Einstellungen wie Warenkorb, Sprache und Währung in deinem Browser."
+        },
+        "sharing": {
+          "title": "Weitergabe an Dienstleister",
+          "summary": "Wir erwarten, Daten nur an Anbieter weiterzugeben, die beim Betrieb des Shops helfen. Wir verkaufen keine personenbezogenen Daten."
+        },
+        "retention": {
+          "title": "Wie lange wir Daten aufbewahren",
+          "summary": "Daten werden nur so lange aufbewahrt, wie es nötig ist; konkrete Fristen werden noch bestätigt."
+        },
+        "rights": {
+          "title": "Deine Datenschutzrechte",
+          "summary": "Je nach deinem Wohnort kannst du Rechte auf Auskunft, Berichtigung oder Löschung deiner Daten haben."
+        },
+        "transfers": {
+          "title": "Internationale Übermittlungen",
+          "summary": "Daten können in anderen Ländern mit geeigneten Schutzmaßnahmen verarbeitet werden."
+        },
+        "children": {
+          "title": "Datenschutz für Kinder",
+          "summary": "Der Shop richtet sich nicht an Kinder."
+        },
+        "changes": {
+          "title": "Änderungen dieser Erklärung",
+          "summary": "Wir aktualisieren diese Seite und das obige Datum, wenn sich die Erklärung ändert."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "summary": "So erreichst du uns bei Fragen zum Datenschutz."
+        }
+      }
+    },
+    "terms": {
+      "metaTitle": "AGB",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "intro": "Die Bedingungen, die gelten werden, wenn du diese Website nutzt und bei KitchenScaleCo kaufst. Platzhalterinhalt bis zur rechtlichen Prüfung.",
+      "sections": {
+        "acceptance": {
+          "title": "Annahme dieser Bedingungen",
+          "summary": "Mit der Nutzung der Website oder einer Bestellung stimmst du diesen Bedingungen zu."
+        },
+        "use": {
+          "title": "Nutzung der Website",
+          "summary": "Nutze die Website rechtmäßig und beeinträchtige ihre Funktion nicht."
+        },
+        "products": {
+          "title": "Produkte und Beschreibungen",
+          "summary": "Wir bemühen uns, Produkte genau zu beschreiben; einige Details werden noch bestätigt."
+        },
+        "pricing": {
+          "title": "Preise und Irrtümer",
+          "summary": "Preise können sich ändern und wir können Bestellungen stornieren, die zu einem offensichtlich falschen Preis aufgegeben wurden."
+        },
+        "orders": {
+          "title": "Bestellungen und Annahme",
+          "summary": "Eine Bestellung ist ein Kaufangebot; ein Vertrag kommt zustande, wenn wir sie bestätigen oder versenden."
+        },
+        "payment": {
+          "title": "Zahlung",
+          "summary": "Die Zahlung wird von einem Drittanbieter abgewickelt, der noch ausgewählt wird."
+        },
+        "shipping": {
+          "title": "Versand und Rückgaben",
+          "summary": "Lieferung und Rückgaben werden in unseren separaten Richtlinienentwürfen behandelt."
+        },
+        "ip": {
+          "title": "Geistiges Eigentum",
+          "summary": "Inhalte und Markenauftritt der Website gehören KitchenScaleCo oder deren Lizenzgebern."
+        },
+        "liability": {
+          "title": "Haftungsbeschränkung",
+          "summary": "Unsere Haftung ist in dem Umfang beschränkt, den das Gesetz zulässt."
+        },
+        "law": {
+          "title": "Anwendbares Recht",
+          "summary": "Anwendbares Recht und Gerichtsstand werden noch bestätigt."
+        },
+        "changes": {
+          "title": "Änderungen dieser Bedingungen",
+          "summary": "Wir können diese Bedingungen aktualisieren; es gilt die Fassung zum Zeitpunkt deiner Bestellung."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "summary": "So erreichst du uns bei Fragen zu diesen Bedingungen."
+        }
+      }
+    }
+  }
+}

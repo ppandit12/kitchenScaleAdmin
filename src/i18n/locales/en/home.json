@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "eyebrow": "Thoughtful tools for everyday cooking",
+    "titleLead": "Precision in",
+    "titleAccent": "Every Scoop.",
+    "subtitle": "Discover a smarter way to measure ingredients with the KitchenScaleCo Mini Spoon Scale.",
+    "shopNow": "Shop Now",
+    "explore": "Explore Features",
+    "colorsLabel": "Choose your colour",
+    "colorPreview": "Preview {{color}}",
+    "imageAlt": "Mini Spoon Scale in {{color}}",
+    "illustrationNote": "Product illustration",
+    "chipSpoon": "Scoop & measure",
+    "chipDisplay": "Handle display",
+    "chipDrawer": "Compact by design"
+  },
+  "benefits": {
+    "eyebrow": "Small tool. Everyday possibilities.",
+    "titleLead": "Made for your",
+    "titleAccent": "kitchen rituals.",
+    "text": "From the first coffee of the day to a favourite recipe, make measuring part of the pleasure.",
+    "imageAlt": "Spoon scale detail illustration",
+    "imageCaption": "An original product illustration. Final photography to follow.",
+    "items": {
+      "convenient": {
+        "title": "Convenient Ingredient Measuring",
+        "text": "Scoop your ingredient and check the handle display in one simple routine."
+      },
+      "compact": {
+        "title": "Compact Kitchen Essential",
+        "text": "A small companion for your kitchen drawer and everyday recipes."
+      },
+      "simple": {
+        "title": "Simple Everyday Use",
+        "text": "Prepare, measure and add your ingredient to your recipe."
+      },
+      "modern": {
+        "title": "Designed for Modern Kitchens",
+        "text": "A considered addition to your collection of kitchen tools."
+      }
+    }
+  },
+  "featured": {
+    "badge": "Meet your kitchen companion",
+    "viewDetails": "Explore product details",
+    "unavailable": "Our product is taking a moment",
+    "unavailableText": "Please try again to load the current catalogue."
+  },
+  "how": {
+    "eyebrow": "Your recipe, one scoop at a time",
+    "title": "Three simple steps.",
+    "text": "A little preparation. A measured scoop. Something delicious.",
+    "step": "Step {{n}}",
+    "steps": {
+      "prepare": {
+        "title": "Prepare your ingredient.",
+        "text": "Gather the ingredients for your recipe and follow the product instructions."
+      },
+      "measure": {
+        "title": "Measure using the spoon scale.",
+        "text": "Scoop your ingredient and read the display on the handle."
+      },
+      "add": {
+        "title": "Add it to your recipe.",
+        "text": "Transfer the measured ingredient and keep creating."
+      }
+    }
+  },
+  "showcase": {
+    "eyebrow": "Everyday inspiration",
+    "titleLead": "A little detail.",
+    "titleAccent": "A lovely difference.",
+    "text": "Bring a thoughtful measuring routine to your baking, coffee and kitchen experiments.",
+    "cta": "Meet the Mini Spoon Scale",
+    "note": "Original illustrations shown for demonstration. Final product assets are pending approval.",
+    "alts": {
+      "lifestyle": "Kitchen ingredient illustration",
+      "angle": "Spoon scale at an angle",
+      "detail": "Spoon scale close-up",
+      "display": "Spoon scale handle display",
+      "pack": "Twin pack spoon scale illustration"
+    },
+    "captions": {
+      "lifestyle": "For your everyday recipes",
+      "angle": "A considered kitchen companion",
+      "detail": "The little details",
+      "display": "Read at a glance",
+      "pack": "A pair for your kitchen"
+    }
+  },
+  "faq": {
+    "title": "A few things you might wonder.",
+    "text": "Helpful answers before your first scoop.",
+    "all": "View all questions"
+  },
+  "newsletter": {
+    "title": "A little kitchen inspiration.",
+    "text": "Recipes, measuring tips and launch news — occasional emails, unsubscribe any time."
+  }
+}

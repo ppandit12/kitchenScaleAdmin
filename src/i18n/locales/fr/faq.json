@@ -1,0 +1,49 @@
+{
+  "title": "Questions fréquentes",
+  "subtitle": "Réponses aux questions courantes sur la Mini cuillère balance, les commandes et la livraison.",
+  "draftNote": "Certaines réponses sont provisoires en attendant la confirmation des politiques de la boutique.",
+  "categories": {
+    "product": "Produit",
+    "orders": "Commandes et livraison",
+    "payments": "Paiements",
+    "returns": "Retours"
+  },
+  "items": {
+    "howToUse": {
+      "q": "Comment utiliser la Mini cuillère balance ?",
+      "a": "Allumez la balance, attendez que l'affichage se stabilise, puis prélevez votre ingrédient. Le poids s'affiche sur l'écran du manche. Utilisez la fonction tare pour remettre l'affichage à zéro entre deux ingrédients. Les instructions complètes seront fournies dans la boîte."
+    },
+    "ingredients": {
+      "q": "Quels ingrédients puis-je mesurer ?",
+      "a": "Elle est conçue pour de petites quantités d'ingrédients secs et granuleux — par exemple épices, farine, sucre, café moulu, thé en vrac ou levure chimique. Évitez d'immerger le manche ou de mesurer des liquides chauds."
+    },
+    "units": {
+      "q": "Quelles unités affiche-t-elle ?",
+      "a": "La fiche du fournisseur mentionne les grammes, onces, grains et carats. Les options d'unités définitives seront confirmées avant le lancement."
+    },
+    "cleaning": {
+      "q": "Comment la nettoyer ?",
+      "a": "La tête de cuillère se détache pour le nettoyage. Lavez-la à la main et essuyez le manche avec un chiffon humide — n'immergez jamais le manche dans l'eau."
+    },
+    "international": {
+      "q": "Livrez-vous à l'international ?",
+      "a": "Nous prévoyons de livrer en Amérique du Nord et en Europe. Les tarifs et délais affichés lors de la commande sont provisoires ; la politique de livraison définitive est en cours de rédaction."
+    },
+    "tracking": {
+      "q": "Comment suivre ma commande ?",
+      "a": "Utilisez la page Suivi de commande avec votre numéro de commande et votre adresse e-mail. Les statuts sont mis à jour par notre équipe ; le suivi en direct par le transporteur sera ajouté ultérieurement."
+    },
+    "payments": {
+      "q": "Quels moyens de paiement sont acceptés ?",
+      "a": "Lors de la commande, Visa, Mastercard, UPI et Net Banking sont proposés comme options préférées. Le traitement des paiements n'est pas encore connecté, et les moyens pris en charge seront confirmés lorsqu'un prestataire de paiement aura été choisi."
+    },
+    "returns": {
+      "q": "Quelle est votre politique de retour ?",
+      "a": "Notre politique de retour et de remboursement est en cours de finalisation. Consultez le brouillon de la page Politique de remboursement pour les informations les plus récentes."
+    },
+    "battery": {
+      "q": "Quelle pile utilise-t-elle ?",
+      "a": "Les informations sur la pile seront confirmées avec les caractéristiques définitives du produit avant le lancement."
+    }
+  }
+}

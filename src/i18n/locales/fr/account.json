@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "panelEyebrow": "Votre compagnon de cuisine",
+    "panelTitle": "Un petit espace rien qu'à vous.",
+    "panelText": "Retrouvez vos commandes, votre profil et vos adresses au même endroit.",
+    "perks": {
+      "addresses": "Gérez vos adresses",
+      "orders": "Consultez l'historique de vos commandes",
+      "profile": "Mettez à jour votre profil"
+    },
+    "simulated": "Votre compte est enregistré de manière sécurisée. Les mots de passe ne sont conservés que sous forme de hachage à sens unique."
+  },
+  "dashboard": {
+    "eyebrow": "Votre compte",
+    "greeting": "Bonjour, {{name}}.",
+    "memberSince": "Membre depuis le {{date}}",
+    "metaTitle": "Votre compte",
+    "missingText": "Nous n'avons pas pu charger votre profil. Veuillez vous reconnecter.",
+    "missingTitle": "Profil indisponible",
+    "nav": {
+      "addresses": "Carnet d’adresses",
+      "label": "Navigation du compte",
+      "orders": "Commandes",
+      "overview": "Vue d’ensemble",
+      "profile": "Profil",
+      "signOut": "Déconnexion",
+      "track": "Suivre une commande"
+    },
+    "signedOut": "Vous avez été déconnecté·e",
+    "simulated": "Les informations de votre compte sont enregistrées de manière sécurisée."
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "noAccount": "L'adresse e-mail ou le mot de passe est incorrect.",
+    "exists": "Un compte existe déjà avec cette adresse e-mail. Essayez plutôt de vous connecter.",
+    "invalidCredentials": "L'adresse e-mail ou le mot de passe est incorrect.",
+    "tooManyAttempts": "Trop de tentatives. Veuillez patienter quelques minutes puis réessayer.",
+    "network": "Nous ne parvenons pas à joindre le serveur pour le moment. Veuillez réessayer dans quelques instants."
+  },
+  "forgot": {
+    "back": "Retour à la connexion",
+    "demoNote": "Les e-mails de réinitialisation du mot de passe ne sont pas encore activés ; aucun e-mail ne sera envoyé. Si vous n'arrivez plus à vous connecter, veuillez nous contacter.",
+    "email": "Adresse e-mail",
+    "metaTitle": "Réinitialiser votre mot de passe",
+    "sentText": "Nous avons enregistré votre demande. Les e-mails de réinitialisation ne sont pas encore activés — veuillez nous contacter et nous vous aiderons à retrouver l'accès.",
+    "sentTitle": "Demande reçue",
+    "submit": "Demander une réinitialisation",
+    "text": "Saisissez l'adresse e-mail de votre compte.",
+    "title": "Mot de passe oublié ?",
+    "tryAgain": "Essayer une autre adresse e-mail"
+  },
+  "login": {
+    "backendNote": "Vous restez connecté·e grâce à un cookie sécurisé de type HTTP-only.",
+    "create": "Créer un compte",
+    "demoText": "Pour tester, connectez-vous avec demo@kitchenscaleco.test et le mot de passe demo1234.",
+    "demoTitle": "Compte d'exemple",
+    "email": "Adresse e-mail",
+    "forgot": "Mot de passe oublié ?",
+    "metaTitle": "Se connecter",
+    "noAccount": "Nouveau ici ?",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "text": "Bon retour dans votre compagnon de cuisine.",
+    "title": "Bon retour.",
+    "useDemo": "Remplir avec le compte d'exemple",
+    "welcome": "Bienvenue, {{name}} !"
+  },
+  "orders": {
+    "date": "Date",
+    "emptyText": "Lorsque vous passerez une commande, elle apparaîtra ici.",
+    "emptyTitle": "Aucune commande pour le moment",
+    "itemCount": "{{count}} articles",
+    "items": "Articles",
+    "metaTitle": "Vos commandes",
+    "order": "Commande",
+    "shop": "Découvrir la boutique",
+    "status": "Statut",
+    "text": "Toutes vos commandes, au même endroit.",
+    "title": "Historique des commandes",
+    "total": "Total",
+    "view": "Voir les détails",
+    "viewOrder": "Voir la commande {{number}}"
+  },
+  "overview": {
+    "addAddress": "Ajouter une adresse",
+    "addresses": "Adresses enregistrées",
+    "defaultAddress": "Adresse par défaut",
+    "latestStatus": "Statut de la dernière commande",
+    "links": {
+      "faq": "Questions fréquentes",
+      "profile": "Modifier votre profil",
+      "shop": "Découvrir la boutique",
+      "track": "Suivre une commande"
+    },
+    "manage": "Gérer les adresses",
+    "noAddress": "Vous n'avez pas encore enregistré d'adresse.",
+    "noOrders": "Aucune commande pour le moment",
+    "ordersCount": "Commandes",
+    "quickLinks": "Liens utiles",
+    "recent": "Commandes récentes",
+    "viewAll": "Voir toutes les commandes"
+  },
+  "password": {
+    "hide": "Masquer le mot de passe",
+    "show": "Afficher le mot de passe"
+  },
+  "register": {
+    "confirm": "Confirmer le mot de passe de démonstration",
+    "country": "Pays",
+    "email": "Adresse e-mail",
+    "fullName": "Nom complet",
+    "haveAccount": "Vous avez déjà un compte de démo ?",
+    "marketing": "Envoyez-moi par e-mail des recettes, des conseils et des nouvelles produits. Je peux me désabonner à tout moment.",
+    "metaTitle": "Créer un compte de démo",
+    "note": "Votre mot de passe n'est conservé que sous forme de hachage sécurisé à sens unique. La vérification de l'adresse e-mail n'est pas encore activée.",
+    "password": "Mot de passe",
+    "passwordHint": "Au moins 8 caractères.",
+    "signIn": "Se connecter",
+    "submit": "Créer un compte de démonstration",
+    "success": "Votre compte de démo est prêt",
+    "text": "Faites un peu de place à vos indispensables de cuisine.",
+    "title": "Créer votre compte de démonstration."
+  },
+  "timeline": {
+    "cancelled": "Cette commande a été annulée.",
+    "current": "Étape actuelle",
+    "pending": "En attente",
+    "title": "Suivi de la commande"
+  },
+  "profile": {
+    "title": "Votre profil",
+    "phone": "Téléphone (facultatif)",
+    "save": "Enregistrer",
+    "saved": "Profil enregistré",
+    "emailUsed": "Un autre compte utilise déjà cette adresse e-mail."
+  },
+  "details": {
+    "notFound": "Commande introuvable",
+    "back": "Retour aux commandes",
+    "demo": "Aucun paiement n'a été encaissé pour cette commande. Les mises à jour de statut proviennent de notre équipe, et non d'un transporteur.",
+    "address": "Adresse de livraison"
+  },
+  "addresses": {
+    "title": "Carnet d’adresses",
+    "add": "Ajouter une adresse",
+    "edit": "Modifier l’adresse",
+    "remove": "Supprimer",
+    "default": "Par défaut",
+    "makeDefault": "Définir par défaut",
+    "empty": "Aucune adresse enregistrée pour le moment",
+    "saved": "Adresse enregistrée",
+    "fields": {
+      "label": "Nom de l’adresse",
+      "fullName": "Nom complet",
+      "line1": "Adresse ligne 1",
+      "line2": "Adresse ligne 2 (facultatif)",
+      "city": "Ville",
+      "state": "État ou province",
+      "postalCode": "Code postal"
+    }
+  }
+}

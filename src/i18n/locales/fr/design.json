@@ -1,0 +1,263 @@
+{
+  "header": {
+    "shipping": "Livraison internationale",
+    "reviews": "Avis",
+    "blog": "Blog",
+    "search": "Rechercher",
+    "searchLabel": "Rechercher des produits",
+    "empty": "Aucun produit trouvé"
+  },
+  "hero": {
+    "eyebrow": "Mini Spoon Scale",
+    "lead": "Petite cuillère",
+    "every": "Grande",
+    "scoop": "précision",
+    "text": "Mesurez de petits ingrédients simplement. Un compagnon pour cuisiner, pâtisser et préparer votre café.",
+    "alt": "Cuillère balance blanche mesurant du café moulu à côté d’une tasse",
+    "measure": "Mesure simple",
+    "measureText": "Petits ingrédients",
+    "display": "Facile à utiliser",
+    "displayText": "Écran numérique",
+    "units": "Plusieurs unités",
+    "unitsText": "Unités à confirmer",
+    "shop": "Acheter",
+    "watch": "Voir le fonctionnement"
+  },
+  "how": {
+    "title": "Une manière simple de mesurer",
+    "note": "Présentation interactive illustrée. Aucune vidéo produit n’a été fournie.",
+    "steps": {
+      "0": {
+        "title": "Préparez votre ingrédient",
+        "text": "Rassemblez les ingrédients de votre recette et consultez les instructions du produit avant utilisation."
+      },
+      "1": {
+        "title": "Mesurez votre cuillerée",
+        "text": "Prélevez votre ingrédient, tenez la balance comme indiqué et lisez l'écran du manche."
+      },
+      "2": {
+        "title": "Intégrez-le à votre recette",
+        "text": "Versez votre ingrédient et poursuivez la préparation de votre recette."
+      }
+    }
+  },
+  "trust": {
+    "0": {
+      "title": "Livraison internationale",
+      "text": "Estimation selon la destination"
+    },
+    "1": {
+      "title": "Commande de démonstration",
+      "text": "Aucun paiement prélevé"
+    },
+    "2": {
+      "title": "Informations sur les retours",
+      "text": "Voir la politique provisoire"
+    },
+    "3": {
+      "title": "Assistance client",
+      "text": "Aide et questions fréquentes"
+    }
+  },
+  "product": {
+    "noReviews": "Aucun avis pour le moment",
+    "demoReviews": "Avis de démonstration",
+    "details": "Voir les détails du produit",
+    "checkout": "Commande de démonstration",
+    "returns": "Politique de retour provisoire",
+    "shipping": "Estimation de livraison",
+    "paymentDemo": "Aperçus des moyens de paiement — aucun paiement réel",
+    "bank": "Net Banking",
+    "demoNote": "Prix, stocks et options de paiement de démonstration. Détails définitifs à confirmer."
+  },
+  "gallery": {
+    "previous": "Image précédente",
+    "next": "Image suivante",
+    "show": "Voir l’image {{number}}",
+    "zoom": "Agrandir l’image",
+    "alt": "Référence de design client pour {{name}}",
+    "note": "Photo de référence"
+  },
+  "everyday": {
+    "title": "Conçu pour les gestes du quotidien",
+    "text": "De la cuisine au coin café, une routine de mesure pensée pour vous.",
+    "items": {
+      "0": {
+        "title": "Cuisine et pâtisserie",
+        "text": "Vos recettes quotidiennes"
+      },
+      "1": {
+        "title": "Préparation du café",
+        "text": "Mesurez votre café moulu"
+      },
+      "2": {
+        "title": "Préparation des repas",
+        "text": "Un ingrédient à la fois"
+      },
+      "3": {
+        "title": "Petites portions",
+        "text": "Un compagnon compact"
+      }
+    }
+  },
+  "uses": {
+    "title": "Une balance. De nombreuses possibilités.",
+    "text": "Les petits ingrédients de votre quotidien",
+    "items": {
+      "0": {
+        "title": "Pâtisserie",
+        "text": "Mesurez les ingrédients de vos recettes préférées"
+      },
+      "1": {
+        "title": "Café",
+        "text": "Faites de votre rituel café du matin le vôtre"
+      },
+      "2": {
+        "title": "Épices",
+        "text": "Mesurez de petites quantités pour de grandes saveurs"
+      },
+      "3": {
+        "title": "Compléments",
+        "text": "Suivez l'étiquette du produit et les conseils d'un professionnel"
+      },
+      "4": {
+        "title": "Alimentation animale",
+        "text": "Suivez le guide d'alimentation recommandé pour votre animal"
+      }
+    },
+    "note": "Les images d'usage proviennent du concept de design du client. L'adéquation et les caractéristiques définitives restent à confirmer."
+  },
+  "reviews": {
+    "title": "Les avis de nos clients",
+    "text": "Avis de démonstration. Ils ne sont pas des témoignages de clients vérifiés.",
+    "demo": "Avis de démonstration",
+    "local": "Avis d'un client",
+    "empty": "Aucun avis pour le moment",
+    "previous": "Avis précédents",
+    "next": "Avis suivants",
+    "page": "Page d’avis {{number}}",
+    "write": "Écrire un avis de démonstration",
+    "filter": "Filtrer par note",
+    "allRatings": "Toutes les notes"
+  },
+  "cta": {
+    "eyebrow": "Chaque cuillerée compte",
+    "title": "Améliorez votre cuisine aujourd’hui",
+    "text": "Un petit ajout à votre cuisine. Une façon réfléchie de mesurer et de créer."
+  },
+  "footer": {
+    "support": "Assistance",
+    "tagline": "Des outils pour votre cuisine quotidienne.",
+    "newsletter": "Inscrivez-vous et découvrez",
+    "newsletterText": "Inspiration culinaire et nouveautés à venir."
+  },
+  "blog": {
+    "title": "Notes de cuisine",
+    "text": "Des idées simples pour vos rituels culinaires et votre café.",
+    "category": "Journal de cuisine",
+    "read": "Lire l’article",
+    "articles": {
+      "0": {
+        "title": "Une routine de pâtisserie plus sereine",
+        "intro": "Un peu de préparation laisse plus de place au plaisir de pâtisser.",
+        "body": "Commencez par lire votre recette du début à la fin. Sortez vos ingrédients et vos ustensiles, puis préparez chaque ingrédient avant de mélanger. Gardez à portée de main un petit bol pour les ingrédients mesurés et un torchon pour votre plan de travail. Pour peser, suivez les instructions fournies avec votre balance et les quantités de votre recette. L'objectif est une routine agréable qui vous aide à profiter du processus."
+      },
+      "1": {
+        "title": "Faites de votre rituel café le vôtre",
+        "intro": "De petites étapes régulières peuvent rendre vos matins plus soignés.",
+        "body": "Choisissez une méthode d'infusion que vous aimez et suivez les instructions de votre matériel. Notez la quantité de café, d'eau et le temps d'infusion pour pouvoir refaire une tasse qui vous plaît. Conservez vos grains comme le recommande le torréfacteur et nettoyez régulièrement votre matériel. Un outil de mesure peut faire partie de votre routine ; utilisez-le dans le cadre de ses caractéristiques confirmées."
+      },
+      "2": {
+        "title": "Un peu d'organisation pour vos épices",
+        "intro": "Gardez vos ingrédients les plus utilisés à portée de main.",
+        "body": "Regroupez les épices selon les recettes que vous cuisinez le plus souvent, étiquetez clairement les bocaux et suivez les conseils de conservation indiqués sur l'emballage. Avant de cuisiner, mesurez les quantités demandées par votre recette dans des plats séparés. Ajoutez les ingrédients aux étapes indiquées dans la recette et ajustez les prochaines préparations selon vos goûts. Gardez vos outils de mesure secs et propres, en suivant leurs instructions d'entretien."
+      },
+      "3": {
+        "title": "Composez votre mélange d'épices du quotidien",
+        "intro": "Une façon simple de garder vos saveurs préférées à portée de main.",
+        "body": "Choisissez quelques épices que vous aimez déjà, puis combinez de petites quantités mesurées dans un bocal propre et sec. Notez les proportions pour pouvoir refaire le mélange ou l'ajuster la prochaine fois. Étiquetez le bocal avec ses ingrédients et la date, et gardez-le à l'abri de la chaleur et de l'humidité. Commencez par en mettre peu pour assaisonner un plat et goûtez au fur et à mesure."
+      },
+      "4": {
+        "title": "Rendre la préparation des repas plus régulière",
+        "intro": "Organisez vos ingrédients avant de commencer votre cuisine de la semaine.",
+        "body": "Choisissez d'abord vos recettes et dressez la liste de leurs ingrédients. Préparez séparément les petits assaisonnements pour pouvoir les ajouter au bon moment. Utilisez des contenants propres et suivez les conseils de conservation des aliments que vous préparez. Les mesures aident à refaire une recette ; les besoins nutritionnels et les portions appropriées dépendent de chaque personne."
+      },
+      "5": {
+        "title": "Un petit outil pour une cuisine organisée",
+        "intro": "Créez une routine de mesure adaptée à votre plan de travail et à vos placards.",
+        "body": "Gardez les outils de mesure que vous utilisez le plus près de votre espace de préparation. Lisez les instructions de votre balance, vérifiez l'unité sélectionnée et utilisez la fonction tare comme indiqué. Nettoyez la tête de cuillère détachable selon les instructions du produit et gardez le manche électronique au sec. Rangez les petits outils ensemble pour les retrouver facilement quand vous cuisinez."
+      }
+    },
+    "back": "Retour au journal",
+    "journal": "LE JOURNAL DE LA CUISINE",
+    "coverText": "Un peu d'inspiration pour le quotidien. Des recettes soignées, de beaux rituels d'infusion et de petites idées qui donnent à votre cuisine un air de maison.",
+    "explore": "Découvrir le journal",
+    "coverAlt": "Table de cuisine ensoleillée avec pain au levain, poires et plats en céramique chaleureux",
+    "coverCaption": "Bonne cuisine. Petits rituels. Joie du quotidien.",
+    "latest": "Tout frais sorti de la cuisine",
+    "articleCount_one": "{{count}} article",
+    "articleCount_other": "{{count}} articles",
+    "open": "Lire {{title}}",
+    "readTime": "{{minutes}} min de lecture",
+    "shopKicker": "FAITES DE LA PLACE AU QUOTIDIEN",
+    "shopTitle": "Petits outils. Cuisine soignée.",
+    "imageAlts": {
+      "0": "Ingrédients de pâtisserie et fouet disposés sur une table en bois ensoleillée",
+      "1": "Café filtre et tasse en céramique dans une chaleureuse ambiance matinale",
+      "2": "Bocaux d'épices en verre rangés sur une étagère en bois",
+      "3": "Bols en céramique remplis d'épices disposés pour un mélange",
+      "4": "Légumes et céréales préparés dans des contenants à repas",
+      "5": "Ustensiles en bois et linge dans un coin de cuisine bien organisé"
+    }
+  },
+  "carousel": {
+    "label": "Les essentiels KitchenScale",
+    "slideLabel": "Diapositive {{number}} sur {{total}}",
+    "previous": "Bannière précédente",
+    "next": "Bannière suivante",
+    "showSlide": "Afficher la bannière {{number}}",
+    "pause": "Mettre les bannières en pause",
+    "play": "Lancer les bannières",
+    "bakingLead": "Pâtissez en",
+    "bakingAccent": "Toute Confiance",
+    "bakingText": "De la farine à une pincée de levure, simplifiez les mesures de vos recettes préférées.",
+    "spiceLead": "Petites Cuillerées.",
+    "spiceAccent": "Grandes Saveurs.",
+    "spiceText": "Équilibrez vos mélanges d’épices et vos plats du quotidien, une cuillerée à la fois.",
+    "spiceAlt": "Cuillère balance numérique entourée d’épices sur un plan de travail"
+  },
+  "reference": {
+    "collection": "La collection KitchenScale",
+    "collectionText": "De petits outils pratiques pour vos recettes de tous les jours.",
+    "flourAlt": "Cuillère balance numérique mesurant de la farine dans une cuisine"
+  },
+  "pages": {
+    "shopIntro": "Découvrez notre balance de cuisine de précision, pensée pour le quotidien.",
+    "filters": "Filtrer les produits",
+    "category": "Catégorie",
+    "allProducts": "Tous les produits",
+    "price": "Prix",
+    "upTo": "Jusqu'à {{price}} $ USD (prix de base de démonstration)",
+    "color": "Couleur",
+    "allColors": "Toutes les couleurs",
+    "inStock": "En stock uniquement",
+    "productCount_one": "{{count}} produit",
+    "productCount_other": "{{count}} produits",
+    "aboutTitle": "À propos de KitchenScaleCo",
+    "aboutIntro": "Nous croyons que les petits outils peuvent faire une grande différence au quotidien.",
+    "ourStory": "Notre histoire",
+    "storyAlt": "Photographie de référence d'une cuillère doseuse numérique utilisée en cuisine",
+    "whyChoose": "Pourquoi KitchenScaleCo ?",
+    "reviewsTitle": "Avis clients",
+    "blogTitle": "Conseils de cuisine",
+    "articleCategories": "Catégories des articles",
+    "categories": {
+      "all": "Tous",
+      "recipes": "Recettes",
+      "coffee": "Café",
+      "baking": "Pâtisserie",
+      "nutrition": "Nutrition",
+      "kitchen": "Conseils"
+    }
+  }
+}

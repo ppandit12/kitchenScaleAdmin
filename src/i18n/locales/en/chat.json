@@ -1,0 +1,60 @@
+{
+  "launcher": {
+    "open": "Open the KitchenScaleCo assistant",
+    "close": "Close the KitchenScaleCo assistant",
+    "label": "Questions?"
+  },
+  "header": {
+    "title": "KitchenScaleCo Assistant",
+    "subtitle": "Demo assistant — automated replies, not a live agent",
+    "clear": "Clear conversation",
+    "close": "Close chat"
+  },
+  "log": "Conversation with the KitchenScaleCo demo assistant",
+  "you": "You",
+  "assistant": "Assistant",
+  "typing": "The assistant is typing…",
+  "input": {
+    "label": "Your message",
+    "placeholder": "Ask about using the scale, shipping, returns…",
+    "send": "Send message"
+  },
+  "quickReplies": {
+    "title": "Suggested questions",
+    "howToUse": "How do I use it?",
+    "shipping": "Shipping",
+    "tracking": "Track my order",
+    "payments": "Payment methods",
+    "returns": "Returns",
+    "human": "Talk to a person"
+  },
+  "links": {
+    "faq": "Read the FAQ",
+    "trackOrder": "Track an order",
+    "contact": "Contact form",
+    "product": "View the Mini Spoon Scale",
+    "shippingPolicy": "Shipping policy (draft)",
+    "refundPolicy": "Refund policy (draft)"
+  },
+  "footer": "Automated assistant · history saved on this device",
+  "cleared": "Conversation cleared.",
+  "answers": {
+    "welcome": "Hi! I'm the KitchenScaleCo demo assistant. I can answer common questions about the Mini Spoon Scale, shipping, orders and returns. I'm an automated helper — not a live agent.",
+    "greeting": "Hello! How can I help? You can ask about using the Mini Spoon Scale, shipping, tracking an order, payments or returns.",
+    "thanks": "You're welcome! Is there anything else I can help you with?",
+    "human": "There's no live support team connected to this chat yet, so I can't pass you to a person. Please use the contact form — those messages go straight to our team.",
+    "tracking": "You can check an order on the Track Order page using your order number and email address. Statuses are updated by our team; live courier tracking will be added later. Try order {{order}} with {{email}}.",
+    "returns": "Our return and refund policy is still being finalised. A 30-day money-back guarantee is under consideration but hasn't been confirmed yet. The draft Refund Policy has the latest information.",
+    "payments": "The checkout shows Visa, Mastercard, UPI and Net Banking as preferred payment options. Payment processing isn't connected yet, so no payment details are collected; supported methods will be confirmed when a payment provider is chosen.",
+    "shipping": "We plan to ship to North America and Europe. Shipping rates and delivery estimates are calculated at checkout and are provisional for now. International orders may be subject to customs duties and taxes.",
+    "pricing": "Prices on this site are demonstration values until final pricing is confirmed. If you'd like to try the checkout, the demo coupon codes {{codes}} work in this preview.",
+    "howToUse": "Switch the scale on and let the display settle, then scoop your ingredient — the weight appears on the handle display. Use the tare function to zero the reading between ingredients. Full instructions will be included in the box.",
+    "ingredients": "The Mini Spoon Scale is designed for small quantities of dry and granular ingredients — spices, flour, sugar, coffee grounds, loose-leaf tea or baking powder, for example. Avoid submerging the handle or measuring hot liquids.",
+    "units": "The supplier listing describes grams, ounces, grains and carats. Final unit options will be confirmed before launch.",
+    "cleaning": "The spoon head detaches for cleaning. Wash the spoon head by hand and wipe the handle with a damp cloth — never immerse the handle in water.",
+    "battery": "Battery details will be confirmed with the final product specifications before launch.",
+    "contact": "You can reach us through the contact form — messages go straight to our team. Support email and phone details are on the contact page.",
+    "product": "The Mini Spoon Scale is a measuring spoon with a built-in digital display — scoop, read and add to your recipe without a separate scale. You'll find colours, pack options and (demo) prices on the product page.",
+    "fallback": "Sorry, I'm not sure about that one. I'm a simple automated assistant — try one of the suggested questions, browse the FAQ, or send a message through the contact form."
+  }
+}

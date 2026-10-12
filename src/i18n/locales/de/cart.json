@@ -1,0 +1,63 @@
+{
+  "title": "Ihr Warenkorb",
+  "drawerTitle": "Ihr Warenkorb",
+  "itemCount": "{{count}} Artikel",
+  "checkout": "Zum Demo-Checkout",
+  "continueShopping": "Weiter einkaufen",
+  "subtotal": "Zwischensumme",
+  "shipping": "Geschätzter Versand",
+  "total": "Demo-Gesamtbetrag",
+  "discountCode": "Rabatt ({{code}})",
+  "taxNote": "Steuern und endgültige Kosten werden noch nicht berechnet.",
+  "page": {
+    "text": "Deine ausgewählten Essentials, bereit für den nächsten Schritt.",
+    "summary": "Bestellübersicht"
+  },
+  "summary": {
+    "demoTotals": "Alle Preise und Summen sind Demo-Werte."
+  },
+  "drawer": {
+    "note": "Demo-Warenkorb. Es wird keine Zahlung eingezogen.",
+    "viewCart": "Warenkorb ansehen"
+  },
+  "empty": {
+    "title": "Ihr Warenkorb wartet.",
+    "text": "Entdecke einen kleinen Helfer für deinen Küchenalltag.",
+    "cta": "Shop entdecken"
+  },
+  "line": {
+    "each": "{{price}} pro Stück",
+    "lineTotal": "Positionssumme",
+    "maxReached": "Maximaler verfügbarer Demo-Bestand erreicht.",
+    "remove": "{{name}} entfernen"
+  },
+  "toast": {
+    "removed": "{{name}} aus deiner Tasche entfernt"
+  },
+  "coupon": {
+    "label": "Demo-Rabattcode",
+    "placeholder": "Beispielcode eingeben",
+    "apply": "Anwenden",
+    "applied": "{{code}} angewendet",
+    "remove": "Gutschein entfernen",
+    "removed": "Demo-Gutschein entfernt",
+    "valid": "Demo-Gutschein angewendet",
+    "hintTitle": "Probiere einen Beispielcode",
+    "hintText": "Diese Gutscheine dienen nur zur Demonstration.",
+    "tapToApply": "{{code}} anwenden",
+    "errors": {
+      "required": "Code eingeben.",
+      "notFound": "Code nicht gefunden.",
+      "inactive": "Dieser Code ist deaktiviert.",
+      "expired": "Dieser Code ist abgelaufen.",
+      "minSubtotal": "Mindestzwischensumme: {{amount}}"
+    }
+  },
+  "shippingEstimate": {
+    "title": "Demo-Versand schätzen",
+    "country": "Zielland",
+    "demo": "Demo-Tarif",
+    "method": "{{name}} ? {{min}}–{{max}} Werktage (Demo)",
+    "unavailable": "Für dieses Ziel ist kein Demo-Versandtarif verfügbar."
+  }
+}

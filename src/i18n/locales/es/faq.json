@@ -1,0 +1,49 @@
+{
+  "title": "Preguntas frecuentes",
+  "subtitle": "Respuestas a preguntas habituales sobre la Mini cuchara báscula, los pedidos y los envíos.",
+  "draftNote": "Algunas respuestas son provisionales hasta que se confirmen las políticas de la tienda.",
+  "categories": {
+    "product": "Producto",
+    "orders": "Pedidos y envíos",
+    "payments": "Pagos",
+    "returns": "Devoluciones"
+  },
+  "items": {
+    "howToUse": {
+      "q": "¿Cómo uso la Mini cuchara báscula?",
+      "a": "Enciende la báscula, deja que la pantalla se estabilice y sirve tu ingrediente. El peso aparece en la pantalla del mango. Usa la función de tara para poner la lectura a cero entre ingredientes. Las instrucciones completas se incluirán en la caja."
+    },
+    "ingredients": {
+      "q": "¿Qué ingredientes puedo medir?",
+      "a": "Está pensada para pequeñas cantidades de ingredientes secos y granulados, por ejemplo especias, harina, azúcar, café molido, té en hebras o levadura en polvo. Evita sumergir el mango o medir líquidos calientes."
+    },
+    "units": {
+      "q": "¿Qué unidades muestra?",
+      "a": "La ficha del proveedor describe gramos, onzas, granos y quilates. Las opciones de unidades definitivas se confirmarán antes del lanzamiento."
+    },
+    "cleaning": {
+      "q": "¿Cómo se limpia?",
+      "a": "La cabeza de la cuchara se desmonta para limpiarla. Lava la cabeza de la cuchara a mano y limpia el mango con un paño húmedo; nunca sumerjas el mango en agua."
+    },
+    "international": {
+      "q": "¿Hacéis envíos internacionales?",
+      "a": "Planeamos enviar a Norteamérica y Europa. Las tarifas y los plazos que se muestran al finalizar la compra son provisionales; la política de envíos definitiva se está redactando."
+    },
+    "tracking": {
+      "q": "¿Cómo puedo seguir mi pedido?",
+      "a": "Usa la página Seguir pedido con tu número de pedido y tu correo electrónico. Los estados los actualiza nuestro equipo; el seguimiento en vivo del transportista se añadirá más adelante."
+    },
+    "payments": {
+      "q": "¿Qué métodos de pago se admiten?",
+      "a": "Al finalizar la compra se muestran Visa, Mastercard, UPI y Net Banking como opciones preferidas. El procesamiento de pagos aún no está conectado, y los métodos admitidos se confirmarán cuando se elija un proveedor de pagos."
+    },
+    "returns": {
+      "q": "¿Cuál es vuestra política de devoluciones?",
+      "a": "Nuestra política de devoluciones y reembolsos se está ultimando. Consulta la página del borrador de la Política de reembolsos para ver la información más reciente."
+    },
+    "battery": {
+      "q": "¿Qué batería usa?",
+      "a": "Los detalles de la batería se confirmarán con las especificaciones finales del producto antes del lanzamiento."
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "shop": {
+    "title": "Les essentiels de la cuisine.",
+    "text": "Découvrez la Mini cuillère balance et choisissez une variante pour votre routine de cuisine au quotidien.",
+    "search": "Rechercher des produits",
+    "sort": "Trier par",
+    "featured": "À découvrir",
+    "low": "Prix croissant",
+    "high": "Prix décroissant",
+    "empty": "Aucun produit trouv?"
+  },
+  "from": "À partir de",
+  "save": "Économie de démo : {{percent}} %",
+  "demoPricing": "Prix de démonstration",
+  "sku": "Référence",
+  "quickAdd": "Ajouter",
+  "quickAddLabel": "Ajouter {{name}} ({{variant}}) au panier",
+  "addedToast": "{{name}} ({{variant}}) ajouté au panier",
+  "inCart": "{{count}} déjà dans votre panier",
+  "maxInCart": "Tout le stock de démonstration disponible est déjà dans votre panier.",
+  "noAlternatives": "Aucune autre variante n'est disponible pour le moment.",
+  "notOffered": "Cette combinaison n'est pas disponible.",
+  "outOfStockTitle": "Cette variante est épuisée",
+  "outOfStockText": "Essayez l'une des alternatives disponibles ci-dessous.",
+  "unavailableOption": "Combinaison indisponible",
+  "swatchGroup": "Coloris du produit",
+  "swatchLabel": "Choisir {{color}}",
+  "card": {
+    "viewProduct": "Voir {{name}}"
+  },
+  "options": {
+    "Color": "Couleur",
+    "Pack": "Lot"
+  },
+  "values": {
+    "Black": "Noir",
+    "White": "Blanc",
+    "Pink": "Rose",
+    "Single": "Unit?",
+    "Twin Pack": "Lot de deux"
+  },
+  "gallery": {
+    "illustration": "Illustration du produit",
+    "next": "Image suivante",
+    "prev": "Image précédente",
+    "open": "Ouvrir la visionneuse d'images",
+    "position": "Image {{current}} sur {{total}}",
+    "show": "Afficher {{alt}}",
+    "thumbnails": "Images du produit",
+    "zoomHint": "Survolez pour zoomer. Cliquez pour agrandir.",
+    "zoomHintTouch": "Touchez pour agrandir",
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière"
+  },
+  "details": {
+    "description": "Détails du produit",
+    "specifications": "Spécifications à vérifier",
+    "shipping": "Livraison",
+    "faq": "Questions fréquentes",
+    "related": "À découvrir aussi"
+  },
+  "reviews": {
+    "eyebrow": "Avis de démonstration",
+    "title": "Histoires de cuisine.",
+    "intro": "Ces avis d'exemple illustrent l'interface. Ce ne sont pas des témoignages de clients vérifiés.",
+    "average": "Note moyenne",
+    "basedOn": "Basée sur {{count}} avis de démonstration",
+    "distribution": "Répartition des notes",
+    "empty": "Aucun avis",
+    "emptyText": "Essayez le formulaire local de dépôt d'avis. Les avis apparaissent après une modération de démonstration.",
+    "showMore": "Voir plus d’avis",
+    "starLabel": "{{count}} étoiles",
+    "write": "Écrire un avis de démonstration",
+    "previous": "Avis précédents",
+    "next": "Avis suivants"
+  },
+  "reviewForm": {
+    "title": "Avis de démonstration",
+    "description": "Partagez votre avis sur {{name}}.",
+    "name": "Votre nom",
+    "location": "Lieu (facultatif)",
+    "locationPlaceholder": "Ville ou pays",
+    "rating": "Votre note",
+    "reviewTitle": "Titre de l’avis",
+    "body": "Votre avis",
+    "bodyHint": "Écrivez au moins 10 caractères.",
+    "demoNote": "Les avis sont vérifiés par notre équipe avant d'apparaître. L'envoi d'un avis n'implique pas un achat vérifié.",
+    "submit": "Envoyer l’avis de démonstration",
+    "done": "Terminé",
+    "error": "Nous n'avons pas pu enregistrer votre avis. Veuillez réessayer.",
+    "successTitle": "Avis enregistré localement",
+    "successText": "Votre avis est en attente de modération de démonstration dans le tableau de bord d'administration."
+  },
+  "shipping": {
+    "countries": "Destinations",
+    "demoNote": "Les tarifs et délais de livraison sont des estimations de démonstration, et non des politiques confirmées.",
+    "eta": "Livraison estimée",
+    "etaDays": "{{min}}–{{max}} jours ouvrés (démo)",
+    "intro": "Livraison de démonstration pour un colis de {{weight}} g.",
+    "method": "Mode",
+    "none": "Aucune zone de livraison de démo n'est activée.",
+    "policyLink": "Lire le brouillon de la politique",
+    "price": "Tarif de démo"
+  }
+}

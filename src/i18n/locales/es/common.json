@@ -1,0 +1,160 @@
+{
+  "brand": {
+    "name": "KitchenScaleCo",
+    "tagline": "Precisión en cada cucharada"
+  },
+  "nav": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "faq": "Preguntas frecuentes",
+    "trackOrder": "Seguir pedido",
+    "account": "Cuenta",
+    "cart": "Carrito",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "openMenu": "Abrir menú",
+    "skipToContent": "Saltar al contenido"
+  },
+  "header": {
+    "language": "Idioma",
+    "currency": "Moneda",
+    "cartWithCount_one": "Carrito, {{count}} artículo",
+    "cartWithCount_other": "Carrito, {{count}} artículos",
+    "signIn": "Iniciar sesión",
+    "myAccount": "Mi cuenta"
+  },
+  "actions": {
+    "addToCart": "Añadir al carrito",
+    "buyNow": "Comprar ahora",
+    "shopNow": "Comprar",
+    "viewDetails": "Ver detalles",
+    "learnMore": "Más información",
+    "continueShopping": "Seguir comprando",
+    "checkout": "Finalizar compra",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "remove": "Quitar",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "submitting": "Enviando…",
+    "back": "Atrás",
+    "next": "Continuar",
+    "retry": "Reintentar",
+    "subscribe": "Suscribirse",
+    "share": "Compartir",
+    "copyLink": "Copiar enlace",
+    "linkCopied": "Enlace copiado",
+    "signOut": "Cerrar sesión",
+    "goHome": "Volver al inicio",
+    "increase": "Aumentar cantidad",
+    "decrease": "Reducir cantidad",
+    "quantity": "Cantidad",
+    "search": "Buscar"
+  },
+  "demo": {
+    "badge": "Demo",
+    "pricing": "Precios de demostración — precios finales por confirmar.",
+    "currencyEstimate": "Los precios en {{currency}} son estimaciones con tipos de cambio de demostración, no tipos en tiempo real.",
+    "mode": "Modo demo",
+    "noBackend": "Los pagos aún no están conectados: los pedidos se guardan sin cobrar ningún pago.",
+    "review": "Reseña de demostración"
+  },
+  "stock": {
+    "in_stock": "En stock",
+    "low_stock": "Solo quedan {{count}}",
+    "out_of_stock": "Agotado",
+    "demoNote": "Los niveles de stock son valores de demostración."
+  },
+  "orderStatus": {
+    "placed": "Pedido realizado",
+    "confirmed": "Confirmado",
+    "processing": "En preparación",
+    "shipped": "Enviado",
+    "out_for_delivery": "En reparto",
+    "delivered": "Entregado",
+    "cancelled": "Cancelado"
+  },
+  "payment": {
+    "visa": "Visa",
+    "mastercard": "Mastercard",
+    "upi": "UPI",
+    "netbanking": "Banca en línea"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": "Introduce un correo electrónico válido",
+    "minLength": "Debe tener al menos {{count}} caracteres",
+    "maxLength": "Debe tener {{count}} caracteres o menos",
+    "phone": "Introduce un teléfono válido",
+    "consent": "Confirma para continuar",
+    "passwordMatch": "Las contraseñas no coinciden",
+    "rating": "Elige una valoración"
+  },
+  "footer": {
+    "about": "Utensilios de cocina pensados para quienes disfrutan cocinando, horneando y preparando café.",
+    "shop": "Tienda",
+    "company": "Empresa",
+    "help": "Ayuda",
+    "legal": "Legal",
+    "allProducts": "Todos los productos",
+    "miniSpoonScale": "Mini cuchara báscula",
+    "shipping": "Política de envíos",
+    "refunds": "Política de reembolsos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "followUs": "Síguenos",
+    "newsletterTitle": "Recetas, consejos y novedades",
+    "newsletterText": "Correos ocasionales. Puedes darte de baja cuando quieras.",
+    "rights": "© {{year}} KitchenScaleCo. Todos los derechos reservados.",
+    "demoNotice": "Tienda en prelanzamiento: los precios, las especificaciones y las políticas están pendientes de confirmación final. No se cobra ningún pago."
+  },
+  "newsletter": {
+    "placeholder": "Tu correo electrónico",
+    "consent": "Acepto recibir correos de marketing de KitchenScaleCo.",
+    "success": "¡Ya estás en la lista! Gracias por suscribirte.",
+    "already": "Este correo electrónico ya está suscrito.",
+    "demoNote": "Tu suscripción se guarda de forma segura y se usa solo con tu consentimiento. Puedes darte de baja en cualquier momento."
+  },
+  "share": {
+    "title": "Compartir",
+    "facebook": "Compartir en Facebook",
+    "x": "Compartir en X",
+    "pinterest": "Guardar en Pinterest",
+    "email": "Compartir por correo"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "pinterest": "Pinterest",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "states": {
+    "loading": "Cargando…",
+    "error": "Algo salió mal.",
+    "errorText": "No pudimos cargar este contenido. Inténtalo de nuevo.",
+    "empty": "Todavía no hay nada aquí."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe o se ha movido.",
+    "cta": "Volver al inicio"
+  },
+  "reviews": {
+    "count_one": "{{count}} reseña",
+    "count_other": "{{count}} reseñas",
+    "outOf": "{{rating}} de 5"
+  },
+  "currencyNames": {
+    "USD": "Dólar estadounidense",
+    "CAD": "Dólar canadiense",
+    "EUR": "Euro",
+    "GBP": "Libra esterlina"
+  }
+}

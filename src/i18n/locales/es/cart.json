@@ -1,0 +1,63 @@
+{
+  "title": "Tu carrito",
+  "drawerTitle": "Tu carrito",
+  "itemCount": "{{count}} artículos",
+  "checkout": "Continuar al pago de demostración",
+  "continueShopping": "Seguir comprando",
+  "subtotal": "Subtotal",
+  "shipping": "Envío estimado",
+  "total": "Total de demostración",
+  "discountCode": "Descuento ({{code}})",
+  "taxNote": "Los impuestos y los cargos finales aún no se calculan.",
+  "page": {
+    "text": "Tus básicos seleccionados, listos para el siguiente paso.",
+    "summary": "Resumen del pedido"
+  },
+  "summary": {
+    "demoTotals": "Todos los precios y totales son valores de demostración."
+  },
+  "drawer": {
+    "note": "Carrito de demostración. No se cobra ningún pago.",
+    "viewCart": "Ver carrito"
+  },
+  "empty": {
+    "title": "Tu carrito te espera.",
+    "text": "Explora un pequeño básico para tu rutina diaria en la cocina.",
+    "cta": "Explorar la tienda"
+  },
+  "line": {
+    "each": "{{price}} c/u",
+    "lineTotal": "Total de la línea",
+    "maxReached": "Se alcanzó el máximo de stock de demostración disponible.",
+    "remove": "Quitar {{name}}"
+  },
+  "toast": {
+    "removed": "{{name}} se quitó de tu bolsa"
+  },
+  "coupon": {
+    "label": "Código de descuento de demostración",
+    "placeholder": "Introduce un código de ejemplo",
+    "apply": "Aplicar",
+    "applied": "{{code}} aplicado",
+    "remove": "Eliminar cupón",
+    "removed": "Cupón de demostración quitado",
+    "valid": "Cupón de demostración aplicado",
+    "hintTitle": "Prueba un código de ejemplo",
+    "hintText": "Estos cupones son solo de demostración.",
+    "tapToApply": "Aplicar {{code}}",
+    "errors": {
+      "required": "Introduce un código.",
+      "notFound": "Código no encontrado.",
+      "inactive": "Este código está desactivado.",
+      "expired": "Este código ha caducado.",
+      "minSubtotal": "Subtotal mínimo: {{amount}}"
+    }
+  },
+  "shippingEstimate": {
+    "title": "Estimar envío de demostración",
+    "country": "País de destino",
+    "demo": "Tarifa de demostración",
+    "method": "{{name}} — {{min}}–{{max}} días hábiles (demo)",
+    "unavailable": "No hay ninguna tarifa de envío de demostración disponible para este destino."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "brand": {
+    "name": "KitchenScaleCo",
+    "tagline": "La précision à chaque cuillerée"
+  },
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "À propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "trackOrder": "Suivre ma commande",
+    "account": "Compte",
+    "cart": "Panier",
+    "menu": "Menu",
+    "closeMenu": "Fermer le menu",
+    "openMenu": "Ouvrir le menu",
+    "skipToContent": "Aller au contenu"
+  },
+  "header": {
+    "language": "Langue",
+    "currency": "Devise",
+    "cartWithCount_one": "Panier, {{count}} article",
+    "cartWithCount_other": "Panier, {{count}} articles",
+    "signIn": "Se connecter",
+    "myAccount": "Mon compte"
+  },
+  "actions": {
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "shopNow": "Découvrir",
+    "viewDetails": "Voir les détails",
+    "learnMore": "En savoir plus",
+    "continueShopping": "Continuer mes achats",
+    "checkout": "Passer commande",
+    "save": "Enregistrer",
+    "saving": "Enregistrement…",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "remove": "Retirer",
+    "apply": "Appliquer",
+    "submit": "Envoyer",
+    "submitting": "Envoi…",
+    "back": "Retour",
+    "next": "Continuer",
+    "retry": "Réessayer",
+    "subscribe": "S'abonner",
+    "share": "Partager",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Lien copié",
+    "signOut": "Se déconnecter",
+    "goHome": "Retour à l'accueil",
+    "increase": "Augmenter la quantité",
+    "decrease": "Diminuer la quantité",
+    "quantity": "Quantité",
+    "search": "Rechercher"
+  },
+  "demo": {
+    "badge": "Démo",
+    "pricing": "Prix de démonstration — prix définitifs à confirmer.",
+    "currencyEstimate": "Les prix en {{currency}} sont des estimations basées sur des taux de change de démonstration, et non des taux en direct.",
+    "mode": "Mode démo",
+    "noBackend": "Les paiements ne sont pas encore connectés — les commandes sont enregistrées sans encaissement.",
+    "review": "Avis de démonstration"
+  },
+  "stock": {
+    "in_stock": "En stock",
+    "low_stock": "Plus que {{count}} en stock",
+    "out_of_stock": "Rupture de stock",
+    "demoNote": "Les niveaux de stock sont des valeurs de démonstration."
+  },
+  "orderStatus": {
+    "placed": "Commande passée",
+    "confirmed": "Confirmée",
+    "processing": "En préparation",
+    "shipped": "Expédiée",
+    "out_for_delivery": "En cours de livraison",
+    "delivered": "Livrée",
+    "cancelled": "Annulée"
+  },
+  "payment": {
+    "visa": "Visa",
+    "mastercard": "Mastercard",
+    "upi": "UPI",
+    "netbanking": "Virement bancaire en ligne"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "email": "Saisissez une adresse e-mail valide",
+    "minLength": "Au moins {{count}} caractères",
+    "maxLength": "{{count}} caractères maximum",
+    "phone": "Saisissez un numéro de téléphone valide",
+    "consent": "Veuillez confirmer pour continuer",
+    "passwordMatch": "Les mots de passe ne correspondent pas",
+    "rating": "Veuillez choisir une note"
+  },
+  "footer": {
+    "about": "Des ustensiles de cuisine pensés pour celles et ceux qui aiment cuisiner, pâtisser et préparer le café.",
+    "shop": "Boutique",
+    "company": "Entreprise",
+    "help": "Aide",
+    "legal": "Mentions légales",
+    "allProducts": "Tous les produits",
+    "miniSpoonScale": "Mini cuillère balance",
+    "shipping": "Politique de livraison",
+    "refunds": "Politique de remboursement",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "followUs": "Suivez-nous",
+    "newsletterTitle": "Recettes, astuces et nouveautés",
+    "newsletterText": "Des e-mails occasionnels. Désabonnement à tout moment.",
+    "rights": "© {{year}} KitchenScaleCo. Tous droits réservés.",
+    "demoNotice": "Boutique en pré-lancement — les prix, caractéristiques et politiques sont en attente de confirmation définitive. Aucun paiement n'est encaissé."
+  },
+  "newsletter": {
+    "placeholder": "Votre adresse e-mail",
+    "consent": "J'accepte de recevoir des e-mails marketing de KitchenScaleCo.",
+    "success": "Vous êtes inscrit·e ! Merci de votre abonnement.",
+    "already": "Cette adresse e-mail est déjà abonnée.",
+    "demoNote": "Votre inscription est enregistrée de manière sécurisée et utilisée uniquement avec votre consentement. Vous pouvez vous désabonner à tout moment."
+  },
+  "share": {
+    "title": "Partager",
+    "facebook": "Partager sur Facebook",
+    "x": "Partager sur X",
+    "pinterest": "Épingler sur Pinterest",
+    "email": "Partager par e-mail"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "pinterest": "Pinterest",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "states": {
+    "loading": "Chargement…",
+    "error": "Une erreur s'est produite.",
+    "errorText": "Impossible de charger ce contenu. Veuillez réessayer.",
+    "empty": "Rien pour le moment."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "reviews": {
+    "count_one": "{{count}} avis",
+    "count_other": "{{count}} avis",
+    "outOf": "{{rating}} sur 5"
+  },
+  "currencyNames": {
+    "USD": "Dollar américain",
+    "CAD": "Dollar canadien",
+    "EUR": "Euro",
+    "GBP": "Livre sterling"
+  }
+}

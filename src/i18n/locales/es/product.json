@@ -1,0 +1,105 @@
+{
+  "shop": {
+    "title": "Esenciales para tu cocina.",
+    "text": "Explora la Mini cuchara báscula y elige una variante para tu rutina diaria en la cocina.",
+    "search": "Buscar productos",
+    "sort": "Ordenar por",
+    "featured": "Destacados",
+    "low": "Precio: menor a mayor",
+    "high": "Precio: mayor a menor",
+    "empty": "No se encontraron productos"
+  },
+  "from": "Desde",
+  "save": "Ahorro de demostración {{percent}}%",
+  "demoPricing": "Precio de demostración",
+  "sku": "SKU",
+  "quickAdd": "Añadir",
+  "quickAddLabel": "Añadir {{name}} ({{variant}}) al carrito",
+  "addedToast": "{{name}} ({{variant}}) añadido al carrito",
+  "inCart": "{{count}} ya en tu carrito",
+  "maxInCart": "Todo el stock de demostración disponible ya está en tu carrito.",
+  "noAlternatives": "Ahora mismo no hay variantes alternativas disponibles.",
+  "notOffered": "Esta combinación no está disponible.",
+  "outOfStockTitle": "Esta variante está agotada",
+  "outOfStockText": "Prueba una de las alternativas disponibles que aparecen abajo.",
+  "unavailableOption": "Combinación no disponible",
+  "swatchGroup": "Colores del producto",
+  "swatchLabel": "Elegir {{color}}",
+  "card": {
+    "viewProduct": "Ver {{name}}"
+  },
+  "options": {
+    "Color": "Color",
+    "Pack": "Paquete"
+  },
+  "values": {
+    "Black": "Negro",
+    "White": "Blanco",
+    "Pink": "Rosa",
+    "Single": "Individual",
+    "Twin Pack": "Paquete de dos"
+  },
+  "gallery": {
+    "illustration": "Ilustración del producto",
+    "next": "Imagen siguiente",
+    "prev": "Imagen anterior",
+    "open": "Abrir visor de imágenes",
+    "position": "Imagen {{current}} de {{total}}",
+    "show": "Mostrar {{alt}}",
+    "thumbnails": "Imágenes del producto",
+    "zoomHint": "Pasa el cursor para ampliar. Haz clic para expandir.",
+    "zoomHintTouch": "Toca para expandir",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar"
+  },
+  "details": {
+    "description": "Detalles del producto",
+    "specifications": "Especificaciones pendientes de verificar",
+    "shipping": "Información de envío",
+    "faq": "Preguntas frecuentes",
+    "related": "También te puede gustar"
+  },
+  "reviews": {
+    "eyebrow": "Reseñas de demostración",
+    "title": "Historias de cocina.",
+    "intro": "Estas reseñas de ejemplo demuestran la interfaz. No son testimonios verificados de clientes.",
+    "average": "Valoración media",
+    "basedOn": "Basada en {{count}} reseñas de demostración",
+    "distribution": "Distribución de valoraciones",
+    "empty": "Sin reseñas",
+    "emptyText": "Prueba el formulario local para enviar reseñas. Las reseñas aparecen tras la moderación de demostración.",
+    "showMore": "Ver mís reseñas",
+    "starLabel": "{{count}} estrellas",
+    "write": "Escribir reseña de demostración",
+    "previous": "Reseñas anteriores",
+    "next": "Reseñas siguientes"
+  },
+  "reviewForm": {
+    "title": "Reseña de demostración",
+    "description": "Comparte tu opinión sobre {{name}}.",
+    "name": "Tu nombre",
+    "location": "Ubicación (opcional)",
+    "locationPlaceholder": "Ciudad o país",
+    "rating": "Tu valoración",
+    "reviewTitle": "Título de la reseña",
+    "body": "Tu reseña",
+    "bodyHint": "Escribe al menos 10 caracteres.",
+    "demoNote": "Nuestro equipo revisa las reseñas antes de que aparezcan. Enviar una reseña no implica una compra verificada.",
+    "submit": "Enviar reseña de demostración",
+    "done": "Listo",
+    "error": "No pudimos guardar tu reseña. Inténtalo de nuevo.",
+    "successTitle": "Reseña guardada localmente",
+    "successText": "Tu reseña está a la espera de la moderación de demostración en el panel de administración."
+  },
+  "shipping": {
+    "countries": "Destinos",
+    "demoNote": "Las tarifas de envío y los plazos de entrega son estimaciones de demostración, no políticas confirmadas.",
+    "eta": "Entrega estimada",
+    "etaDays": "{{min}}–{{max}} días hábiles (demo)",
+    "intro": "Envío de demostración para un paquete de {{weight}} g.",
+    "method": "Método",
+    "none": "No hay zonas de envío de demostración habilitadas.",
+    "policyLink": "Leer el borrador de la política",
+    "price": "Tarifa de demostración"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "shop": {
+    "title": "Durchdachte Küchenhelfer.",
+    "text": "Entdecke die Mini-Löffelwaage und wähle eine Variante für deinen Küchenalltag.",
+    "search": "Produkte suchen",
+    "sort": "Sortieren nach",
+    "featured": "Empfohlen",
+    "low": "Preis aufsteigend",
+    "high": "Preis absteigend",
+    "empty": "Keine Produkte gefunden"
+  },
+  "from": "Ab",
+  "save": "Demo-Ersparnis {{percent}} %",
+  "demoPricing": "Demopreis",
+  "sku": "Artikelnr.",
+  "quickAdd": "Schnell hinzufügen",
+  "quickAddLabel": "{{name}} ({{variant}}) in den Warenkorb legen",
+  "addedToast": "{{name}} ({{variant}}) zum Warenkorb hinzugefügt",
+  "inCart": "{{count}} bereits in deinem Warenkorb",
+  "maxInCart": "Der gesamte verfügbare Demo-Bestand liegt bereits in deinem Warenkorb.",
+  "noAlternatives": "Derzeit sind keine alternativen Varianten verfügbar.",
+  "notOffered": "Diese Kombination ist nicht verfügbar.",
+  "outOfStockTitle": "Diese Variante ist ausverkauft",
+  "outOfStockText": "Probiere eine der verfügbaren Alternativen unten.",
+  "unavailableOption": "Nicht verfügbare Kombination",
+  "swatchGroup": "Produktfarben",
+  "swatchLabel": "{{color}} wählen",
+  "card": {
+    "viewProduct": "{{name}} ansehen"
+  },
+  "options": {
+    "Color": "Farbe",
+    "Pack": "Packung"
+  },
+  "values": {
+    "Black": "Schwarz",
+    "White": "Weiß",
+    "Pink": "Rosa",
+    "Single": "Einzeln",
+    "Twin Pack": "Doppelpack"
+  },
+  "gallery": {
+    "illustration": "Produktillustration",
+    "next": "Nächstes Bild",
+    "prev": "Vorheriges Bild",
+    "open": "Bildbetrachter öffnen",
+    "position": "Bild {{current}} von {{total}}",
+    "show": "{{alt}} anzeigen",
+    "thumbnails": "Produktbilder",
+    "zoomHint": "Zum Zoomen darüberfahren. Zum Vergrößern klicken.",
+    "zoomHintTouch": "Zum Vergrößern tippen",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern"
+  },
+  "details": {
+    "description": "Produktdetails",
+    "specifications": "Zu prüfende Spezifikationen",
+    "shipping": "Versandinformationen",
+    "faq": "Häufige Fragen",
+    "related": "Das könnte Ihnen gefallen"
+  },
+  "reviews": {
+    "eyebrow": "Demobewertungen",
+    "title": "Geschichten aus der Küche.",
+    "intro": "Diese Beispielbewertungen demonstrieren die Oberfläche. Es sind keine verifizierten Kundenmeinungen.",
+    "average": "Durchschnittliche Bewertung",
+    "basedOn": "Basierend auf {{count}} Demo-Bewertungen",
+    "distribution": "Bewertungsverteilung",
+    "empty": "Noch keine Bewertungen",
+    "emptyText": "Probiere das lokale Formular zum Einreichen von Bewertungen aus. Bewertungen erscheinen nach der Demo-Moderation.",
+    "showMore": "Weitere Bewertungen",
+    "starLabel": "{{count}} Sterne",
+    "write": "Demobewertung schreiben",
+    "previous": "Vorherige Bewertungen",
+    "next": "Weitere Bewertungen"
+  },
+  "reviewForm": {
+    "title": "Demobewertung",
+    "description": "Teile deine Meinung zu {{name}}.",
+    "name": "Ihr Name",
+    "location": "Ort (optional)",
+    "locationPlaceholder": "Stadt oder Land",
+    "rating": "Ihre Bewertung",
+    "reviewTitle": "Titel der Bewertung",
+    "body": "Ihre Bewertung",
+    "bodyHint": "Schreibe mindestens 10 Zeichen.",
+    "demoNote": "Bewertungen werden von unserem Team geprüft, bevor sie erscheinen. Eine Bewertung bedeutet nicht, dass der Kauf verifiziert ist.",
+    "submit": "Demobewertung speichern",
+    "done": "Fertig",
+    "error": "Wir konnten deine Bewertung nicht speichern. Bitte versuche es erneut.",
+    "successTitle": "Bewertung lokal gespeichert",
+    "successText": "Deine Bewertung wartet auf die Demo-Moderation im Admin-Dashboard."
+  },
+  "shipping": {
+    "countries": "Zielländer",
+    "demoNote": "Versandtarife und Lieferzeiten sind Demo-Schätzungen, keine bestätigten Richtlinien.",
+    "eta": "Voraussichtliche Lieferung",
+    "etaDays": "{{min}}–{{max}} Werktage (Demo)",
+    "intro": "Demo-Versand für ein Paket mit {{weight}} g.",
+    "method": "Versandart",
+    "none": "Es sind keine Demo-Versandzonen aktiviert.",
+    "policyLink": "Entwurf der Richtlinie lesen",
+    "price": "Demo-Tarif"
+  }
+}

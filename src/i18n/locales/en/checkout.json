@@ -1,0 +1,190 @@
+{
+  "title": "Checkout",
+  "demoBanner": {
+    "title": "Payments aren't connected yet",
+    "text": "Your order will be saved and confirmed by our team, but no payment is collected and no card details are requested. Prices are pending final confirmation."
+  },
+  "fields": {
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "country": "Country",
+    "line1": "Address line 1",
+    "line1Placeholder": "Street address",
+    "line2": "Address line 2",
+    "line2Placeholder": "Apartment, suite, etc.",
+    "city": "City",
+    "postalCode": "Postal code",
+    "optional": "Optional"
+  },
+  "region": {
+    "state": "State",
+    "province": "Province",
+    "county": "County",
+    "region": "State or region"
+  },
+  "steps": {
+    "customer": {
+      "title": "Customer information",
+      "short": "Information",
+      "text": "Tell us who the order is for."
+    },
+    "address": {
+      "title": "Shipping address",
+      "short": "Address",
+      "text": "Where should we send your order?"
+    },
+    "shipping": {
+      "title": "Shipping method",
+      "short": "Shipping",
+      "text": "Choose a shipping option for your destination."
+    },
+    "payment": {
+      "title": "Payment method",
+      "short": "Payment",
+      "text": "Select a method for preview only. No payment details are collected."
+    },
+    "review": {
+      "title": "Review your order",
+      "short": "Review",
+      "text": "Check your details before placing your order."
+    }
+  },
+  "stepper": {
+    "label": "Checkout steps",
+    "completed": "Completed",
+    "current": "Current step",
+    "stepOf": "Step {{current}} of {{total}}"
+  },
+  "nav": {
+    "back": "Back",
+    "backToCart": "Back to cart",
+    "continueTo": "Continue to {{step}}"
+  },
+  "customer": {
+    "emailHint": "We'll use this for your order and tracking. Confirmation emails aren't switched on yet.",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "signedInAs": "Signed in as {{email}}"
+  },
+  "address": {
+    "default": "Default",
+    "newAddress": "New address",
+    "saved": "Saved addresses",
+    "useNew": "Use a new address"
+  },
+  "shipping": {
+    "chooseMethod": "Choose a shipping method",
+    "editAddress": "Edit address",
+    "eta": "{{min}}–{{max}} business days (estimate)",
+    "loading": "Loading shipping rates…",
+    "ratesLabel": "Shipping rates (provisional)",
+    "to": "Shipping to {{country}}",
+    "unsupportedTitle": "No shipping option available",
+    "unsupportedText": "Choose an enabled destination in North America or Europe.",
+    "weight": "Parcel weight: {{weight}} g"
+  },
+  "payment": {
+    "choose": "Choose your preferred payment method",
+    "noticeTitle": "No real payment.",
+    "notice": "Do not enter payment credentials. This screen is a preview only.",
+    "noFields": "No card numbers, CVV, banking credentials or UPI PINs are collected.",
+    "descriptions": {
+      "visa": "Visa preview only",
+      "mastercard": "Mastercard preview only",
+      "upi": "UPI preview only",
+      "netbanking": "Net Banking preview only"
+    }
+  },
+  "review": {
+    "confirm": "I understand that no payment is collected yet and that my order will be confirmed by the KitchenScaleCo team.",
+    "contact": "Contact information",
+    "edit": "Edit",
+    "editSection": "Edit {{section}}",
+    "error": "We couldn't place your order. Please try again.",
+    "items": "Your items",
+    "method": "Shipping method",
+    "payment": "Preferred payment method",
+    "paymentNote": "No payment is collected.",
+    "place": "Place order",
+    "placedToast": "Order placed",
+    "placing": "Placing your order…",
+    "shipTo": "Shipping address",
+    "errors": {
+      "stock": "An item in your cart has just sold out or has less stock than you selected. Please review your cart and try again.",
+      "coupon": "Your discount code can no longer be applied. Remove it from your cart and try again.",
+      "shipping": "That shipping option isn't available for this address any more. Please choose another shipping method.",
+      "network": "We can't reach the server right now. Your order hasn't been placed — please try again shortly."
+    }
+  },
+  "summary": {
+    "title": "Order summary",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "discountCode": "Discount ({{code}})",
+    "shipping": "Shipping",
+    "shippingPending": "Choose a shipping method",
+    "total": "Total",
+    "demoTotals": "No payment is collected yet. Prices are pending final confirmation.",
+    "editCart": "Edit cart",
+    "hide": "Hide summary",
+    "show": "Show summary",
+    "itemCount": "{{count}} items",
+    "qty": "Qty {{count}}"
+  },
+  "empty": {
+    "title": "Your cart is empty",
+    "text": "Choose a product before starting checkout.",
+    "cta": "Explore the shop"
+  },
+  "success": {
+    "metaTitle": "Order placed",
+    "eyebrow": "A little celebration",
+    "title": "Thank you, {{name}}!",
+    "text": "We've received your order. Our team will confirm it soon.",
+    "demoNote": "No payment has been collected. Status updates will appear on the tracking page.",
+    "email": "Contact email",
+    "emailNote": "No confirmation email has been sent.",
+    "items": "Order items",
+    "method": "Shipping method",
+    "notFoundTitle": "Order not found",
+    "notFoundText": "We couldn't find order {{number}}. Sign in to see your orders, or look it up on the tracking page with your email.",
+    "orderNumber": "Order number",
+    "payment": "Preferred payment method",
+    "paymentNote": "No payment was collected.",
+    "placedOn": "Saved on {{date}}",
+    "shippingTo": "Shipping address",
+    "continue": "Continue shopping",
+    "track": "Track this order",
+    "trackOther": "Track another order",
+    "viewAccount": "View account"
+  },
+  "track": {
+    "metaTitle": "Track an order",
+    "eyebrow": "Your order journey",
+    "title": "Track your order",
+    "text": "Enter your order number and email to see its latest status.",
+    "demoNote": "Statuses are updated by our team. Live courier tracking will be added later.",
+    "formTitle": "Find your order",
+    "orderNumber": "Order number",
+    "orderPlaceholder": "KSC-1009",
+    "email": "Email address",
+    "submit": "Track order",
+    "searching": "Searching…",
+    "useDemo": "Use sample order",
+    "hint": "Testing? Try KSC-1009 with demo@kitchenscaleco.test.",
+    "emptyTitle": "Your journey appears here",
+    "emptyText": "Enter your order details to see its timeline.",
+    "notFoundTitle": "No matching order",
+    "notFoundText": "Check the order number and the email address used at checkout, then try again.",
+    "result": "Tracking result",
+    "status": "Status",
+    "placedOn": "Saved on {{date}}",
+    "trackingNumber": "Tracking number",
+    "noTracking": "A tracking number hasn't been assigned yet.",
+    "items": "Order items",
+    "shipTo": "Shipping address",
+    "method": "Shipping method",
+    "searchedFor": "Searched for {{number}}"
+  }
+}
