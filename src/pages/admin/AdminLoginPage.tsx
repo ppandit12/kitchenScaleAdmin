@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { ArrowRight, LayoutDashboard, Lock, Mail, ShieldCheck, Store } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Button, ButtonLink, Input, LogoMark, ProductArt } from '@/components/common';
+import { Button, ButtonLink, Input, LogoMark } from '@/components/common';
 import { useDocumentTitle } from '@/hooks';
 import { authService } from '@/services';
 import { toast, useAuthStore } from '@/store';
@@ -64,8 +64,15 @@ export default function AdminLoginPage() {
           </span>
         </div>
         <div className="relative">
-          <div className="mx-auto mb-10 aspect-[4/3] w-full max-w-md overflow-hidden rounded-xl3 shadow-lift">
-            <ProductArt view="display" />
+          <div className="mb-10 aspect-video w-full overflow-hidden rounded-xl3 shadow-lift">
+            <img
+              src="/images/client/shopify-coffee-hero.png"
+              alt="KitchenScaleCo digital spoon scale measuring coffee into a cup"
+              className="h-full w-full object-cover"
+              fetchPriority="high"
+              width={1024}
+              height={1024}
+            />
           </div>
           <p className="eyebrow mb-3">Store admin</p>
           <h2 className="max-w-md text-4xl leading-tight text-cream">Run the store behind every precise scoop.</h2>
