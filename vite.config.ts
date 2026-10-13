@@ -1,9 +1,17 @@
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { fileURLToPath, URL } from 'node:url';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, fileURLToPath(new URL('.', import.meta.url)), '');
+  const apiProxy = {
+    target: env.VITE_API_PROXY || 'https://kitchenscale.therugimports.com',
+    changeOrigin: true,
+    cookieDomainRewrite: '',
+  };
+
+  return {
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -13,12 +21,12 @@ export default defineConfig({
   server: {
     // Dev: forward API calls to the Express backend so cookies stay same-origin.
     proxy: {
-      '/api': { target: process.env.VITE_API_PROXY ?? 'http://localhost:5000', changeOrigin: false },
+      '/api': apiProxy,
     },
   },
   preview: {
     proxy: {
-      '/api': { target: process.env.VITE_API_PROXY ?? 'http://localhost:5000', changeOrigin: false },
+      '/api': apiProxy,
     },
   },
   build: {
@@ -36,4 +44,5 @@ export default defineConfig({
       },
     },
   },
+  };
 });

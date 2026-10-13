@@ -15,7 +15,7 @@ import {
   YAxis,
 } from 'recharts';
 import { CircleCheck, Clock, DollarSign, MessageSquare, Package, ShoppingBag, TriangleAlert, Users } from 'lucide-react';
-import { Badge, ButtonLink, DemoBadge, DemoNotice, ErrorState, ProductArt, Skeleton } from '@/components/common';
+import { Badge, ButtonLink, ErrorState, ProductArt, Skeleton } from '@/components/common';
 import {
   AdminCard,
   CHART,
@@ -151,7 +151,6 @@ export default function AdminDashboardPage() {
       <PageTitle
         title="Dashboard"
         description="An overview of your store’s orders, customers and products."
-        demo
         actions={
           <>
             <ButtonLink to="/admin/orders" variant="outline" size="sm">
@@ -163,10 +162,6 @@ export default function AdminDashboardPage() {
           </>
         }
       />
-
-      <DemoNotice className="mb-6">
-        All figures below are calculated from sample demo orders, customers and products — they are not real sales.
-      </DemoNotice>
 
       {/* KPIs */}
       <section aria-label="Key metrics" className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-6">
@@ -188,9 +183,10 @@ export default function AdminDashboardPage() {
         ) : (
           <>
             <ChartCard
+              demo={false}
               className="xl:col-span-2"
               title="Revenue by week"
-              description="Sum of non-cancelled demo order totals (USD)"
+              description="Sum of non-cancelled order totals (USD)"
               height={260}
               empty={stats.series.length === 0 ? 'No orders yet.' : undefined}
               table={{ columns: ['Week of', 'Revenue', 'Orders'], rows: stats.series.map((s) => [s.label, usd(s.revenue), s.orders]) }}
@@ -224,8 +220,9 @@ export default function AdminDashboardPage() {
             </ChartCard>
 
             <ChartCard
+              demo={false}
               title="Order status"
-              description={`${total} demo orders`}
+              description={`${total} orders`}
               height={260}
               empty={total === 0 ? 'No orders yet.' : undefined}
               legend={<ChartLegend items={stats.statusGroups.map((g) => ({ label: g.name, color: g.color, value: String(g.value) }))} />}
@@ -263,9 +260,10 @@ export default function AdminDashboardPage() {
             </ChartCard>
 
             <ChartCard
+              demo={false}
               className="xl:col-span-2"
               title="Orders by week"
-              description="Number of demo orders placed each week"
+              description="Number of orders placed each week"
               height={220}
               empty={stats.series.length === 0 ? 'No orders yet.' : undefined}
               table={{ columns: ['Week of', 'Orders'], rows: stats.series.map((s) => [s.label, s.orders]) }}
@@ -285,6 +283,7 @@ export default function AdminDashboardPage() {
             </ChartCard>
 
             <ChartCard
+              demo={false}
               title="Sales by country"
               description="Non-cancelled revenue (USD)"
               height={Math.max(160, stats.countries.length * 36)}
@@ -314,7 +313,7 @@ export default function AdminDashboardPage() {
           className="xl:col-span-2"
           title={
             <span className="flex items-center gap-2">
-              Recent orders <DemoBadge />
+              Recent orders
             </span>
           }
           actions={
