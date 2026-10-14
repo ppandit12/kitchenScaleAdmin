@@ -19,6 +19,7 @@ import {
   Star,
   Store,
   Ticket,
+  Truck,
   Users,
   X,
 } from 'lucide-react';
@@ -39,6 +40,7 @@ export const ADMIN_NAV = [
   { to: '/admin/blog', label: 'Blog', icon: FileText },
   { to: '/admin/content', label: 'Page content', icon: FileText },
   { to: '/admin/orders', label: 'Orders', icon: ShoppingBag },
+  { to: '/admin/dropshipping', label: 'Dropshipping', icon: Truck },
   { to: '/admin/customers', label: 'Customers', icon: Users },
   { to: '/admin/coupons', label: 'Coupons', icon: Ticket },
   { to: '/admin/reviews', label: 'Reviews', icon: Star },

@@ -11,3 +11,4 @@ export * from './contactService';
 export * from './notificationService';
 export * from './analyticsService';
 export { clearLocalData, resetDemoData } from './storage';
+export * from './dropshipService';

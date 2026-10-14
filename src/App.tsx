@@ -24,6 +24,7 @@ const AdminSettingsPage = lazy(() => import('@/pages/admin/AdminSettingsPage'));
 const AdminProfilePage = lazy(() => import('@/pages/admin/AdminProfilePage'));
 const AdminBlogPage = lazy(() => import('@/pages/admin/AdminBlogPage'));
 const AdminContentPage = lazy(() => import('@/pages/admin/AdminContentPage'));
+const AdminDropshippingPage = lazy(() => import('@/pages/admin/AdminDropshippingPage'));
 
 export default function App() {
   const colors = useSettingsStore(s => s.settings.brandColors);
@@ -52,6 +53,7 @@ export default function App() {
         <Route path="content" element={<AdminContentPage />} />
         <Route path="orders" element={<AdminOrdersPage />} />
         <Route path="orders/:id" element={<AdminOrderDetailsPage />} />
+        <Route path="dropshipping" element={<AdminDropshippingPage />} />
         <Route path="customers" element={<AdminCustomersPage />} />
         <Route path="customers/:id" element={<AdminCustomerDetailsPage />} />
         <Route path="coupons" element={<AdminCouponsPage />} />

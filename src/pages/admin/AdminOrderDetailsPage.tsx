@@ -13,7 +13,7 @@ import {
   Select,
   Textarea,
 } from '@/components/common';
-import { AdminCard, KeyValue, ORDER_STATUS_LABEL, PageTitle, StatusBadge, useUsd } from '@/components/admin';
+import { AdminCard, DropshipFulfilmentCard, KeyValue, ORDER_STATUS_LABEL, PageTitle, StatusBadge, useUsd } from '@/components/admin';
 import { countryName } from '@/data/shipping';
 import { useAsync, useDocumentTitle } from '@/hooks';
 import { orderService } from '@/services';
@@ -237,6 +237,8 @@ function OrderDetails({ order, onChange }: { order: Order; onChange: (o: Order) 
               <p className="text-xs text-muted">Moving forward fills in skipped steps so the customer timeline stays continuous.</p>
             </div>
           </AdminCard>
+
+          <DropshipFulfilmentCard order={order} onChange={onChange} />
 
           {/* Tracking */}
           <AdminCard

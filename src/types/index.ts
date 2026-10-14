@@ -257,12 +257,16 @@ export interface Order {
   couponCode?: string;
   shippingMethod: { id: string; name: string; etaDays: [number, number] };
   paymentMethod: PaymentMethodId;
+  /** No payment gateway is connected yet, so orders stay unpaid. */
+  paymentStatus?: 'unpaid' | 'paid' | 'refunded';
   /** Currency the shopper viewed at checkout + the demo rate snapshot. */
   displayCurrency: CurrencyCode;
   exchangeRate: number;
   status: OrderStatus;
   timeline: OrderTimelineEntry[];
   trackingNumber?: string;
+  /** Supplier (AliExpress) fulfilment, once the order has been sent to the supplier. */
+  dropship?: OrderDropship;
   createdAt: string;
   /** Always true in this frontend build. */
   isDemo: true;
@@ -410,4 +414,84 @@ export interface AdminNotification {
   createdAt: string;
   read: boolean;
   link?: string;
+}
+
+/* ------------------------------ Dropshipping ----------------------------- */
+
+export type DropshipStatus = 'placed' | 'awaiting_payment' | 'processing' | 'shipped' | 'completed' | 'cancelled' | 'failed';
+
+export interface OrderDropship {
+  status?: DropshipStatus;
+  supplierOrderIds?: string[];
+  supplierStatus?: string;
+  trackingNumbers?: string[];
+  error?: string;
+  placedAt?: string;
+  lastSyncedAt?: string;
+}
+
+export interface DropshipSettings {
+  markupPercent: number;
+  shipToCountry: string;
+  logisticsService: string;
+}
+
+export interface DropshipStatusInfo {
+  configured: boolean;
+  connected: boolean;
+  account?: string;
+  connectedAt?: string;
+  expiresAt?: string;
+  refreshExpiresAt?: string;
+  settings: DropshipSettings;
+}
+
+export interface SupplierSku {
+  skuId: string;
+  skuAttr: string;
+  options: Record<string, string>;
+  cost: number;
+  stock: number;
+  image?: string;
+}
+
+export interface SupplierProduct {
+  productId: string;
+  url: string;
+  title: string;
+  description: string;
+  images: string[];
+  options: { name: string; values: string[] }[];
+  skus: SupplierSku[];
+  weightGrams: number;
+  shipToCountry: string;
+}
+
+export interface DropshipLink {
+  id: string;
+  productId: string;
+  supplierProductId: string;
+  supplierUrl?: string;
+  supplierTitle?: string;
+  shipToCountry: string;
+  markupPercent: number;
+  skus: { variantId: string; skuId?: string; skuAttr: string; cost: number; stock: number }[];
+  lastSyncedAt?: string;
+  product: { id: string; name: string; slug: string; status: ProductStatus; prices: { variantId: string; price: number }[] } | null;
+}
+
+export interface OrderFulfilment {
+  items: {
+    productId: string;
+    variantId: string;
+    name: string;
+    variantTitle: string;
+    quantity: number;
+    price: number;
+    linked: boolean;
+    supplierProductId?: string;
+    supplierUrl?: string;
+    cost?: number;
+  }[];
+  dropship: OrderDropship | null;
 }
